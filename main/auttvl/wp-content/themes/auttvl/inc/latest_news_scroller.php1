@@ -1,0 +1,124 @@
+<?php
+
+// LATEST NEWS SCROLLER WIDGET
+
+class Latest_News_Scroller_Widget extends WP_Widget
+
+{
+
+  function __construct() {
+
+    parent::__construct(
+
+      'latestnewsscroller__widget', // Base ID
+
+      'Latest News Scroller', // Name
+
+      array( 'description' => __( 'Displays Your Latest News ' ) )
+
+    );
+
+  }
+
+  function widget( $args, $instance ) { //output
+
+    extract( $args );
+
+    // these are the widget options
+
+    $title = apply_filters( 'widget_title', $instance[ 'title' ] );
+
+    $numberOfListings = $instance[ 'numberOfListings' ];
+
+    echo $before_widget;
+
+    // Check if title is set
+
+    if ( $title ) {
+
+      echo $before_title . $title . $after_title;
+
+    }
+
+    $this->getRealtyListings( $numberOfListings );
+
+    echo $after_widget;
+
+  }
+
+
+  function update( $new_instance, $old_instance ) {
+
+    $instance = $old_instance;
+
+    $instance[ 'title' ] = strip_tags( $new_instance[ 'title' ] );
+
+    $instance[ 'numberOfListings' ] = strip_tags( $new_instance[ 'numberOfListings' ] );
+
+    return $instance;
+
+  }
+
+
+  // widget form creation
+
+  function form( $instance ) {
+
+
+    // Check values
+
+    if ( $instance ) {
+
+      $title = esc_attr( $instance[ 'title' ] );
+
+      $numberOfListings = esc_attr( $instance[ 'numberOfListings' ] );
+
+    } else {
+
+      $title = '';
+
+      $numberOfListings = '';
+
+    }
+
+    ?>
+<p>
+  <label for="<?php echo $this->get_field_id('title'); ?>">
+    <?php _e('Title', 'latestnewsscroller__widget'); ?>
+  </label>
+</p>
+<p>
+  <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
+</p>
+<?php
+
+}
+
+
+function getRealtyListings( $numberOfListings ) { //html
+
+
+  ?>
+<?php if( have_rows('social_icons','options') ): ?>
+<ul>
+  <?php
+  while ( have_rows( 'social_icons', 'options' ) ): the_row();
+  // vars
+  $stitle = get_sub_field( 'social_title' );
+  $sicon = get_sub_field( 'social_icon' );
+  $slink = get_sub_field( 'social_link' );
+  ?>
+  <li><a href="<?php echo $slink; ?>"><?php echo $sicon; ?> <?php echo $stitle; ?></a></li>
+  <?php endwhile; ?>
+</ul>
+<?php endif; ?>
+<?php
+}
+
+
+}
+
+register_widget( 'Latest_News_Scroller_Widget' );
+
+//END FOOTER SOCIAL LINKS WIDGET
+?>
