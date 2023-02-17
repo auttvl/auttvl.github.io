@@ -1,0 +1,75 @@
+.icons
+{
+position: fixed;
+top: 50%;
+right: 0%;
+width: 200px;
+display: flex;
+flex-direction:column;
+}
+.icons a
+{
+text-decoration: none;
+text-transform: uppercase;
+padding: 10px;
+font-size: 20px;
+font-family:'Oswald', sans-serif;
+margin: 2px;
+text-align: left;
+border-radius: 50px 0px 0px 50px;
+transform: translate(130px, 0px);
+transition: all 0.5s;
+color:white;
+}
+.icons a:hover
+{
+transform: translate(0px, 0px);
+}
+.icons a i
+{
+margin-right: 25px;
+background-color: white;
+height: 40px;
+width: 200px;
+color: black;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+transition: all 0.5s;
+}
+.icons a:hover i
+{
+transform: rotate(360deg);
+}
+.icons a i.fa-facebook-f
+{
+color: #2C80D3;
+}
+.icons a i.fa-youtube
+{
+color: #fa0910;
+}
+.icons a i.fa-twitter
+{
+color: #53c5ff;
+}
+.facebook
+{
+background-color: #2C80D3;
+color: white;
+}
+.youtube
+{
+background-color: #fa0910;
+color: white;
+}
+.twitter 
+{
+background-color: #53c5ff;
+color:white;
+}
+.language 
+{
+background-color: blue;
+color:white;
+}
