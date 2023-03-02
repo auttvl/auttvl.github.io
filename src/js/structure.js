@@ -416,7 +416,7 @@ const header = `
 						<!-- Responsive Logo-->
 						<div class="col-md-4 col-sm-4">
 							<div class="responsive-logo">
-								<a href="#"><img src="wp-content/uploads/2021/07/logo.png" alt="dustrian-logo"></a>
+								<a href="#"><img src="https://auttvl.ac.in/wp-content/uploads/2021/07/logo.png" alt="dustrian-logo"></a>
 							</div>
 						</div>
 					</div>
