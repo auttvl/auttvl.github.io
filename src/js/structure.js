@@ -449,7 +449,7 @@ const footer = `
 
 					</div>
 
-					<div class="widget_text col-lg-6 col-md-6" style="display: none;">
+					<div class="widget_text col-lg-6 col-md-6" style="visibility: none;">
 						<h5>Map Cordinates</h5>
 						<div class="textwidget custom-html-widget"><iframe
 								src="https://google.com/maps/embedd5ac.html?pb=!1m18!1m12!1m3!1d3944.048476076911!2d77.72352431532853!3d8.68694029664295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04126b9cf8ff7d%3A0xe818c690ce42ee03!2sAnna+University+Regional+Campus!5e0!3m2!1sen!2sin!4v1555306115553!5m2!1sen!2sin"
