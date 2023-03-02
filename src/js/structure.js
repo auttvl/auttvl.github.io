@@ -204,7 +204,7 @@ const header = `
 													</li>
 													<li id="menu-item-726"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726">
-														<a itemprop="url" href="https://auttvl.ac.in/academic-calendar/index.html">Academic
+														<a itemprop="url" href="https://cac.annauniv.edu/content/AI-Viewmore.html">Academic
 															Calendar</a>
 													</li>
 													<li id="menu-item-725"
