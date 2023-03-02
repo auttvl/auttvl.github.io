@@ -115,7 +115,7 @@ const header = `
 											itemtype="http://www.schema.org/SiteNavigationElement">
 											<li id="menu-item-39"
 												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active menu-item-39 nav-item">
-												<a itemprop="url" href="index.html" class="nav-link"
+												<a itemprop="url" href="https://auttvl.ac.in/index.html" class="nav-link"
 													aria-current="page">Home</a>
 											</li>
 											<li id="menu-item-168"
@@ -140,51 +140,51 @@ const header = `
 															<li id="menu-item-126"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126">
 																<a itemprop="url"
-																	href="administration/registrar/index.html">Registrar</a>
+																	href="https://auttvl.ac.in/administration/registrar/index.html">Registrar</a>
 															</li>
 															<li id="menu-item-125"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125">
 																<a itemprop="url"
-																	href="administration/directorccc/index.html">Director
+																	href="https://auttvl.ac.in/administration/directorccc/index.html">Director
 																	(CCC)</a>
 															</li>
 														</ul>
 													</li>
 													<li id="menu-item-712"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-712">
-														<a itemprop="url" href="aurct-administration/index.html">AURCT
+														<a itemprop="url" href="https://auttvl.ac.in/aurct-administration/index.html">AURCT
 															Administration</a>
 														<ul class="sub-menu" aria-labelledby="menu-item-dropdown-168">
 															<li id="menu-item-124"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124">
 																<a itemprop="url"
-																	href="administration/deans-desk/index.html">Dean’s
+																	href="https://auttvl.ac.in/administration/deans-desk/index.html">Dean’s
 																	Desk</a>
 															</li>
 															<li id="menu-item-123"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123">
 																<a itemprop="url"
-																	href="administration/dean-office/index.html">Dean
+																	href="https://auttvl.ac.in/administration/dean-office/index.html">Dean
 																	Office</a>
 															</li>
 															<li id="menu-item-718"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718">
 																<a itemprop="url"
-																	href="establishment/index.html">Establishment</a>
+																	href="https://auttvl.ac.in/establishment/index.html">Establishment</a>
 															</li>
 															<li id="menu-item-715"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-715">
 																<a itemprop="url"
-																	href="affliation/index.html">Affliation</a>
+																	href="https://auttvl.ac.in/affliation/index.html">Affliation</a>
 															</li>
 															<li id="menu-item-239"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239">
-																<a itemprop="url" href="estate-office/index.html">Estate
+																<a itemprop="url" href="https://auttvl.ac.in/estate-office/index.html">Estate
 																	Office</a>
 															</li>
 															<li id="menu-item-719"
 																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-719">
-																<a itemprop="url" href="health-centre/index.html">Health
+																<a itemprop="url" href="https://auttvl.ac.in/health-centre/index.html">Health
 																	Centre</a>
 															</li>
 														</ul>
@@ -200,20 +200,20 @@ const header = `
 													<li id="menu-item-142"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142">
 														<a itemprop="url"
-															href="academic/course-offered/index.html">Programme</a>
+															href="https://auttvl.ac.in/academic/course-offered/index.html">Programme</a>
 													</li>
 													<li id="menu-item-726"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726">
-														<a itemprop="url" href="academic-calendar/index.html">Academic
+														<a itemprop="url" href="https://auttvl.ac.in/academic-calendar/index.html">Academic
 															Calendar</a>
 													</li>
 													<li id="menu-item-725"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725">
-														<a itemprop="url" href="library/index.html">Library</a>
+														<a itemprop="url" href="https://auttvl.ac.in/library/index.html">Library</a>
 													</li>
 													<li id="menu-item-143"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143">
-														<a itemprop="url" href="academic/faculty/index.html">Faculty
+														<a itemprop="url" href="https://auttvl.ac.in/academic/faculty/index.html">Faculty
 															Incharge</a>
 													</li>
 												</ul>
@@ -227,13 +227,13 @@ const header = `
 													<li id="menu-item-739"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-739">
 														<a itemprop="url"
-															href="admission-procedure/index.html">Admission
+															href="https://auttvl.ac.in/admission-procedure/index.html">Admission
 															procedure</a>
 													</li>
 													<li id="menu-item-742"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-742">
 														<a itemprop="url"
-															href="academic/course-offered/index.html">Course Offered</a>
+															href="https://auttvl.ac.in/academic/course-offered/index.html">Course Offered</a>
 													</li>
 													<li id="menu-item-741"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-741">
@@ -243,25 +243,25 @@ const header = `
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-794">
 																<a target="_blank" rel="noopener noreferrer"
 																	itemprop="url"
-																	href="wp-content/uploads/2021/09/feesstructure.pdf">College</a>
+																	href="https://auttvl.ac.in/wp-content/uploads/2021/09/feesstructure.pdf">College</a>
 															</li>
 															<li id="menu-item-795"
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-795">
 																<a target="_blank" rel="noopener noreferrer"
 																	itemprop="url"
-																	href="wp-content/uploads/2021/09/Hostel_Fee_Structure.pdf">Hostel</a>
+																	href="https://auttvl.ac.in/wp-content/uploads/2021/09/Hostel_Fee_Structure.pdf">Hostel</a>
 															</li>
 														</ul>
 													</li>
 													<li id="menu-item-736"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-736">
-														<a itemprop="url" href="scholarship/index.html">Scholarship</a>
+														<a itemprop="url" href="https://auttvl.ac.in/scholarship/index.html">Scholarship</a>
 													</li>
 												</ul>
 											</li>
 											<li id="menu-item-146"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146 nav-item">
-												<a itemprop="url" href="departments/index.html"
+												<a itemprop="url" href="https://auttvl.ac.in/departments/index.html"
 													class="nav-link">Departments</a>
 											</li>
 											<li id="menu-item-195"
@@ -273,71 +273,71 @@ const header = `
 													<li id="menu-item-206"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206">
 														<a itemprop="url"
-															href="committees-cell/women-empowerment-cell/index.html">Women
+															href="https://auttvl.ac.in/committees-cell/women-empowerment-cell/index.html">Women
 															Empowerment Cell</a>
 													</li>
 													<li id="menu-item-205"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205">
 														<a itemprop="url"
-															href="committees-cell/grievance-committee/index.html">Grievance
+															href="https://auttvl.ac.in/committees-cell/grievance-committee/index.html">Grievance
 															Committee</a>
 													</li>
 													<li id="menu-item-204"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204">
 														<a itemprop="url"
-															href="committees-cell/discipline-committee/index.html">Discipline
+															href="https://auttvl.ac.in/committees-cell/discipline-committee/index.html">Discipline
 															Committee</a>
 													</li>
 													<li id="menu-item-203"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-203">
 														<a itemprop="url"
-															href="committees-cell/anti-sexual-harassment-commitee/index.html">Anti
+															href="https://auttvl.ac.in/committees-cell/anti-sexual-harassment-commitee/index.html">Anti
 															Sexual Harassment Commitee</a>
 													</li>
 													<li id="menu-item-202"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202">
 														<a itemprop="url"
-															href="committees-cell/sc-st-cell/index.html">SC/ST Cell</a>
+															href="https://auttvl.ac.in/committees-cell/sc-st-cell/index.html">SC/ST Cell</a>
 													</li>
 													<li id="menu-item-201"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201">
 														<a itemprop="url"
-															href="committees-cell/internal-complaint-commitee/index.html">Internal
+															href="https://auttvl.ac.in/committees-cell/internal-complaint-commitee/index.html">Internal
 															Complaint Commitee</a>
 													</li>
 													<li id="menu-item-200"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200">
 														<a itemprop="url"
-															href="committees-cell/social-media-cell/index.html">Social
+															href="https://auttvl.ac.in/committees-cell/social-media-cell/index.html">Social
 															Media Cell</a>
 													</li>
 													<li id="menu-item-199"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199">
 														<a itemprop="url"
-															href="committees-cell/intellectual-property-right-cell/index.html">Intellectual
+															href="https://auttvl.ac.in/committees-cell/intellectual-property-right-cell/index.html">Intellectual
 															Property Right Cell</a>
 													</li>
 													<li id="menu-item-198"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198">
 														<a itemprop="url"
-															href="committees-cell/innovation-cell/index.html">Innovation
+															href="https://auttvl.ac.in/committees-cell/innovation-cell/index.html">Innovation
 															Cell</a>
 													</li>
 													<li id="menu-item-197"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197">
 														<a itemprop="url"
-															href="committees-cell/internal-quality-assurance-cell/index.html">Internal
+															href="https://auttvl.ac.in/committees-cell/internal-quality-assurance-cell/index.html">Internal
 															Quality Assurance Cell</a>
 													</li>
 													<li id="menu-item-196"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196">
 														<a itemprop="url"
-															href="committees-cell/institution-industry-cell/index.html">Institution
+															href="https://auttvl.ac.in/committees-cell/institution-industry-cell/index.html">Institution
 															Industry Cell</a>
 													</li>
 													<li id="menu-item-238"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238">
-														<a itemprop="url" href="anti-ragging/index.html">Anti
+														<a itemprop="url" href="https://auttvl.ac.in/anti-ragging/index.html">Anti
 															Ragging</a>
 													</li>
 												</ul>
@@ -356,12 +356,12 @@ const header = `
 													</li>
 													<li id="menu-item-754"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754">
-														<a itemprop="url" href="journal-publications/index.html">Journal
+														<a itemprop="url" href="https://auttvl.ac.in/journal-publications/index.html">Journal
 															Publications</a>
 													</li>
 													<li id="menu-item-753"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-753">
-														<a itemprop="url" href="patent-filed/index.html">Patent
+														<a itemprop="url" href="https://auttvl.ac.in/patent-filed/index.html">Patent
 															Filed</a>
 													</li>
 													<li id="menu-item-752"
@@ -400,11 +400,11 @@ const header = `
 											</li>
 											<li id="menu-item-242"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242 nav-item">
-												<a itemprop="url" href="gallery/index.html" class="nav-link">Gallery</a>
+												<a itemprop="url" href="https://auttvl.ac.in/gallery/index.html" class="nav-link">Gallery</a>
 											</li>
 											<li id="menu-item-759"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-759 nav-item">
-												<a itemprop="url" href="contact-us/index.html" class="nav-link">Contact
+												<a itemprop="url" href="https://auttvl.ac.in/contact-us/index.html" class="nav-link">Contact
 													Us</a>
 											</li>
 										</ul>
