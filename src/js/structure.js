@@ -27,16 +27,16 @@ const header = `
 						<ul id="menu-secondary-menu" class="top_menu">
 							<li id="menu-item-251"
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a
-									href="alumni/index.html">Alumni</a></li>
+									href="https://auttvl.ac.in/alumni/index.html">Alumni</a></li>
 							<li id="menu-item-250"
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-250"><a
-									href="placements/index.html">Placements</a></li>
+									href="https://auttvl.ac.in/placements/index.html">Placements</a></li>
 							<li id="menu-item-249"
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-249"><a
-									href="sports/index.html">Sports</a></li>
+									href="https://auttvl.ac.in/sports/index.html">Sports</a></li>
 							<li id="menu-item-709"
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-709"><a
-									href="hostel/index.html">Hostel</a></li>
+									href="https://auttvl.ac.in/hostel/index.html">Hostel</a></li>
 						</ul>
 
 
