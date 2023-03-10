@@ -1,3 +1,7 @@
+if(window.location.href.includes('http://')){
+	window.location.href = 'https://' + window.location.href.split('http://')[1];
+}
+
 function injectHeader(){
     document.body.innerHTML = header + document.body.innerHTML;
 
