@@ -152,7 +152,7 @@ const header = `
 													</li>
 													<li id="menu-item-712"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-712">
-														<a itemprop="url" href="https://auttvl.ac.in/aurct-administration/index.html">AURCT
+														<a itemprop="url" href="#">AURCT
 															Administration</a>
 														<ul class="sub-menu" aria-labelledby="menu-item-dropdown-168">
 															<li id="menu-item-124"
