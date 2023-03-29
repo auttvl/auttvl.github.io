@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Gallery</title>
+  <style>
+    /* CSS for the gallery */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .gallery li {
+      list-style: none;
+      flex: 1 1 200px;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <ul class="gallery"></ul>
+  <script>
+    const imagesFolder = "wp-content/uploads/2021/09"; // Change this to the path of your images folder
+
+    function displayImages() {
+      const gallery = document.querySelector('.gallery');
+      gallery.innerHTML = '';
+
+      fetch(imagesFolder)
+        .then(response => response.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, 'text/html');
+          const links = doc.querySelectorAll('a');
+
+          links.forEach(link => {
+            if (link.href.match(/\.(jpe?g|png|gif)$/)) {
+              const imageSrc = link.href.replace(window.location.href, '');
+              const listItem = document.createElement('li');
+              listItem.style.backgroundImage = `url(${imageSrc})`;
+              gallery.appendChild(listItem);
+            }
+          });
+        })
+        .catch(error => {
+          console.error(error);
+        });
+    }
+
+    displayImages();
+  </script>
+</body>
+</html>
