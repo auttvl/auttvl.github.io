@@ -1,6 +1,30 @@
 import os
 import json
+import datetime
 
+# Function to scan a directory and its subdirectories
+def scan_directory(directory):
+    data = []
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith('.html'):
+                file_path = os.path.join(root, file)
+                rel_path = os.path.relpath(file_path, directory)
+                # Create dictionary for each file
+                file_dict = {
+                    'name': file,
+                    'path': rel_path,
+                    'date': datetime.datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%m-%d')
+                }
+                data.append(file_dict)
+    return data
+
+# Save the data as JSON file
+data = scan_directory('./')
+with open('index.json', 'w') as f:
+    json.dump(data, f)
+    
+    
 # Change the directory path to the directory containing images you want to index
 dir_path = "./"
 
