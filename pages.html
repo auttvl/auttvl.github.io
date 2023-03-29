@@ -1,128 +1,133 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>My Website</title>
-    
+
     <style>
-        /* Global styles */
+      /* Global styles */
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
 
-/* Gallery styles */
+      /* Gallery styles */
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
 
-iframe{
-    height:350px;
-}
-
-.card {
-    margin: 20px;
-    width: 300px;
-    height: 450px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-}
-
-.card a {
-    display: block;
-    height: 100%;
-    background-color: #f7f7f7;
-    transition: all 0.3s ease;
-}
-
-.card a:hover {
-    background-color: #e5e5e5;
-}
-
-.name {
-    margin: 20px;
-    font-size: 24px;
-    text-align: center;
-}
-
-/* Responsive styles */
-
-@media only screen and (max-width: 768px) {
-    .card {
-        margin: 10px;
-        width: 250px;
+      iframe {
         height: 350px;
-    }
+      }
 
-    .name {
-        margin: 10px;
-        font-size: 20px;
-    }
-}
+      .card {
+        margin: 20px;
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+      }
 
-@media only screen and (max-width: 480px) {
-    .card {
-        margin: 5px;
-        width: 200px;
-        height: 300px;
-    }
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+      }
 
-    .name {
-        margin: 5px;
-        font-size: 18px;
-    }
-}
+      .card a {
+        display: block;
+        height: 100%;
+        background-color: #f7f7f7;
+        transition: all 0.3s ease;
+      }
 
+      .card a:hover {
+        background-color: #e5e5e5;
+      }
+
+      .name {
+        margin: 20px;
+        font-size: 24px;
+        text-align: center;
+      }
+
+      /* Responsive styles */
+
+      @media only screen and (max-width: 768px) {
+        .card {
+          margin: 10px;
+          width: 250px;
+          height: 350px;
+        }
+
+        .name {
+          margin: 10px;
+          font-size: 20px;
+        }
+      }
+
+      @media only screen and (max-width: 480px) {
+        .card {
+          margin: 5px;
+          width: 200px;
+          height: 300px;
+        }
+
+        .name {
+          margin: 5px;
+          font-size: 18px;
+        }
+      }
     </style>
-</head>
-<body>
-   
+  </head>
+  <body>
     <center>
-        <img src="./wp-content/uploads/2021/07/logo.png" alt="" style="position: sticky;" top:0px;>
-        <hr>
-        <h3 style = "color:red" >
-            This page is meant for developers of this site to debug
-        </h3>
-        this is a computer generated page, run indexer.py to in the root folder to update the index.json and image_data.json files
+      <img
+        src="./wp-content/uploads/2021/07/logo.png"
+        alt=""
+        style="position: sticky"
+        top:0px;
+      />
+      <hr />
+      <h3 style="color: red">
+        This page is meant for developers of this site to debug
+      </h3>
+      this is a computer generated page, run indexer.py to in the root folder to
+      update the index.json and image_data.json files
     </center>
     <div class="gallery">
-        <!-- Image cards will be dynamically generated here -->
+      <!-- Image cards will be dynamically generated here -->
     </div>
     <script type="text/javascript">
-        // Fetch the data from JSON file
-        fetch('index.json')
-            .then(response => response.json())
-            .then(data => {
-                // Sort the data based on creation date
-                data.sort((a, b) => a.date - b.date);
-                // Generate cards
-                data.forEach(file => {
-                    const card = document.createElement('div');
-                    card.classList.add('card');
-                    const link = document.createElement('a');
-                    link.setAttribute('href', file.path);
-                    const name = document.createElement('div');
-                    name.classList.add('name');
-                    name.innerHTML = file.name;
-                    link.appendChild(name);
-                    const iframe = document.createElement('iframe');
-                    iframe.setAttribute('src', file.path);
-                    iframe.classList.add('iframe');
-                    card.appendChild(iframe);
-                    card.appendChild(link);
-                    document.querySelector('.gallery').appendChild(card);
-                });
-            });
+      // Fetch the data from JSON file
+      fetch("index.json")
+        .then((response) => response.json())
+        .then((data) => {
+          // Sort the data based on creation date
+          data.sort((a, b) => a.date - b.date);
+          // Generate cards
+          data.forEach((file) => {
+            const card = document.createElement("div");
+            card.classList.add("card");
+            const link = document.createElement("a");
+            link.setAttribute("href", file.path);
+            const name = document.createElement("div");
+            name.classList.add("name");
+            name.innerHTML = file.name;
+            link.appendChild(name);
+            const iframe = document.createElement("iframe");
+            iframe.setAttribute("src", file.path);
+            iframe.classList.add("iframe");
+            card.appendChild(iframe);
+            card.appendChild(link);
+            document.querySelector(".gallery").appendChild(card);
+          });
+        });
     </script>
-</body>
+  </body>
 </html>
