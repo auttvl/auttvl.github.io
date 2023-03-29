@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Gallery</title>
-  <style>
-    /* CSS for the gallery */
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      margin: 0;
-      padding: 0;
-    }
+  <head>
+    <title>Gallery</title>
+    <style>
+      /* CSS for image container */
+      #gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-    .gallery li {
-      list-style: none;
-      flex: 1 1 200px;
-      height: 200px;
-      background-size: cover;
-      background-position: center;
-    }
-  </style>
-</head>
-<body>
-  <ul class="gallery"></ul>
-  <script>
-    const imagesFolder = "wp-content/uploads/2021/09"; // Change this to the path of your images folder
+.gallery-image {
+  margin: 10px;
+  max-width: 300px;
+  max-height: 300px;
+}
 
-    function displayImages() {
-      const gallery = document.querySelector('.gallery');
-      gallery.innerHTML = '';
+    </style>
+  </head>
+  <body>
+    <div id="gallery"></div>
 
-      fetch(imagesFolder)
-        .then(response => response.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const doc = parser.parseFromString(html, 'text/html');
-          const links = doc.querySelectorAll('a');
+    <script>
+        loadImg()
+        var imgFolder = "./wp-content/uploads/2021/09"; 
+      function loadImg() {
+        const gallery = document.getElementById("gallery");
+       // Change this to your image folder path
+        const fileTypes = [".jpg", ".jpeg", ".png", ".gif"]; // Add more file types if needed
 
-          links.forEach(link => {
-            if (link.href.match(/\.(jpe?g|png|gif)$/)) {
-              const imageSrc = link.href.replace(window.location.href, '');
-              const listItem = document.createElement('li');
-              listItem.style.backgroundImage = `url(${imageSrc})`;
-              gallery.appendChild(listItem);
+        function getImages() {
+          let xhr = new XMLHttpRequest();
+          xhr.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+              let images = JSON.parse(this.responseText);
+              for (let i = 0; i < images.length; i++) {
+                let image = document.createElement("img");
+                image.src = imgFolder + images[i];
+                image.classList.add("gallery-image");
+                gallery.appendChild(image);
+              }
             }
-          });
-        })
-        .catch(error => {
-          console.error(error);
-        });
-    }
+          };
+          xhr.open(
+            "GET",
+            "get_images.php?folder=" +
+              imgFolder +
+              "&types=" +
+              JSON.stringify(fileTypes),
+            true
+          );
+          xhr.send();
+        }
 
-    displayImages();
-  </script>
-</body>
+        getImages();
+      };
+    </script>
+  </body>
 </html>
