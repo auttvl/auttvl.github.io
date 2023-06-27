@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.announcements{
+    width: 500px;
+    background-color: var(--primary_dark);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.announcement-title{
+    margin-left: 30px;
+    font-size: 1.8rem;
+}
+
+hr{
+    border: 3px solid var(--accent);
+    margin-bottom: 0px;
+}
+
+.announcement-list{
+    width: 100%;
+
+}
+.a-list{
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding-inline-start: 30px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    /* background-color: var(--bs-list-group-bg); */
+    background-color: var(--primary_light);
+    color: black;
+    line-height: 1.5;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+
+.list-group-item:nth-child(even) {
+    background-color: var(--secondary_light);
+    
+}
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    background-color: var(--accent);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    background-color: var(--accent);
+}
+
+
