@@ -73,12 +73,12 @@
 }
 
 @media (max-width: 1320px) {
-  .row {
+  .course-row {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 768px) {
-  .row {
+  .course-row {
     grid-template-columns: repeat(1, 1fr);
   }
 }
