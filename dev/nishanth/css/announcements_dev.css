@@ -43,6 +43,7 @@ hr{
     background-color: var(--primary_light);
     color: black;
     line-height: 1.5;
+    cursor: pointer;
 }
 
 .list-group-item:first-child {
