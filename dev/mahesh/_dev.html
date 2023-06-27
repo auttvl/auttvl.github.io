@@ -5,13 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Template</title>
     <link rel="stylesheet" href="https://cdn.auttvl.ac.in/css/styleGuide.css">
+    <style>
+        .card {
+            display: flex;
+            box-shadow: var(--shadow_soft);
+            background-color: var(--primary_light);
+            width: 700px;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .card-header {
+            background-color: var(--accent);
+            width: 100%;
+            height: 50px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-header h2 {
+            color: var(--primary_light);
+            font-size: 24px;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .card-content {
+            padding: 20px;
+            text-align: left;
+            color: var(--primary_dark);
+        }
+
+        .card-content p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .highlight {
+            animation: colorChange 1s infinite alternate;
+            color: var(--accent);
+            font-weight: bold;
+            font-size: 22px;
+        }
+        
+            @keyframes colorChange {
+            0% { color: red }
+            50% { color: blue }
+            100% { color: green }
+            }
+
+        .read-more-btn {
+            margin-top: 20px;
+            background-color: var(--accent);
+            color: var(--primary_light);
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .read-more-btn:hover {
+            background-color: var(--secondary_dark);
+        }
+    </style>
 </head>
 <body>
 
-    <!--
-        Duplicate this _dev.html file, rename it and build your components
-        Write your code here
-    -->
+   <div class="card">
+        <div class="card-header">
+            <h2>Anna University Regional Campus – Tirunelveli</h2>
+        </div> 
+        <div class="card-content">
+            <p><span class="highlight">TNEA Counselling Code: 4020</span></p>
+            <p>Anna University, one of the excellent institutions of the southern part of India has its acquisitions to many institutions in Tamilnadu and one primary institution is the Anna University Regional Campus – Tirunelveli which extends high-quality teaching ensuring contiguous progress of the young minds. Our campus has grown into an institution that provides excellent technical education in the field of Engineering and Management, within a short period. It offers an excellent platform for the students to showcase their talents and equips them with confidence and a high-profile image to compete in the fast-paced ambitious world.</p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+    </div>
     
 </body>
 <script src="https://cdn.auttvl.ac.in/js/common.js"></script>
