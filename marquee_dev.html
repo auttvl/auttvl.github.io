@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MARQ</title>
+    <style>
+        .announcement-section {
+            display: flex;
+            align-items: center;
+            background-color: #f2f2f2;
+            
+        }
+        
+        .static-block {
+            background-color: #0099F7;
+            padding: 10px;
+            color: #f2f2f2;
+            font-weight: bold;
+            margin-right: 20px;
+            font-family:  sans-serif;
+        }
+        
+        .announcement-marquee {
+            overflow: hidden;
+        
+        }
+        
+        .announcement-marquee p {
+            display: inline;
+            margin: 0;
+            padding-right: 20px; 
+            border-right: 3px solid #e73030;
+        }
+        .announcement-marquee a{
+        text-decoration:none;
+        color: #0f1214;
+        }
+</style>
+</head>
+<body>
+    <div class="announcement-section">
+        <div class="static-block">
+            Announcements
+        </div>
+        <div class="announcement-marquee" >
+            <marquee behavior="scroll" direction="left" scrollment="5" onmouseover="this.stop();" onmouseout="this.start();">
+                
+                <p><a href="#" >Science &#038;Humanities</a></p>
+                <p><a href="#">Managemen Studies</a></p>
+                <p><a href="#">Computer Applications</a></p>
+                <p><a href="#">Mechanical Engineering</a></p>
+                <p><a href="#">Computer Science &#038; Engineering</a></p>
+                <p><a href="#">Civil Engineering</a></p>
+                <p><a href="#">M.E/M.TECH./MCA/MBA FEE STRUCTURE</a></p>
+                 <p><a href="#">Anna University Regional Campus – Tirunelveli, an excellent zone for everyone</a></p>   
+            </marquee>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
