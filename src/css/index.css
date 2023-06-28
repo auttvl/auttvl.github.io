@@ -1,5 +1,6 @@
 .pageContents {
     background: var(--secondary_light);
+    background-image: linear-gradient(var(--secondary_light), var(--secondary_light));
 }
 
 .announcement-section {
@@ -9,10 +10,10 @@
 
 }
 
-.center{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .announcementsContainer {
@@ -97,9 +98,9 @@
 
 .aboutContent {
     gap: 100px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutTxt {
@@ -130,20 +131,97 @@
 }
 
 @media (max-width: 990px) {
-    .aboutContent{
-        flex-direction:column !important ;
-    }
-    .aboutTxt{
-        width:90%;
-        gap:0px;
+    .aboutContent {
+        flex-direction: column !important;
     }
 
-    .announcementsCont{
-        flex-direction:column;
+    .aboutTxt {
+        width: 90%;
+        gap: 0px;
     }
 
-    .leftCont, .rightCont, .aboutContainer{
-        width:90vw;
-        margin:20px 0px;
+    .announcementsCont {
+        flex-direction: column;
     }
+
+    .leftCont,
+    .rightCont,
+    .aboutContainer {
+        width: 90vw;
+        margin: 20px 0px;
+    }
+}
+
+.coursesTileContainer, .updatesContainer {
+    overflow: scroll !important;
+    width: 80vw;
+    display: flex;
+}
+
+.coursesTileContainer::-webkit-scrollbar, .updatesContainer::-webkit-scrollbar {
+    display: block !important;
+}
+
+.coursesTileContainer::-webkit-scrollbar-thumb, .updatesContainer::-webkit-scrollbar-thumb {
+    background-color: var(--secondary_light);
+    border-radius: 10px;
+    width: 5px !important;
+}
+
+.courseTile {
+    max-height: 300px;
+    max-width: 250px;
+    min-height: 300px;
+    min-width: 250px;
+    margin: 50px 20px 50px 20px;
+    background: var(--primary_light);
+}
+
+.coursesTileContainer .Card,  .updatesContainer .Card{
+    box-shadow: var(--shadow_medium);
+}
+
+.courseTileHead {
+    height: 200px;
+    width: inherit;
+    border-radius:10px 10px 0px 0px;
+    background-image: url("../../wp-content/uploads/2021/07/CSE-1-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.courseTileBody {
+    height:100px;
+    width:inherit;
+    padding:20px;
+}
+
+.updatesContainer{
+
+}
+
+.updatesTile{
+    max-height: 300px;
+    max-width: 450px;
+    min-height: 300px;
+    min-width: 450px;
+    margin: 50px 20px 50px 20px;
+}
+
+.updatesTileHead{
+
+}
+
+
+.updatesTileBody{
+
+}
+
+.backgroundSection{
+    background: linear-gradient(to bottom, var(--primary_dark), var(--secondary_dark));
+    width:100vw;
+    padding-bottom:30px;
+    margin:30px 0px 20px 0px;
 }
