@@ -1,0 +1,32 @@
+.announcement-section {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    
+}
+
+.static-block {
+    background-color: #0099F7;
+    padding: 10px;
+    color: #f2f2f2;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family:  sans-serif;
+}
+
+.announcement-marquee {
+    overflow: hidden;
+
+}
+
+.announcement-marquee p {
+    display: inline;
+    margin: 0;
+    padding-right: 20px; 
+    border-right: 3px solid #e73030;
+}
+.announcement-marquee a{
+text-decoration:none;
+color: #0f1214;
+}
+
