@@ -1,0 +1,140 @@
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.adm_proc_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.adm_row{
+    width:80%;
+    align-self: center;
+}
+
+.adm_row_content{
+    display: flex;
+}
+.adm_row_content > div{
+    flex: 1;
+    padding: 10px;
+}
+/* .adm_card{
+    --adm-card-rad-x: 10px;
+    --adm-card-rad-y: 10px;
+    background-color: var(--primary_dark);
+    color: var(--primary_light);
+    margin: 10px;
+    height: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border-left: 7px solid var(--accent);
+    overflow: hidden;
+    align-items: center;
+    transition: all 0.5s ease-out;
+    border-radius: 10px var(--adm-card-rad-x) var(--adm-card-rad-y) 10px;
+} */
+
+.adm_card p{
+    margin: 10px;
+}
+
+/* .adm_card .adm_btn{
+    --adm-border-radius-tl: 50%;
+    --adm-border-radius-tr: 0%;
+    --adm-border-radius-br: 0%;
+    --adm-border-radius-bl: 50%;
+    background-color: var(--accent);
+    border: none;
+    padding: 10px;
+    height: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    justify-content: center;
+    border-radius: var(--adm-border-radius-tl) var(--adm-border-radius-tr) var(--adm-border-radius-br) var(--adm-border-radius-bl);
+    transition: all 0.5s ease-out;
+    --adm_btn_color: var(--primary_light);
+    
+}
+
+
+.adm_card .adm_btn:hover{
+    --adm-border-radius-tl: 0%;
+    --adm-border-radius-tr: 50%;
+    --adm-border-radius-br: 50%;
+    --adm-border-radius-bl: 0%;
+    --adm-card-rad-x: 50%;
+    --adm-card-rad-y: 50%;
+    background-color: var(--primary_light);
+    color: var(--primary_dark);
+    transition: all 0.5s ease-out;
+    --adm_btn_color: var(--accent);
+} */
+
+.adm_card {
+    box-shadow: none;
+    --adm-card-rad-x: 10px;
+    --adm-card-rad-y: 10px;
+    background: linear-gradient(-90deg, rgb(0,0,0,0) 20%, #1f2437 10%);
+    color: var(--primary_light);
+    margin: 10px;
+    height: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border-left: 7px solid var(--accent);
+    overflow: hidden;
+    align-items: center;
+    transition: all 0.5s ease-out;
+    border-radius: 10px var(--adm-card-rad-x) var(--adm-card-rad-y) 10px;
+  }
+  
+  .adm_card .adm_btn {
+    --adm-border-radius-tl: 50%;
+    --adm-border-radius-tr: 0%;
+    --adm-border-radius-br: 0%;
+    --adm-border-radius-bl: 50%;
+    background-color: var(--accent);
+    border: none;
+    padding: 10px;
+    height: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    justify-content: center;
+    border-radius: var(--adm-border-radius-tl) var(--adm-border-radius-tr) var(--adm-border-radius-br) var(--adm-border-radius-bl);
+    --adm_btn_color: var(--primary_light);
+  }
+  
+  .adm_card .adm_btn:hover {
+    --adm-border-radius-tl: 0%;
+    --adm-border-radius-tr: 50%;
+    --adm-border-radius-br: 50%;
+    --adm-border-radius-bl: 0%;
+    --adm-card-rad-x: calc(50% * var(--adm_btn_border_radius));
+    --adm-card-rad-y: calc(50% * var(--adm_btn_border_radius));
+    color: var(--primary_dark);
+    --adm_btn_color: var(--accent);
+    border: 7px solid var(--accent);
+  }
+  
+
+.adm_btn a{
+    text-decoration: none;
+    color: var(--primary_light);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1320px) {
+    .adm_proc_grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 768px) {
+    .adm_proc_grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
