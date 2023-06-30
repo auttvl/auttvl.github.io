@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="sample.css">
+  <link rel="stylesheet" href="https://cdn.auttvl.ac.in/css/styleGuide.css">
+  
+  
+  <script>
+    // Function to switch between content sections
+    function switchContent(sectionId) {
+      // Hide all content sections
+      var contentSections = document.getElementsByClassName("content-section");
+      for (var i = 0; i < contentSections.length; i++) {
+        contentSections[i].classList.remove("active");
+      }
+
+      // Show the selected content section
+      var selectedSection = document.getElementById(sectionId);
+      selectedSection.classList.add("active");
+    }
+//gallery
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+    
+  </script>
+  <style>
+    *{
+      font-size: 16px;
+    }
+    h1{
+      font-size: 20px !important;
+    }
+
+    #imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+  </style>
+</head>
+<body>
+  <div class="b1">
+   <div class="sidebar">
+      <nav>
+      <ul>
+          <li><a href="#"  onclick="switchContent('About')">About</a></li>
+          <li><a href="#" onclick="switchContent('courses')">Courses</a></li>
+          <li><a href="#" onclick="switchContent('faculty')">Faculty Profile</a></li>
+          <li><a href="#" onclick="switchContent('gallery')">Gallery</a></li>
+          <li><a href="#" onclick="switchContent('proj')">Consultancy Projects</a></li>
+          <li><div class="dropdown">
+            ADDITIONAL&nbsp;<i class="fa fa-caret-down" style="font-size: 24px;"> </i>
+            
+            <div class="dropdown-content">
+              <a href="#" onclick="switchContent('PO')">Programmes Organized</a>
+              <a href="#" onclick="switchContent('research')">Research</a>
+              <a href="#" onclick="switchContent('patents')">Patents Filled</a>
+              <a href="#" onclick="switchContent('books')">Books</a>
+              <a href="#" onclick="switchContent('achieve')"> Students Achievements</a>
+              <a href="#" onclick="switchContent('rank')">rank Holders</a>
+              <a href="#" onclick="switchContent('coll')">Collaboration</a>
+            </div>
+          </div> </li>
+        </ul>
+      </nav>  
+    </div>
+
+    
+    
+      
+      <!-- Main content goes here -->
+      <div id="About" class="content-section active">
+        <h1>About the Department</h1>
+            <div >
+              <p>The Department of Civil Engineering of Anna
+                University Regional Campus Tirunelveli was
+                established in September 2008. Presently the
+                department has three well established
+                disciplines – Environmental Engineering,
+                Remote Sensing and Structural Engineering
+                and Geoinformatics. These disciplines have
+                fully developed laboratories. This
+                Department has well qualified teachers with
+                good academic and research pursuit.</p>
+                <p>The main objective of the department is to
+                transfer Remote sensing , Geoinformatics ,
+                Environmental Engineering and Structural
+                Engineering to the society and also to
+                undertake research and developmental
+                Projects.The Students of Remote sensing are
+                doing their training and projects in various
+                organizations such as</p>
+              <ul>
+              <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;National Remote Sensing Agency,
+                Hyderabad.</li><br>
+              <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Vickram Sarabhai space research
+                organization, Trivandrum.</li><br>
+              <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Institute of water studies, Taramani,
+                Chennai</li><br>
+              <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Indian Institute of Geomagnetism,
+                Tirunelneli</li><br>
+              <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Centre for Environment and Development ,
+                Trivandrum</li><br>
+              <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;National Institute of Atmospheric
+                Sciences, Tirupati.</li><br>
+              <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Indian Institute of Remote Sensing ,
+                Dehradun</li>
+              </ul>
+            </div>
+        <h2 style="font-size: 24px;text-align: left">Geoinformatics and Remote Sensing</h2>
+        <div>
+          <p><em>&#8220;In any new technological endeavor
+              and development, the application aspects
+              always take time to catch up&#8221;</em>
+          </p>
+        </div>
+
+        <div >
+          <p>The Anna University has started a regular
+            four year B.E programme in Geoinformatics as
+            a part of Department of Civil Engineering
+            amply supported by Institute of Remote
+            Sensing perhaps following Germany’s example
+            started the geomatics course and first batch
+            students graduated in April 1996 and Post
+            graduate degree programme (M.Tech) in Remote
+            Sensing was upgraded from post graduate
+            diploma programme started in 1985.</p>
+          <p>Due to the demands on the space technologies
+            quite high and drawback in a number of
+            institutions and Universities , Anna
+            University Tirunelveli has started Post
+            graduate on Remote sensing in the Year 2008
+            and later 2011, Undergraduate programme was
+            started in the Year 2011 with the adequate
+            infra structure facilities in this campus.
+          </p>
+          <p>The only University to have introduced a four
+            year geoinformatics programme leading to B.E
+            degree. However , the number of students
+            likely to pass out every year is grossly
+            inadequate to meet the professional needs of
+            our country. Many industries as well as
+            earth resources mangers will need a
+            qualified personnel with advanced knowledge
+            in surveying and mapping.</p>
+          <p>The subjects cover specifically in
+            undergraduate and post graduate level
+            specifically on the principles of remote
+            sensing, photogrammetry, cartography,
+            microwave remote sensing, geodesy,
+            engineering survey, digital image
+            processing, computer applications,
+            geoinformation systems, cadastral surveys,
+            management practices and some special
+            electives and all aspects of geotechnology
+            are generally covered in these courses.</p>
+          <p>Since human needs keep changing, it is
+            difficult to predict what the future holds
+            and what steps can be taken to see that the
+            needs are met satisfactorily.“ New frontiers
+            in technologies now available are
+            Biotechnolgy, Space Technology, Information
+            technology , Microelectronics and Management
+            techlogies”. These technologies can be
+            blended to apply to various situations.</p>
+          <p>Space technology offers data and Remote
+            sensing act as a tool to provide upto date
+            information on natural and environmental
+            resources. From the inception of these
+            programme , nearly 10 years have crossed the
+            milestones of higher education on
+            Undergraduate and post graduate programme
+            with good academic and placement record with
+            the ample support of Anna University
+            Chennai.</p>
+            
+            <div class="separator">
+              <div class="line"></div>
+              <h2 style="padding:0 2rem;">SKY IS THE LIMIT</h2>
+              <div class="line"></div>
+            </div>
+        </div>
+       
+    </div>
+
+    <div id="courses" class="content-section">
+      <h1 style="font-size: 25px;">COURSES</h1>
+      <p>The following UG and PG programmes are
+        offered in the Department.</p>
+      <p>1. M.E Environmental Engineering<br />
+        2. M. Tech Remote Sensing<br />
+        3. M.E Structural Engineering<br />
+        4. B.E Geoinformatics</p>
+
+    </div>
+
+    <div id="faculty" class="content-section">
+      
+
+      <div class="row" >
+        <div class="column" style="width: 50%;">
+            <div class="card" >
+                <h2>Head Of the Department</h2>
+                <div class="card-content">
+                  <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image">
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.J.Thirumal</h2></strong>
+                  <p>Assistant Professor <br>Department of Civil Engineering</p>
+                  <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;thirumal.j.@auttvl.ac.in</p>
+                  <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="#" style="text-decoration: none;">&nbsp; Profile</a>
+                </div>
+                </div>
+              </div> 
+        </div>
+      
+        <div class="column" style="width: 50%;">
+          <div class="card">
+            <h2>Contact Address</h2>
+            <div class="card-content">
+              <div class="contactd" ><p>Head of Department<br>Department of Civil Engineering<br>Anna University Regional Campus Tirunelveli,<br>Tirunelneli-627007<br></p>
+                <p><i style="font-size:24px" class="fa">&#xf095;</i> &nbsp;+91 361 258 2450p<br>
+                    <i style="font-size:24px" class="fa">&#xf0e0;</i>&nbsp;thirumal.j.@auttvl.ac.in</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <h2> TEACHING STAFF</h2>
+      <div class="row" >
+        <div class="column"  style="width: 100%;">
+            <div class="card" >
+                
+                <div class="card-content">
+                  <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image">
+                  <div class="t1"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.J.Thirumal</h2></strong>
+                  <p>Assistant Professor <br>Department of Civil Engineering</p>
+                  <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;thirumal.j.@auttvl.ac.in</p>
+                  <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="#" style="text-decoration: none;">&nbsp; Profile</a></div>
+                </div>
+              </div> 
+        </div></div>
+
+        <div class="row" >
+          <div class="column"  style="width: 100%;">
+              <div class="card" >
+                  
+                  <div class="card-content">
+                    <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image">
+                    <div class="t2"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.J.Thirumal</h2></strong>
+                    <p>Assistant Professor <br>Department of Civil Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;thirumal.j.@auttvl.ac.in</p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="#" style="text-decoration: none;">&nbsp; Profile</a></div>
+                  </div>
+                </div> 
+          </div></div>
+
+          <div class="row" >
+            <div class="column"  style="width: 100%;">
+                <div class="card" >
+                    
+                    <div class="card-content">
+                      <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image">
+                      <div class="t3"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.J.Thirumal</h2></strong>
+                      <p>Assistant Professor <br>Department of Civil Engineering</p>
+                      <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;thirumal.j.@auttvl.ac.in</p>
+                      <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="#" style="text-decoration: none;">&nbsp; Profile</a></div>
+                    </div>
+                  </div> 
+            </div></div>
+
+            <div class="row" >
+              <div class="column"  style="width: 100%;">
+                  <div class="card" >
+                      
+                      <div class="card-content">
+                        <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image">
+                        <div class="t4"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.J.Thirumal</h2></strong>
+                          <p>Assistant Professor <br>Department of Civil Engineering</p>
+                          <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;thirumal.j.@auttvl.ac.in</p>
+                          <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="#" style="text-decoration: none;">&nbsp; Profile</a>
+                        </div>
+                      </div>
+                  </div> 
+              </div>
+            </div>
+
+              <div class="row" >
+                <div class="column"  style="width: 100%;">
+                    <div class="card" >
+                        <div class="card-content">
+                          <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image">
+                          <div class="t5"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.J.Thirumal</h2></strong>
+                            <p>Assistant Professor <br>Department of Civil Engineering</p>
+                            <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;thirumal.j.@auttvl.ac.in</p>
+                            <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="#" style="text-decoration: none;">&nbsp; Profile</a>
+                          </div>
+                        </div>
+                    </div> 
+            </div>
+            </div>
+              <h2>NONTEACHING STAFF</h2>
+              <div class="row"  style="height:400px;">
+                <div class="column" style="width: 25%;">
+                    <div class="card" >
+                       
+                        <div class="card-content">
+                          <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image" style="width: 100%;"> 
+                        </div>
+                        <div class="nt"><h2>Mr.B.Ramkumar</h2>
+                          <p>Professional Assistant-II</p>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="column" style="width: 25%;">
+                  <div class="card" >
+                     
+                      <div class="card-content">
+                        <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image" style="width: 100%;">
+                      </div>
+                      <div class="nt"><h2>Mrs.S.M.Geetha</h2>
+                        <p>Junior Assistant</p>
+                      </div> 
+                  </div>
+                </div>
+                <div class="column" style="width: 25%;">
+                  <div class="card" >
+                    
+                      <div class="card-content">
+                        <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image" style="width: 100%;">
+                        
+                      </div>
+                      <div class="nt"><h2 style="font-size: 16px;">Mrs.P.Angammal Bharathi</h2>
+                        <p>Junior Assistant</p>
+                      </div> 
+                  </div>
+                </div>  
+                <div class="column" style="width: 25%;">
+                  <div class="card" >
+                    
+                      <div class="card-content">
+                        <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image" style="width: 100%;">
+                        
+                      </div>
+                      <div class="nt"><h2>Mr.S.Paramasivam</h2>
+                        <p>Office Assistant</p>
+                      </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+
+  
+
+    <div id="gallery" class="content-section">
+      <h1 style="font-size: 25px;">GALLERY</h1>
+      <div class="row"  style="height:400px;">
+        <div class="column" style="width: 25%;">
+            <div class="card" >
+               
+                <div class="card-content">
+                  <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image" style="width: 100%;" onclick="myFunction(this);"> 
+                </div>
+                <div class="nt"><h2>Event</h2>
+                  <p>text</p>
+                </div> 
+            </div>
+        </div>
+
+        <div class="column" style="width: 25%;">
+          <div class="card" >
+             
+              <div class="card-content">
+                <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image" style="width: 100%;" onclick="myFunction(this);">
+              </div>
+              <div class="nt"><h2>Event</h2>
+                <p>text</p>
+              </div> 
+          </div>
+        </div>
+        <div class="column" style="width: 25%;">
+          <div class="card" >
+            
+              <div class="card-content">
+                <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image" style="width: 100%;"onclick="myFunction(this);">
+                
+              </div>
+              <div class="nt"><h2 style="font-size: 16px;">Event</h2>
+                <p>text</p>
+              </div> 
+          </div>
+        </div>  
+        <div class="column" style="width: 25%;">
+          <div class="card" >
+            
+              <div class="card-content">
+                <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="Card Image" style="width: 100%;"onclick="myFunction(this);">
+                
+              </div>
+              <div class="nt"><h2>Event</h2>
+                <p>text</p>
+              </div> 
+          </div>
+        </div>
+      </div>
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:100%">
+      <div id="imgtext"></div>
+    </div>
+  
+  
+    </div>
+    <div id="proj" class="content-section">
+      <h1>CONSELTENCY PROJECT</h1>
+      <p>content --------</p>
+      <button class="btn"><i class="fa fa-download"></i> Download</button>
+
+    </div>
+  </div>
+</body>
+</html>
