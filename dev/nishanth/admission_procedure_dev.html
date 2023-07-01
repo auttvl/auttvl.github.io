@@ -7,58 +7,88 @@
     <link rel="stylesheet" href="https://cdn.auttvl.ac.in/css/styleGuide.css" />
     <link rel="stylesheet" href="./css/admission_procedure_dev.css" />
   </head>
-  
+
   <body
     class="d-flex-col"
     style="margin: 0px; padding: 0px; box-sizing: border-box"
   >
-    <div class="d-flex-col adm_row">
-      <div class="adm_proc_grid">
-        <a href="https://www.tneaonline.org/" data-hvr-bf="FIRST YEAR B.E / B.TECH"  target="_blank">
-          <div class="Card adm_card" data-hover="View">
-            
-            <div class="view-txt">
-              <span>FIRST YEAR <br />B.E / B.TECH</span>
-              <span>View</span>
+  <script>
+    function loc(address){
+      window.location.href = address;
+    }
+  </script>
+    <div class="wrapper">
+      <div class="cols">
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container" onclick="loc('https://www.tneaonline.org/')">
+            <div
+              class="front"
+            >
+              <div class="inner">
+                <p>
+                  FIRST YEAR
+                  B.E / B.TECH
+                </p>
+              </div>
             </div>
-            <!-- <div class="adm_btn d-flex-col">
-              <span>View</span>
-            </div> -->
-          </div>
-        </a>
-        <a href="https://www.tnlea.com/" target="_blank"> 
-          <div class="Card adm_card">
-            <div class="view-txt">
-              <span>FIRST YEAR <br />B.E / B.TECH</span>
-              <span>View</span>
+            <div class="back">
+              <div class="inner">
+                <p>View</p>
+              </div>
             </div>
-            <!-- <div class="adm_btn d-flex-col">
-              <span>View</span>
-            </div> -->
           </div>
-        </a>
-        <a href="https://www.tn-mbamca.com/" target="_blank">
-          <div class="Card adm_card">
-            <div class="view-txt">
-              <span>FIRST YEAR <br />B.E / B.TECH</span>
-              <span>View</span>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container" onclick="loc('https://www.tnlea.com/')">
+            <div
+              class="front"
+              style="background-image: url(./images/Engineering.jpg)"
+            >
+              <div class="inner">
+                <p>LALTERAL ENTRY B.E / B.TECH</p>
+              </div>
             </div>
-            <!-- <div class="adm_btn d-flex-col">
-              <span>View</span>
-            </div> -->
-          </div>
-        </a>
-        <a href="https://tancet.annauniv.edu/tancet/index.html" target="_blank">
-          <div class="Card adm_card">
-            <div class="view-txt">
-              <span>FIRST YEAR <br />B.E / B.TECH</span>
-              <span>View</span>
+            <div class="back">
+              <div class="inner">
+                <p>View</p>
+              </div>
             </div>
-            <!-- <div class="adm_btn d-flex-col">
-              <span>View</span>
-            </div> -->
           </div>
-        </a>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container" onclick="loc('https://www.tn-mbamca.com/')">
+            <div
+              class="front"
+              style="background-image: url(./images/Engineering.jpg)"
+            >
+              <div class="inner">
+                <p>MBA / MCA</p>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>View</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container" onclick="loc('https://tancet.annauniv.edu/')">
+            <div
+              class="front"
+              style="background-image: url(./images/Engineering.jpg)"
+            >
+              <div class="inner">
+                <p>M.E / M.TECH</p>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>View</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
