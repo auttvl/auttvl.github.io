@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Template</title>
+    <link rel="stylesheet" href="https://cdn.auttvl.ac.in/css/styleGuide.css">
+    <link rel="stylesheet" href="calender_dev.css">
+    
+</head>
+<body>
+    
+    <div class="card-container">
+        <div class="card">
+          <div class="card-face card-face-front">
+            <div class="calendar-container">
+              <div class="calendar">
+                <div class="calendar-header">
+                  <button class="prev-month">&#60;</button>
+                  <div class="current-month-year"></div>
+                  <button class="next-month">&#62;</button>
+                </div>
+                <div class="calendar-body">
+                  <div class="calendar-weekdays">
+                    <div>Sun</div>
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                  </div>
+                  <div class="calendar-days"></div>
+                </div>
+              </div>
+              
+              
+            
+          </div>
+            
+          </div>
+          <div class="card-face card-face-back">
+            <div class="event-name">Event Name</div>
+            <div class="event-details">Date: July 10, 2023<br>Time: 7:00 PM</div>
+            <button class="btn dismiss-btn">Dismiss</button>
+          </div>
+        </div>
+      </div>
+    
+</body>
+<script>
+    const card = document.querySelector('.card');
+    const dismissBtn = document.querySelector('.dismiss-btn');
+    dismissBtn.addEventListener('click', function() {
+      card.classList.toggle('flipped');
+    });
+  </script>
+<script src="https://cdn.auttvl.ac.in/js/common.js"></script>
+<script src="calender_dev.js"></script>
+</html>
