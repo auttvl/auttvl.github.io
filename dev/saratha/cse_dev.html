@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="dpt_dev.css">
+</head>
+
+<body>
+  <div class="b1">
+    <div class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="navbar-brand">CSE</a>
+        <ul class="navbar-menu">
+          <li><a href="#" onclick="switchContent('About');">About</a></li>
+          <li><a href="#" onclick="switchContent('courses');">Courses</a></li>
+          <li><a href="#" onclick="switchContent('faculty');">Faculty Profile</a></li>
+          <li><a href="#" onclick="switchContent('gallery');">Gallery</a></li>
+          <li><a href="#" onclick="switchContent('proj');">Consultancy Projects</a></li>
+          <li><div class="dropdown">
+            ADDITIONAL&nbsp;<i class="fa fa-caret-down" style="font-size: 24px;"> </i>
+            
+            <div class="dropdown-content">
+              <a href="#" onclick="switchContent('PO')">Programmes Organized</a>
+              <a href="#" onclick="switchContent('research')">Research</a>
+              <a href="#" onclick="switchContent('patents')">Patents Filled</a>
+              <a href="#" onclick="switchContent('books')">Books</a>
+              <a href="#" onclick="switchContent('achieve')"> Students Achievements</a>
+              <a href="#" onclick="switchContent('rank')">rank Holders</a>
+              <a href="#" onclick="switchContent('coll')">Collaboration</a>
+            </div>
+          </div> </li>
+        </ul>
+        <div class="navbar-toggle" onclick="toggleSidebar()">&nbsp; &#9776;</div>
+      </div>
+    </div>
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li><a href="#" onclick="switchContent('About');">About</a></li>
+        <li><a href="#" onclick="switchContent('courses');">Courses</a></li>
+        <li><a href="#" onclick="switchContent('faculty');">Faculty Profile</a></li>
+        <li><a href="#" onclick="switchContent('gallery');">Gallery</a></li>
+        <li><a href="#" onclick="switchContent('proj');">Consultancy Projects</a></li>
+        <li><div class="dropdown">
+          ADDITIONAL&nbsp;<i class="fa fa-caret-down" style="font-size: 24px;"> </i>
+          
+          <div class="dropdown-content">
+            <a href="#" onclick="switchContent('PO')">Programmes Organized</a>
+            <a href="#" onclick="switchContent('research')">Research</a>
+            <a href="#" onclick="switchContent('patents')">Patents Filled</a>
+            <a href="#" onclick="switchContent('books')">Books</a>
+            <a href="#" onclick="switchContent('achieve')"> Students Achievements</a>
+            <a href="#" onclick="switchContent('rank')">rank Holders</a>
+            <a href="#" onclick="switchContent('coll')">Collaboration</a>
+          </div>
+        </div> </li>
+      </ul>
+    </div>
+    
+
+    <!-- Main content goes here -->
+    <div id="About" class="content-section active">
+      <h1>About the Department</h1>
+      <div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;The department was started in the year 2008
+          with three dual degree programmes namely
+          M.Tech. in Computer Science and Engineering,
+          M.Tech. in Information Technology and
+          M.Tech. in Software Engineering, PG
+          programme namely M.E. in Computer Science
+          &amp; Engineering (FT&amp;PT) and Ph.D.
+          Programmes. There were no further intakes
+          for dual degree programmes after 2009. UG
+          courses namely B.E. in Computer Science and
+          Engineering and B.Tech. in Information
+          Technology were started in the year 2010
+          with an approved intake of sixty in each.
+          However, there was no further intake for the
+          UG and PG programmes after 2013 and 2018
+          respectively. At present, the department
+          offers B.E. in Computer Science and
+          Engineering and Ph.d programmes (in both FT
+          &amp; PT modes). The Department is blessed
+          with a band of twelve dedicated faculty
+          members who are entrusted with the great
+          task of molding the young minds and carrying
+          out research in the areas of Internet of
+          Things, Data Analytics, Image processing,
+          Data Mining, Wireless Networks, Cloud
+          Computing, etc. The training of the mind,
+          heart and the will of our young students
+          have been accepted as our educational
+          endeavor.</p>
+        <p>The Department is equipped with two labs to
+          cater to the needs of the students. Ample
+          opportunities are provided to equip the
+          students be it a class room, lecture or
+          group discussion, a project work or a field
+          trip, a curricular assignment or
+          co-curricular activity. In the entire
+          learning and growing process, our aim and
+          objectives have been consistently kept in
+          mind. The faculty members guide the students
+          to acquire correct values and develop
+          wholesome attitudes in order to achieve a
+          harmonious blending of the human values with
+          knowledge.</p>
+      </div> 
+
+      <h1>Vision</h1>
+      <ul>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i> &nbsp;To strive to develop a continuous
+          pursuit of excellence in high quality IT
+          education &amp; computer science
+          expertise.</li>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;To produce skilled and trained
+          engineering manpower with string ethical
+          and moral background for the growing
+          technological &amp; socioeconomic needs
+          of our nation.</li>
+      </ul>
+        <h1>Mission</h1>
+      <ul>
+                                  <li><i class="fa fa-caret-right" style="font-size:24px"></i> &nbsp;Motivate &amp; prepare the students for
+                                    successful IT careers with strong
+                                    technical, moral &amp; ethical skills.
+                                  </li>
+                                  <li><i class="fa fa-caret-right" style="font-size:24px"></i> &nbsp;Create a work culture where teacher
+                                    enjoys facilitation and learner enjoys
+                                    learning for Research &amp; Development
+                                    as well as takes initiatives.</li>
+                                  <li><i class="fa fa-caret-right" style="font-size:24px"></i> &nbsp;Collaborate with industry and research
+                                    institutes to meet the changing needs of
+                                    society.</li>
+                                </ul>   
+
+    
+    </div>
+
+     <div id="courses" class="content-section">
+        <h1 style="font-size: 25px;">COURSES</h1>
+      <p>The following UG and PG programmes are
+        offered in the Department.</p>
+      <p>1. B.E Computer Science and Engineering<br />
+        2.Ph.D. programmes (FT &amp; PT)<br />
+       </p>
+
+      </div>
+
+          <div id="faculty" class="content-section">
+            <div class="card-container">
+              <div class="card">
+                <h2>Head of the Department</h2>
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Saravanan.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.K.Saravanan</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp; saravanan.krishnan@auttvl.ac.in </p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Saravanan.pdf" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="height:auto;">
+                <h2>Contact Address</h2>
+                  <div class="card-content">
+                    <div class="contactd" ><p>Head of Department<br>Department of Computer Science and Engineering<br>Anna University Regional Campus Tirunelveli,<br>Tirunelneli-627007<br></p>
+                      <p><i style="font-size:24px" class="fa">&#xf095;</i> &nbsp;+91 -----------<br>
+                          <i style="font-size:24px" class="fa">&#xf0e0;</i>&nbsp;saravanan.krishnan@auttvl.ac.in </p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        <!--Teaching Staffs-->
+            <div class="tstaff">
+              <h2> TEACHING STAFF</h2>
+              <div class="card">
+              
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Kavitha.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Mrs.T.Kavitha</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp; kavitha.t@auttvl.ac.in </p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Kavitha.pdf" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card" >
+              
+                <div class="card-content">
+                  <img src="	https://auttvl.ac.in/wp-content/uploads/2021/07/cse_julie.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>DR.E.GOLDEN JULIE</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;juliegolden18@gmail.com  </p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_GoldenJulie.pdf" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card" >
+              
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/07/CSE_jRoselin.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.J.ROSELIN</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp; roselin.js@auttvl.ac.in </p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Roselin.pdf" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card" >
+              
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/07/cse_ved.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr. J JESU VEDHA NAYAHI</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;vedhaj2000@gmail.com</p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_jesuVedhaNayahi.pdf" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card" >
+              
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/cse_akila.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.C.Akila</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;@gmail.com</p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="#" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card" >
+              
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/cse_dejey.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.Dejey</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp; dejey.d@auttvl.ac.in </p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Dejey.pdf" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card" >
+              
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/cse_faree.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.N.Fareena</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;  fareena.n@auttvl.ac.in, mailfareena@gmail.com</p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Fareena.pdf" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card" >
+              
+                <div class="card-content">
+                  <img src="	https://auttvl.ac.in/wp-content/uploads/2021/10/Cse_sabena1.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.S.Sabena</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp; sabena.s@auttvl.ac.in</p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Sabena.pdf" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card" >
+              
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/cse_nava.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Mrs.M.Navabarathy</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp; @auttvl.ac.in</p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="#" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card" >
+              
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Brinda.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.T.Brinda</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp;  tpbrinda@yahoo.com</p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Brinda.pdf" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>
+
+              <!--<div class="card" >
+              
+                <div class="card-content">
+                  <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/Civil_Thirumal.jpg" alt="Card Image" >
+                  <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Dr.J.Thirumal</h2></strong>
+                    <p>Assistant Professor <br>Department of Computer Science and Engineering</p>
+                    <p><i style="font-size:24px;" class="fa">&#xf0e0;</i>&nbsp; </p>
+                    <i style="font-size:24px" class="fa">&#xf1c1;</i><a href="" style="text-decoration: none;">&nbsp; Profile</a>
+                  </div>
+                </div>
+              </div>--> 
+            </div>
+        <!--Non Teaching-->
+        <h2>NONTEACHING STAFF</h2>
+        <div class="nstaff">
+        
+          <div class="card">
+              
+            <div class="card-content">
+              <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/cse_Gnanaraj.jpg" alt="Card Image" >
+              <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Mr.D.Gnanaraj</h2></strong>
+                <p>Professional Assistant </p>
+              </div>
+            </div>
+          </div>
+
+        <div class="card">
+              
+          <div class="card-content">
+            <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/CSE_Peratchi.jpg" alt="Card Image" >
+            <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Mr.C.Perachi Selvan</h2></strong>
+              <p>Junior Assistant </p>
+              </div>
+          </div>
+        </div>
+        <div class="card">
+              
+          <div class="card-content">
+            <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/Admin_Sakthi.jpg" alt="Card Image" >
+            <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Mr.S.P.Sakthi Kumar</h2></strong>
+              <p>Office Assistant </p>
+              </div>
+          </div>
+        </div>
+              
+        <!--<div class="card">
+              
+          <div class="card-content">
+            <img src="https://auttvl.ac.in/wp-content/uploads/2021/10/ECE_Paramasivam.jpg" alt="Card Image" >
+            <div class="hod"><h2 style="color: rgb(231, 51, 15);"><strong>Mr.S.Paramasivam</h2></strong>
+              <p>Junior Assistant </p>
+          </div>
+          </div>
+        </div>--->
+
+
+      </div>
+    </div>
+
+    
+  
+  
+
+
+
+  <div id="gallery" class="content-section">
+    <h1 style="font-size: 25px;">GALLERY</h1>
+    <div class="nstaff">
+    <div class="card">        
+      <div class="card-content">
+        <img src="https://auttvl.ac.in/wp-content/uploads/photo-gallery/Mechanical_Engineering/thumb/0288fd.jpg?bwg=1633760019" alt="Card Image" style="width: 100%;" onclick="myFunction(this);">
+          
+      </div>
+    </div>
+    <div class="card">        
+      <div class="card-content">
+        <img src="https://mywebspace.in/auttvl/wp-content/uploads/photo-gallery/Mechanical_Engineering/thumb/03.jpg?bwg=1633760019" alt="Card Image" style="width: 100%;" onclick="myFunction(this);">
+          
+      </div>
+    </div>
+    <div class="card">        
+      <div class="card-content">
+        <img src="https://mywebspace.in/auttvl/wp-content/uploads/photo-gallery/Mechanical_Engineering/thumb/01.jpg?bwg=1633760019" alt="Card Image" style="width: 100%;" onclick="myFunction(this);">
+          
+      </div>
+    </div>
+    <!--<div class="card">        
+      <div class="card-content">
+        <img src="#" alt="Card Image" style="width: 100%;" onclick="myFunction(this);">
+          
+      </div>
+    </div>-->
+    
+  </div>
+  <!--<div class="nstaff">
+    <div class="card">        
+      <div class="card-content">
+        <img src="#" alt="Card Image" style="width: 100%;" onclick="myFunction(this);">
+          
+      </div>
+    </div>
+  </div>-->
+  
+
+
+
+
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:100%">
+      <div id="imgtext"></div>
+    </div>
+
+
+  </div>
+  <div id="proj" class="content-section">
+    <h1>CONSELTENCY PROJECT</h1>
+    <p></p>
+    <button class="btn"><i class="fa fa-download"><a href="https://auttvl.ac.in/wp-content/uploads/2021/10/Consultancy_CSE.pdf" style="text-decoration: none;"> Download </a></i></button>
+
+  </div>
+
+
+  <div id="PO" class="content-section">
+    <div><h1>Faculty training and Development Programmes</h1>
+      <ul>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Seven Day Faculty Development Programme on “Theory of Computation” conducted from 29th April to 05th May 2019 sponsored by Centre for Faculty Development, Anna University, Chennai</li><br>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Seven Day Faculty Development Programme on Distributed System conducted from 27th November to 3rd December 2017 sponsored by Centre for Faculty Development, Anna University, Chennai.</li><br>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A 7 day FDTP on CS6801-Multicore Architecture and Programming sponsored by Centre for Faculty Development, Anna University, Chennai was organized by the department from 1st to 5th and 9th to 10th Dec 2016.</li><br>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A 7 day FDTP on IT6702 Data Warehousing and Data Mining sponsored by Centre for Faculty Development, Anna University, Chennai was organized by the department from 25th to 31st May 2016.</li><br>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Seven Day Faculty Development Programme on “Databases Management Systems and Advanced Databases conducted during 4th – 10th December 2013 and sponsored by Centre for Faculty Development, Anna University, Chennai.</li><br>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Seven Day Faculty Development Programme on “Mobile and Pervasive Computing” conducted during 4th – 10th June 2013 and sponsored by Centre for Faculty Development, Anna University, Chennai.</li><br>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Seven Day Faculty Development Programme on “Digital Image Processing” conducted during 7th – 13th December 2012 and sponsored by Centre for Faculty Development, Anna University, Chennai.</li>
+        </ul>
+    </div>
+    <h1>Workshops</h1>
+    <ul>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Two Day Hands-on Workshop on Python Programming organized by the Director, Academic Courses and Sponsored by the Director, CFD from 21-08-2017 to 22-08- 2017.
+      </li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Two Day Workshop on Cloud OpenStack Kilo11, on 29th and 30th October 2015.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Two Day Workshop on Hands on approach to Proficient Document Writing using LATEX” conducted during 12th – 13th October 2013.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Two week ISTE Workshop on “Database Management Systems” funded by IIT Bombay conducted during 21st –31st May 2013.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Two Day Workshop on Hands on Approach to Wireless Network Simulation using NS2 conducted during 4th – 5th December 2012.</li><br>
+        
+    </ul>
+    <h1>Conferences</h1>
+    <ul>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;CSIR Sponsored National Conference on Computing and Communication NCCC’15 organized jointly by the Department of CSE and ECE from 4th to 5th May 2015.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;International Workshop and Conference on “Research Contributions in Technology and Applications “, 27th – 28th March 2015</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;National Conference on Computing and Communication NCCC’14 organized jointly by the Department of CSE and ECE from 3rd to 4th April 2014.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;National Conference NACET 2011 organized jointly by all the Departments conducted on 6th May 2011 at Anna University of Technology, Tirunelveli</li><br>
+      
+      </ul>
+      <h1>Symposiums</h1>
+      <p>The Student’s technical association <strong> TECH SOCIETY </strong>organized</p>
+      <ul>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;An Inter college Symposium NOVATEUR 2013 on 4th October 2013.</li><br>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A Two day Intra College Symposium TECHNOPS – 2K19 conducted on March 14th & 15th 2019.</li><br>
+        
+      </ul>
+      <h1>Other Programmes</h1>
+      <ul>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A 5 day Computer Training Programme for the Staff of Police Department was conducted free of cost from 15th to 19th June 2015. Training was offered on Computer Fundamentals, Working with Windows 8.1 and Microsoft Package. 30 staff of the police department were benefitted out of it.</li><br>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A 5 day Computer Training Programme for the Students from Government Schools was conducted free of cost from 15th to 19th June 2015. Sixty students from government schools participated in the programme. Training was offered on Computer Fundamentals, and Microsoft Package.</li><br>
+        
+      </ul>
+
+  </div>
+  <div id="patents" class="content-section">
+
+    <h1>Patents Filled</h1>
+      <ul>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Indian Patent Application No. 201641043187A – A Non Invasive Naadi Parisothanai Device for Prognosis or Diagnosis of Diseases from the after-effect of Electrical Impulse at the Heart in the Radial Artery is under examination after initial screening.</li><br>
+        <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Indian Patent Application No. 201741028756 – A Smart Toll Collection System utilizing Industrial Scientific Medical Band of Radio Frequency Communication is filed under initial screening.</li><br>
+        
+      </ul>
+  </div>
+  <div id="books" class="content-section">
+    <h1>Books / Book Chapters</h1>
+    <p>Dr. Dejey and Dr. S. Murugan, “Computer Forensics”, First Edition, Oxford University Press(India), July 2018.</p>
+  </div>
+
+
+  <div id="achieve" class="content-section">
+    <h1>Achievements</h1>
+    <ul>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A Project Work on “Mobile Customization for intimating location information and profile changing” by M.Ajmal Nisha and M.Viji of B.Tech Information Technology (2011-2015) won the First Prize in a Two Day Project Expo – Engineering Future India organized jointly by KKNPP and Regional Office, Anna University Tirunelveli</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A Project Work on “Development of Hardware for Naadi Pariksha” by M. Kaviya Elakkiya of M.E (CSE) (2014-2016) won the First Prize in the Techno Fair organized by the District Science Centre, Tirunelveli.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A Project Work on “Development of Hardware for Naadi Pariksha” by M. Kaviya Elakkiya of M.E (CSE) (2014-2016) won the First Prize in the District Level Skill Summit 2017 organized by Department of Labor Development and Training, Government of TamilNadu.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A Project Work on “Development of Low Cost Device for assisting Fishermen” by Antony Sahaya Jensy of M.E (2016-2018) won the Second Prize in the District Level Skill Summit 2017 organized by Department of Labor Development and Training, Government of TamilNadu.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A Project Work titled “IoT based System for Banana Plantation Monitoring and Disease Detection” by Jemima of M.E. (2015 – 2017) won a Cash Award of Rs.10,000/- by Tamil Nadu State Council for Science and Technology (TNSCST) under the Student Project Scheme (SPS).</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A Project Work titled “IoT based System for Banana Plantation Monitoring and Disease Detection” by Jemima of M.E. (2015 – 2017) won the Best Project Award in the Project Exhibition organized by Tamil Nadu State Council for Science and Technology (TNSCST) at GCT, Coimbatore.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Prabhu of B.Tech Information Technology (2012 -2016) received the Best Project Award at the Project Expo held at District Science Centre for his project titled “Smart Walking Stick”.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A Project Work on “Low memory Device enhancer with battery saver” by John Linga durai, T.Tamilarasan and G. Vel Murugan of B.Tech Information Technology (2012-2016) won the Second Prize in a Two Day Project Expo – Engineering Future India organized jointly by KKNPP and Regional Office, Anna University Tirunelveli.</li><br>
+      <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;A Project Work on ” Palmleaf Character Recognition ” by Savitha of B.Tech Information Technology (2011-2015) won the First Prize in a Two Day Project Expo – Engineering Future India organized jointly by KKNPP and Regional Office, Anna University Tirunelveli</li><br>
+      
+    </ul>
+  </div>
+  <div id="coll" class="content-section">
+    <h1>Collaboration</h1>
+    <ul>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;Aakash Project Centre for Smart class room & Interactive worshops.</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;IIT bombay & IIT Kharagpur – Remote centre for Conducting ISTE Workshops.</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;NPTEL – Local Chapter</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;IIRS e-outreach Centre</li><br>
+</ul>
+</div> 
+
+<div id="research" class="content-section">
+  <h1>Publications</h1>
+  <table>
+    <tr class="first-row">
+      <td colspan="2"><h2>Journals</h2></td>
+    </tr>
+    <tr class="second-row">
+      <td>National</td>
+      <td>International</td>
+    </tr>
+    <tr class="3-row">
+      <td>9</td>
+      <td>115</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr class="first-row">
+      <td colspan="2"><h2>Conferences</h2></td>
+    </tr>
+    <tr class="second-row">
+      <td>National</td>
+      <td>International</td>
+    </tr>
+    <tr class="3-row">
+      <td>132</td>
+      <td>69</td>
+    </tr>
+  </table><br>
+<h1>Ph.D Scholars produced</h1>
+<ul>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;N. KANTHIMATHI</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;JEYABHARATHI</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;BIBAL BENIFA</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;SHIRLY</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;ANI BROWN MARY</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;SUGANYA</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;JAITHUMBI</li><br>
+  <li><i class="fa fa-caret-right" style="font-size:24px"></i>&nbsp;AJAY AMRIT RAJ</li><br>
+
+</ul>
+  
+</div> 
+<div id="rank" class="content-section">
+
+  <h1>Rank Holders</h1>
+  <table>
+    <tr class="first-row">
+      <td><h2>Name</h2></td>
+      <td><h2>Branch</h2></td>
+      <td><h2>Batch</h2></td>
+    </tr>
+    <tr >
+      <td>Naga sudha</td>
+      <td>M.E CSE</td>
+      <td>2016-2018</td>
+    </tr>
+    <tr >
+      <td>Renuka Pavithra</td>
+      <td>M.E CSE</td>
+      <td>2016-2018</td>
+    </tr>
+    <tr >
+      <td>Kalai Selvi</td>
+      <td>M.E CSE</td>
+      <td>2014-2016</td>
+    </tr>
+    <tr >
+      <td>Abinaya Laxmi</td>
+      <td>M.E CSE</td>
+      <td>2013-2015</td>
+    </tr>
+    <tr >
+      <td>Rabiyathul Athabiya A</td>
+      <td>M.E CSE</td>
+      <td>2011-2013</td>
+    </tr>
+    <tr >
+      <td>Ani Brown Mary</td>
+      <td>M.E CSE (P.T)</td>
+      <td>2010-2013</td>
+    </tr>
+    <tr >
+      <td>Henvin Selva Rani A</td>
+      <td>B.Tech IT</td>
+      <td>2009-2013</td>
+    </tr>
+    <tr >
+      <td>Chitra N</td>
+      <td>B.E CSE</td>
+      <td>2009-2013</td>
+    </tr>
+    <tr >
+      <td>Angelin Sheeja</td>
+      <td>B.E CSE</td>
+      <td>2009-2013</td>
+    </tr>
+    
+    <tr >
+      <td>J. Packia Priya</td>
+      <td>B.Tech IT</td>
+      <td>2009-2013</td>
+    </tr>
+    <tr >
+      <td>Herold Robinson</td>
+      <td>M.E CSE (P.T)</td>
+      <td>2008-2011</td>
+    </tr>
+    <tr >
+      <td>Devi Dayal Vinayaki</td>
+      <td>M.Tech CSE</td>
+      <td>2008-2013</td>
+    </tr>
+  </table>
+  
+</div>
+
+  
+
+
+</div>
+</div>
+  
+
+  <script>
+    function toggleSidebar() {
+      var sidebar = document.getElementById("sidebar");
+      sidebar.classList.toggle("open");
+    }
+
+    var links = document.querySelectorAll(".sidebar a");
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener("click", closeSidebar);
+    }
+
+    function closeSidebar() {
+      var sidebar = document.getElementById("sidebar");
+      sidebar.classList.remove("open");
+    }
+
+     // Function to switch between content sections
+     function switchContent(sectionId) {
+      // Hide all content sections
+      var contentSections = document.getElementsByClassName("content-section");
+      for (var i = 0; i < contentSections.length; i++) {
+        contentSections[i].classList.remove("active");
+      }
+
+      // Show the selected content section
+      var selectedSection = document.getElementById(sectionId);
+      selectedSection.classList.add("active");
+    }
+    function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+
+  </script>
+</body>
+</html>
