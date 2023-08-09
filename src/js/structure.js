@@ -127,7 +127,7 @@ const header = `
 													<li id="menu-item-252"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-252">
 														<a target="_blank" rel="noopener noreferrer" itemprop="url"
-															href="https://www.annauniv.edu/">University
+															href="https://annauniv.edu/administration.php">University
 															Administration</a>
 														<ul class="sub-menu" aria-labelledby="menu-item-dropdown-168">
 															<li id="menu-item-253"
