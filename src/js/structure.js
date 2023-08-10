@@ -1,21 +1,15 @@
-function injectHeader(){
-    document.body.innerHTML = header + document.body.innerHTML;
-
+function injectHeader() {
+  document.body.innerHTML = header + document.body.innerHTML;
 }
 
-function injectFooter(){
-    document.body.innerHTML += footer;
+function injectFooter() {
+  document.body.innerHTML += footer;
 }
 
-
-function initUI(){
-    injectHeader();
-    injectFooter();
+function initUI() {
+  injectHeader();
+  injectFooter();
 }
-
-
-
-
 
 const header = `
 <div class="header-top">
@@ -378,25 +372,12 @@ const header = `
 													</li>
 												</ul>
 											</li>
-											<li id="menu-item-232"
+											<li id="menu-item-232" onclick = "window.location.href = 'https://auttvl.ac.in/aicte'"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-232 nav-item">
 												<a href="#" data-toggle="dropdown" aria-haspopup="true"
 													aria-expanded="false" class="dropdown-toggle nav-link"
 													id="menu-item-dropdown-232">AICTE</a>
-												<ul class="sub-menu" aria-labelledby="menu-item-dropdown-232">
-													<li id="menu-item-1075"
-														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1075">
-														<a target="_blank" rel="noopener noreferrer" itemprop="url"
-															href="wp-content/uploads/2021/10/LoA.pdf">Letter of
-															Approval(LoA)</a>
-													</li>
-													<li id="menu-item-1077"
-														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1077">
-														<a target="_blank" rel="noopener noreferrer" itemprop="url"
-															href="wp-content/uploads/2021/10/EOA.pdf">Extension Of
-															Approval (EOA)</a>
-													</li>
-												</ul>
+												
 											</li>
 											<li id="menu-item-242"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242 nav-item">
@@ -425,7 +406,7 @@ const header = `
 		</div>
 	</header>
 
-`
+`;
 
 const footer = `
 <footer class="footer-area">
@@ -493,7 +474,6 @@ const footer = `
 	</div>
 
 
-`
-
+`;
 
 initUI();
