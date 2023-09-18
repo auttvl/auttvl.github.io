@@ -345,7 +345,7 @@ const header = `
 													<li id="menu-item-165"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165">
 														<a itemprop="url"
-															href="research/list-of-supervisors/index.html">List of
+															href="https://auttvl.ac.in/research/list-of-supervisors/index.html">List of
 															Supervisors</a>
 													</li>
 													<li id="menu-item-754"
@@ -361,7 +361,7 @@ const header = `
 													<li id="menu-item-752"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752">
 														<a itemprop="url"
-															href="sponsored-research-project/index.html">Sponsored
+															href="https://auttvl.ac.in/sponsored-research-project/index.html">Sponsored
 															Research Project</a>
 													</li>
 													<li id="menu-item-1078"
