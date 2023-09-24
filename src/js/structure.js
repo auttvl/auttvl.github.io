@@ -350,26 +350,9 @@ const header = `
 													</li>
 													<li id="menu-item-754"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754">
-														<a itemprop="url" href="https://auttvl.ac.in/journal-publications/index.html">Journal
-															Publications</a>
-													</li>
-													<li id="menu-item-753"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-753">
-														<a itemprop="url" href="https://auttvl.ac.in/patent-filed/index.html">Patent
-															Filed</a>
-													</li>
-													<li id="menu-item-752"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752">
-														<a itemprop="url"
-															href="https://auttvl.ac.in/sponsored-research-project/index.html">Sponsored
-															Research Project</a>
-													</li>
-													<li id="menu-item-1078"
-														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1078">
-														<a target="_blank" rel="noopener noreferrer" itemprop="url"
-															href="../../www.auttvl.ac.in/Images/Consultancy%20Projects.pdf">Consultancy
-															Projects</a>
-													</li>
+														<a itemprop="url" href="https://auttvl.irins.org/">Faculty 
+														Research Details</a>
+					
 												</ul>
 											</li>
 											<li id="menu-item-232" onclick = "window.location.href = 'https://auttvl.ac.in/aicte'"
