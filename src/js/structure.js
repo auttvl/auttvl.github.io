@@ -352,7 +352,7 @@ const header = `
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754">
 														<a itemprop="url" href="https://auttvl.irins.org/">Faculty 
 														Research Details</a>
-					
+													</li>
 												</ul>
 											</li>
 											<li id="menu-item-232" onclick = "window.location.href = 'https://auttvl.ac.in/aicte'"
