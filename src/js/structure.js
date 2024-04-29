@@ -273,20 +273,7 @@ const header = `
 													<li id="menu-item-205"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205">
 														<a itemprop="url"
-															href="https://auttvl.ac.in/committees-cell/grievance-committee/index.html">Grievance
-															Committee</a>
-													</li>
-													<li id="menu-item-204"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204">
-														<a itemprop="url"
-															href="https://auttvl.ac.in/committees-cell/discipline-committee/index.html">Discipline
-															Committee</a>
-													</li>
-													<li id="menu-item-203"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-203">
-														<a itemprop="url"
-															href="https://auttvl.ac.in/committees-cell/anti-sexual-harassment-commitee/index.html">Anti
-															Sexual Harassment Commitee</a>
+															href="https://auttvl.ac.in/committees-cell/grievance-committee/index.html">Student Grievance Redressal Committee</a>
 													</li>
 													<li id="menu-item-202"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202">
@@ -297,25 +284,7 @@ const header = `
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201">
 														<a itemprop="url"
 															href="https://auttvl.ac.in/committees-cell/internal-complaint-commitee/index.html">Internal
-															Complaint Commitee</a>
-													</li>
-													<li id="menu-item-200"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200">
-														<a itemprop="url"
-															href="https://auttvl.ac.in/committees-cell/social-media-cell/index.html">Social
-															Media Cell</a>
-													</li>
-													<li id="menu-item-199"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199">
-														<a itemprop="url"
-															href="https://auttvl.ac.in/committees-cell/intellectual-property-right-cell/index.html">Intellectual
-															Property Right Cell</a>
-													</li>
-													<li id="menu-item-198"
-														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198">
-														<a itemprop="url"
-															href="https://auttvl.ac.in/committees-cell/innovation-cell/index.html">Innovation
-															Cell</a>
+															Complaints Commitee</a>
 													</li>
 													<li id="menu-item-197"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197">
