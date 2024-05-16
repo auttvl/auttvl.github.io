@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link
+      href="./assets-new/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      /* .container{
+            width:90%
+            margin:10px auto;
+        } */
+      .portfolio-menu {
+        text-align: center;
+      }
+      .portfolio-menu ul li {
+        display: inline-block;
+        margin: 0;
+        list-style: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        -webkit-transition: all 05s ease;
+        -moz-transition: all 05s ease;
+        -ms-transition: all 05s ease;
+        -o-transition: all 05s ease;
+        transition: all 0.5s ease;
+      }
+
+      .portfolio-item {
+        /*width:100%;*/
+      }
+      .portfolio-item .item {
+        /*width:303px;*/
+        float: left;
+        margin-bottom: 10px;
+      }
+    </style>
+
+    <div class="container">
+      <div class="portfolio-menu mt-2 mb-4">
+        <ul>
+          <li class="btn btn-outline-dark active mb-1" data-filter="*">All</li>
+        </ul>
+      </div>
+      <div class="portfolio-item row">
+        
+      </div>
+    </div>
+
+    <script>
+      // $('.portfolio-item').isotope({
+      //  	itemSelector: '.item',
+      //  	layoutMode: 'fitRows'
+      //  });
+
+      async function updateImages() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var department = urlParams.get("department");
+
+        fetch("./images_path.json")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            return response.json();
+          })
+          .then((data) => {
+            data = data[department];
+            event_list = document.querySelector(".portfolio-menu ul");
+            for (const item in data) {
+              console.log(item);
+              var li = document.createElement("li");
+              li.classList.add("btn", "btn-outline-dark", "mr-1", "mb-1");
+              li.setAttribute("data-filter", "." + item);
+              li.innerHTML = item.toUpperCase();
+              event_list.appendChild(li);
+              var portfolio_item = document.querySelector(".portfolio-item");
+              for (const image in data[item]) {
+                var div = document.createElement("div");
+                div.classList.add(
+                  "item",
+                  item,
+                  "col-lg-3",
+                  "col-md-4",
+                  "col-6",
+                  "col-sm"
+                );
+                var a = document.createElement("a");
+                a.href = data[item][image];
+                a.classList.add("fancylight", "popup-btn");
+                a.setAttribute("data-fancybox-group", "light");
+                var img = document.createElement("img");
+                img.classList.add("img-fluid");
+                img.src = data[item][image];
+                a.appendChild(img);
+                div.appendChild(a);
+                portfolio_item.appendChild(div);
+                console.log(image);
+              }
+            }
+            var popup_btn = $(".popup-btn");
+            console.log(popup_btn);
+            popup_btn.magnificPopup({
+              type: "image",
+              gallery: {
+                enabled: true,
+              },
+            });
+            $(".portfolio-menu ul li").click(function () {
+              $(".portfolio-menu ul li").removeClass("active");
+              $(this).addClass("active");
+    
+              var selector = $(this).attr("data-filter");
+              $(".portfolio-item").isotope({
+                filter: selector,
+              });
+              return false;
+            });
+          })
+          .catch((error) => {
+            console.error("Fetch error:", error);
+          });
+      }
+    </script>
+    <script src="./assets-new/bootstrap.min.js"></script>
+    <script src="./assets-new/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="./assets-new/magnific-popup.css" />
+    <script src="./assets-new/isotope.pkgd.js"></script>
+    <script src="./assets-new/jquery.magnific-popup.js"></script>
+
+    <script>
+      async function test() {
+        $(".portfolio-menu ul li").click(function () {
+          $(".portfolio-menu ul li").removeClass("active");
+          $(this).addClass("active");
+
+          var selector = $(this).attr("data-filter");
+          $(".portfolio-item").isotope({
+            filter: selector,
+          });
+          return false;
+        });
+        $(document).ready(function () {
+          var popup_btn = $(".popup-btn");
+          popup_btn.magnificPopup({
+            type: "image",
+            gallery: {
+              enabled: true,
+            },
+          });
+        });
+      }
+
+      updateImages()
+    </script>
+  </body>
+</html>
