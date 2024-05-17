@@ -12,6 +12,10 @@
             "KALAM_2.JPG": "./images-upload/snh/kalam/KALAM_2.JPG",
             "KALAM_4.JPG": "./images-upload/snh/kalam/KALAM_4.JPG"
         },
+        "science-club": {
+            "Science_Club_1.jpg": "./images-upload/snh/science-club/Science_Club_1.jpg",
+            "Science_Club_2.jpg": "./images-upload/snh/science-club/Science_Club_2.jpg"
+        },
         "SIP": {
             "SIP_4.jpg": "./images-upload/snh/SIP/SIP_4.jpg",
             "Science_Club_1.jpg": "./images-upload/snh/SIP/Science_Club_1.jpg",
