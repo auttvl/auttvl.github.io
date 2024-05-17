@@ -1,5 +1,7 @@
 {
-    "cse": {},
+    "cse": {
+        "CSE-scaled.jpg": "./images-upload\\cse\\CSE-scaled.jpg"
+    },
     "ece": {},
     "geo": {},
     "mba": {},

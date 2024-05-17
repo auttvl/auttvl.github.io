@@ -52,9 +52,7 @@
           <li class="btn btn-outline-dark active mb-1" data-filter="*">All</li>
         </ul>
       </div>
-      <div class="portfolio-item row">
-        
-      </div>
+      <div class="portfolio-item row"></div>
     </div>
 
     <script>
@@ -62,7 +60,16 @@
       //  	itemSelector: '.item',
       //  	layoutMode: 'fitRows'
       //  });
+    </script>
+    <script src="./assets-new/bootstrap.min.js"></script>
+    <script src="./assets-new/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
 
+    <link rel="stylesheet" href="./assets-new/magnific-popup.css" />
+    <script src="./assets-new/isotope.pkgd.js"></script>
+    <script src="./assets-new/jquery.magnific-popup.js"></script>
+
+    <script>
       async function updateImages() {
         var urlParams = new URLSearchParams(window.location.search);
         var department = urlParams.get("department");
@@ -119,7 +126,7 @@
             $(".portfolio-menu ul li").click(function () {
               $(".portfolio-menu ul li").removeClass("active");
               $(this).addClass("active");
-    
+
               var selector = $(this).attr("data-filter");
               $(".portfolio-item").isotope({
                 filter: selector,
@@ -131,39 +138,8 @@
             console.error("Fetch error:", error);
           });
       }
-    </script>
-    <script src="./assets-new/bootstrap.min.js"></script>
-    <script src="./assets-new/jquery.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
 
-    <link rel="stylesheet" href="./assets-new/magnific-popup.css" />
-    <script src="./assets-new/isotope.pkgd.js"></script>
-    <script src="./assets-new/jquery.magnific-popup.js"></script>
-
-    <script>
-      async function test() {
-        $(".portfolio-menu ul li").click(function () {
-          $(".portfolio-menu ul li").removeClass("active");
-          $(this).addClass("active");
-
-          var selector = $(this).attr("data-filter");
-          $(".portfolio-item").isotope({
-            filter: selector,
-          });
-          return false;
-        });
-        $(document).ready(function () {
-          var popup_btn = $(".popup-btn");
-          popup_btn.magnificPopup({
-            type: "image",
-            gallery: {
-              enabled: true,
-            },
-          });
-        });
-      }
-
-      updateImages()
+      updateImages();
     </script>
   </body>
 </html>
