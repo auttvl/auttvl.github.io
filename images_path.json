@@ -1,36 +1,72 @@
 {
-    "snh": {
-        "kalam": {
-            "KALAM_9.JPG": "./images-upload/snh/kalam/KALAM_9.JPG",
-            "KALAM_10.JPG": "./images-upload/snh/kalam/KALAM_10.JPG",
-            "KALAM_8.JPG": "./images-upload/snh/kalam/KALAM_8.JPG",
-            "KALAM_1.JPG": "./images-upload/snh/kalam/KALAM_1.JPG",
-            "KALAM_5.JPG": "./images-upload/snh/kalam/KALAM_5.JPG",
-            "KALAM_6.JPG": "./images-upload/snh/kalam/KALAM_6.JPG",
-            "KALAM_7.JPG": "./images-upload/snh/kalam/KALAM_7.JPG",
-            "KALAM_3.JPG": "./images-upload/snh/kalam/KALAM_3.JPG",
-            "KALAM_2.JPG": "./images-upload/snh/kalam/KALAM_2.JPG",
-            "KALAM_4.JPG": "./images-upload/snh/kalam/KALAM_4.JPG"
-        },
-        "science-club": {
-            "Science_Club_1.jpg": "./images-upload/snh/science-club/Science_Club_1.jpg",
-            "Science_Club_2.jpg": "./images-upload/snh/science-club/Science_Club_2.jpg"
-        },
-        "SIP": {
-            "SIP_4.jpg": "./images-upload/snh/SIP/SIP_4.jpg",
-            "Science_Club_1.jpg": "./images-upload/snh/SIP/Science_Club_1.jpg",
-            "SIP_2.jpg": "./images-upload/snh/SIP/SIP_2.jpg",
-            "Science_Club_2.jpg": "./images-upload/snh/SIP/Science_Club_2.jpg",
-            "SIP_3.jpg": "./images-upload/snh/SIP/SIP_3.jpg",
-            "SIP_1.jpg": "./images-upload/snh/SIP/SIP_1.jpg"
-        },
-        "press-release": {
-            "KALAM_paper_news.jpg": "./images-upload/snh/press-release/KALAM_paper_news.jpg"
-        }
-    },
     "cse": {
         "gall": {
-            "CSE-scaled.jpg": "./images-upload/cse/gall/CSE-scaled.jpg"
+            "CSE-scaled.jpg": "./images-upload\\cse\\gall\\CSE-scaled.jpg"
+        }
+    },
+    "ece": {},
+    "geo": {},
+    "mba": {},
+    "mech": {
+        "farewell": {
+            "2023-2024 BATCH FAREWELL.jpg": "./images-upload\\mech\\farewell\\2023-2024 BATCH FAREWELL.jpg"
+        },
+        "old": {
+            "AURCTVL 11.03.15 1.jpg": "./images-upload\\mech\\old\\AURCTVL 11.03.15 1.jpg",
+            "AURCTVL 11.03.15 2.jpg": "./images-upload\\mech\\old\\AURCTVL 11.03.15 2.jpg",
+            "IMG_7997.JPG": "./images-upload\\mech\\old\\IMG_7997.JPG",
+            "IMG_9983 - Copy.JPG": "./images-upload\\mech\\old\\IMG_9983 - Copy.JPG"
+        },
+        "placement-training": {
+            "1.jpg": "./images-upload\\mech\\placement-training\\1.jpg",
+            "10.jpg": "./images-upload\\mech\\placement-training\\10.jpg",
+            "11.jpg": "./images-upload\\mech\\placement-training\\11.jpg",
+            "12.jpg": "./images-upload\\mech\\placement-training\\12.jpg",
+            "13.jpg": "./images-upload\\mech\\placement-training\\13.jpg",
+            "14.jpg": "./images-upload\\mech\\placement-training\\14.jpg",
+            "16.jpg": "./images-upload\\mech\\placement-training\\16.jpg",
+            "17.jpg": "./images-upload\\mech\\placement-training\\17.jpg",
+            "18.jpg": "./images-upload\\mech\\placement-training\\18.jpg",
+            "19.jpg": "./images-upload\\mech\\placement-training\\19.jpg",
+            "2.jpg": "./images-upload\\mech\\placement-training\\2.jpg",
+            "20.jpg": "./images-upload\\mech\\placement-training\\20.jpg",
+            "3.jpg": "./images-upload\\mech\\placement-training\\3.jpg",
+            "4.jpg": "./images-upload\\mech\\placement-training\\4.jpg",
+            "5.jpg": "./images-upload\\mech\\placement-training\\5.jpg",
+            "6.jpg": "./images-upload\\mech\\placement-training\\6.jpg",
+            "8.jpg": "./images-upload\\mech\\placement-training\\8.jpg"
+        },
+        "placements": {
+            "PLACED STUDENTS 2023-2024.jpg": "./images-upload\\mech\\placements\\PLACED STUDENTS 2023-2024.jpg"
+        }
+    },
+    "snh": {
+        "kalam": {
+            "KALAM_1.JPG": "./images-upload\\snh\\kalam\\KALAM_1.JPG",
+            "KALAM_10.JPG": "./images-upload\\snh\\kalam\\KALAM_10.JPG",
+            "KALAM_2.JPG": "./images-upload\\snh\\kalam\\KALAM_2.JPG",
+            "KALAM_3.JPG": "./images-upload\\snh\\kalam\\KALAM_3.JPG",
+            "KALAM_4.JPG": "./images-upload\\snh\\kalam\\KALAM_4.JPG",
+            "KALAM_5.JPG": "./images-upload\\snh\\kalam\\KALAM_5.JPG",
+            "KALAM_6.JPG": "./images-upload\\snh\\kalam\\KALAM_6.JPG",
+            "KALAM_7.JPG": "./images-upload\\snh\\kalam\\KALAM_7.JPG",
+            "KALAM_8.JPG": "./images-upload\\snh\\kalam\\KALAM_8.JPG",
+            "KALAM_9.JPG": "./images-upload\\snh\\kalam\\KALAM_9.JPG"
+        },
+        "press-release": {
+            "KALAM_paper_news.jpg": "./images-upload\\snh\\press-release\\KALAM_paper_news.jpg"
+        },
+        "science-club": {
+            "Science_Club_1.jpg": "./images-upload\\snh\\science-club\\Science_Club_1.jpg",
+            "Science_Club_2.jpg": "./images-upload\\snh\\science-club\\Science_Club_2.jpg"
+        },
+        "SIP": {
+            "Science_Club_1.jpg": "./images-upload\\snh\\SIP\\Science_Club_1.jpg",
+            "Science_Club_2.jpg": "./images-upload\\snh\\SIP\\Science_Club_2.jpg",
+            "SIP_1.jpg": "./images-upload\\snh\\SIP\\SIP_1.jpg",
+            "SIP_2.jpg": "./images-upload\\snh\\SIP\\SIP_2.jpg",
+            "SIP_3.jpg": "./images-upload\\snh\\SIP\\SIP_3.jpg",
+            "SIP_4.jpg": "./images-upload\\snh\\SIP\\SIP_4.jpg"
         }
     }
 }
