@@ -29,14 +29,22 @@
         }
     },
     "mech": {
-        "old": {
-            "AURCTVL 11.03.15 2.jpg": "./images-upload/mech/old/AURCTVL 11.03.15 2.jpg",
-            "IMG_7997.JPG": "./images-upload/mech/old/IMG_7997.JPG",
-            "AURCTVL 11.03.15 1.jpg": "./images-upload/mech/old/AURCTVL 11.03.15 1.jpg",
-            "IMG_9983 - Copy.JPG": "./images-upload/mech/old/IMG_9983 - Copy.JPG"
+        "recruiters": {
+            "vi.png": "./images-upload/mech/recruiters/vi.png",
+            "timken.png": "./images-upload/mech/recruiters/timken.png",
+            "rane.png": "./images-upload/mech/recruiters/rane.png",
+            "jersey.png": "./images-upload/mech/recruiters/jersey.png",
+            "autotech.png": "./images-upload/mech/recruiters/autotech.png",
+            "ue.png": "./images-upload/mech/recruiters/ue.png"
         },
         "farewell": {
             "2023-2024 BATCH FAREWELL.jpg": "./images-upload/mech/farewell/2023-2024 BATCH FAREWELL.jpg"
+        },
+        "workshop": {
+            "AURCTVL 11.03.15 2.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 2.jpg",
+            "IMG_7997.JPG": "./images-upload/mech/workshop/IMG_7997.JPG",
+            "AURCTVL 11.03.15 1.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 1.jpg",
+            "IMG_9983 - Copy.JPG": "./images-upload/mech/workshop/IMG_9983 - Copy.JPG"
         },
         "placement-training": {
             "14.jpg": "./images-upload/mech/placement-training/14.jpg",
