@@ -260,16 +260,16 @@ const header = `
 											</li>
 											<li id="menu-item-195"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-195 nav-item">
-												<a href="#" data-toggle="dropdown" aria-haspopup="true"
+												<a href="../../aicte" data-toggle="dropdown" aria-haspopup="true"
 													aria-expanded="false" class="dropdown-toggle nav-link"
-													id="menu-item-dropdown-195">Committees &#038; Cell</a>
+													id="menu-item-dropdown-195" onclick="window.location.href = 'https://auttvl.ac.in/aicte'">AICTE</a>
 												<ul class="sub-menu" aria-labelledby="menu-item-dropdown-195">
-													<li id="menu-item-206"
+													<!-- <li id="menu-item-206"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206">
 														<a itemprop="url"
 															href="https://auttvl.ac.in/committees-cell/women-empowerment-cell/index.html">Women
 															Empowerment Cell</a>
-													</li>
+													</li> -->
 													<li id="menu-item-205"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205">
 														<a itemprop="url"
@@ -324,13 +324,13 @@ const header = `
 													</li>
 												</ul>
 											</li>
-											<li id="menu-item-232" onclick = "window.location.href = 'https://auttvl.ac.in/aicte'"
+											<!-- <li id="menu-item-232" onclick = "window.location.href = 'https://auttvl.ac.in/aicte'"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-232 nav-item">
 												<a href="#" data-toggle="dropdown" aria-haspopup="true"
 													aria-expanded="false" class="dropdown-toggle nav-link"
 													id="menu-item-dropdown-232">AICTE</a>
 												
-											</li>
+											</li> -->
 											<li id="menu-item-242"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242 nav-item">
 												<a itemprop="url" href="https://auttvl.ac.in/gallery/index.html" class="nav-link">Gallery</a>
