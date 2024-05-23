@@ -205,11 +205,11 @@ const header = `
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725">
 														<a itemprop="url" href="https://auttvl.ac.in/library/index.html">Library</a>
 													</li>
-													<li id="menu-item-143"
+													<!-- <li id="menu-item-143"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143">
 														<a itemprop="url" href="https://auttvl.ac.in/academic/faculty/index.html">Faculty
 															Incharge</a>
-													</li>
+													</li> -->
 												</ul>
 											</li>
 											<li id="menu-item-740"
