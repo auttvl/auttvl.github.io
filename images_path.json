@@ -28,6 +28,20 @@
             "KALAM_paper_news.jpg": "./images-upload/snh/press-release/KALAM_paper_news.jpg"
         }
     },
+    "mba": {
+        "2024": {
+            "20240511_124358.jpg": "./images-upload/mba/2024/20240511_124358.jpg",
+            "20240511_124504.jpg": "./images-upload/mba/2024/20240511_124504.jpg"
+        },
+        "management-maze-2k24": {
+            "IMG-20240504-WA0004.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0004.jpg",
+            "IMG-20240504-WA0002.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0002.jpg",
+            "IMG-20240504-WA0012.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0012.jpg",
+            "IMG-20240504-WA0011.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0011.jpg",
+            "IMG-20240504-WA0008.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0008.jpg",
+            "IMG-20240504-WA0007.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0007.jpg"
+        }
+    },
     "mech": {
         "recruiters": {
             "vi.png": "./images-upload/mech/recruiters/vi.png",
