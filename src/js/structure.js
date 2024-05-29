@@ -263,7 +263,17 @@ const header = `
 												<a href="../../aicte" data-toggle="dropdown" aria-haspopup="true"
 													aria-expanded="false" class="dropdown-toggle nav-link"
 													id="menu-item-dropdown-195" onclick="window.location.href = 'https://auttvl.ac.in/aicte'">AICTE</a>
-												<ul class="sub-menu" aria-labelledby="menu-item-dropdown-195">
+													<ul class="sub-menu" aria-labelledby="menu-item-dropdown-195">
+													<li id="menu-item-206"
+														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206">
+														<a itemprop="url"
+															href="https://auttvl.ac.in/aicte">AICTE Approval</a>
+													</li>
+													<li id="menu-item-205"
+														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205">
+														<a itemprop="url"
+															href="#">Committees &#038; Cell</a>
+															<ul class="sub-menu" aria-labelledby="menu-item-dropdown-195">
 													<!-- <li id="menu-item-206"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206">
 														<a itemprop="url"
@@ -304,6 +314,9 @@ const header = `
 															Ragging</a>
 													</li>
 												</ul>
+													</li>
+													</ul>
+												
 											</li>
 											<li id="menu-item-163"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-163 nav-item">
