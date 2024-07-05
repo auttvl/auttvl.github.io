@@ -1,6 +1,11 @@
 {
     "snh": {
-        "maths-club-inauguration": {},
+        "maths-club-inauguration": {
+            "MC3.jpg": "./images-upload/snh/maths-club-inauguration/MC3.jpg",
+            "MC1.jpg": "./images-upload/snh/maths-club-inauguration/MC1.jpg",
+            "MC2.jpg": "./images-upload/snh/maths-club-inauguration/MC2.jpg",
+            "MC0.jpg": "./images-upload/snh/maths-club-inauguration/MC0.jpg"
+        },
         "kalam": {
             "KALAM_9.JPG": "./images-upload/snh/kalam/KALAM_9.JPG",
             "KALAM_6.JPG": "./images-upload/snh/kalam/KALAM_6.JPG",
