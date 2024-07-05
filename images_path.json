@@ -1,5 +1,6 @@
 {
     "snh": {
+        "maths-club-inauguration": {},
         "kalam": {
             "KALAM_9.JPG": "./images-upload/snh/kalam/KALAM_9.JPG",
             "KALAM_6.JPG": "./images-upload/snh/kalam/KALAM_6.JPG",
@@ -15,6 +16,12 @@
         "science-club": {
             "Science_Club_2.jpg": "./images-upload/snh/science-club/Science_Club_2.jpg",
             "Science_Club_1.jpg": "./images-upload/snh/science-club/Science_Club_1.jpg"
+        },
+        "environmental-day-2024": {
+            "ED0.jpg": "./images-upload/snh/environmental-day-2024/ED0.jpg",
+            "ED1.jpg": "./images-upload/snh/environmental-day-2024/ED1.jpg",
+            "ED3.jpg": "./images-upload/snh/environmental-day-2024/ED3.jpg",
+            "ED2.jpg": "./images-upload/snh/environmental-day-2024/ED2.jpg"
         },
         "SIP": {
             "Science_Club_2.jpg": "./images-upload/snh/SIP/Science_Club_2.jpg",
