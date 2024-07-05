@@ -50,6 +50,12 @@
     "placements": {
         "common": {
             "nm3.jpg": "./images-upload/placements/common/nm3.jpg",
+            "pl1.jpg": "./images-upload/placements/common/pl1.jpg",
+            "pl2.jpg": "./images-upload/placements/common/pl2.jpg",
+            "pl5.jpg": "./images-upload/placements/common/pl5.jpg",
+            "pl6.jpg": "./images-upload/placements/common/pl6.jpg",
+            "pl4.jpg": "./images-upload/placements/common/pl4.jpg",
+            "pl3.jpg": "./images-upload/placements/common/pl3.jpg",
             "companies.jpg": "./images-upload/placements/common/companies.jpg",
             "nm1.jpg": "./images-upload/placements/common/nm1.jpg",
             "nm2.jpg": "./images-upload/placements/common/nm2.jpg",
