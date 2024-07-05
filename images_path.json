@@ -2,90 +2,99 @@
     "snh": {
         "kalam": {
             "KALAM_9.JPG": "./images-upload/snh/kalam/KALAM_9.JPG",
+            "KALAM_6.JPG": "./images-upload/snh/kalam/KALAM_6.JPG",
+            "KALAM_1.JPG": "./images-upload/snh/kalam/KALAM_1.JPG",
+            "KALAM_3.JPG": "./images-upload/snh/kalam/KALAM_3.JPG",
+            "KALAM_5.JPG": "./images-upload/snh/kalam/KALAM_5.JPG",
             "KALAM_10.JPG": "./images-upload/snh/kalam/KALAM_10.JPG",
             "KALAM_8.JPG": "./images-upload/snh/kalam/KALAM_8.JPG",
-            "KALAM_1.JPG": "./images-upload/snh/kalam/KALAM_1.JPG",
-            "KALAM_5.JPG": "./images-upload/snh/kalam/KALAM_5.JPG",
-            "KALAM_6.JPG": "./images-upload/snh/kalam/KALAM_6.JPG",
             "KALAM_7.JPG": "./images-upload/snh/kalam/KALAM_7.JPG",
-            "KALAM_3.JPG": "./images-upload/snh/kalam/KALAM_3.JPG",
-            "KALAM_2.JPG": "./images-upload/snh/kalam/KALAM_2.JPG",
-            "KALAM_4.JPG": "./images-upload/snh/kalam/KALAM_4.JPG"
+            "KALAM_4.JPG": "./images-upload/snh/kalam/KALAM_4.JPG",
+            "KALAM_2.JPG": "./images-upload/snh/kalam/KALAM_2.JPG"
         },
         "science-club": {
-            "Science_Club_1.jpg": "./images-upload/snh/science-club/Science_Club_1.jpg",
-            "Science_Club_2.jpg": "./images-upload/snh/science-club/Science_Club_2.jpg"
+            "Science_Club_2.jpg": "./images-upload/snh/science-club/Science_Club_2.jpg",
+            "Science_Club_1.jpg": "./images-upload/snh/science-club/Science_Club_1.jpg"
         },
         "SIP": {
-            "SIP_4.jpg": "./images-upload/snh/SIP/SIP_4.jpg",
-            "Science_Club_1.jpg": "./images-upload/snh/SIP/Science_Club_1.jpg",
-            "SIP_2.jpg": "./images-upload/snh/SIP/SIP_2.jpg",
             "Science_Club_2.jpg": "./images-upload/snh/SIP/Science_Club_2.jpg",
+            "SIP_1.jpg": "./images-upload/snh/SIP/SIP_1.jpg",
+            "SIP_2.jpg": "./images-upload/snh/SIP/SIP_2.jpg",
             "SIP_3.jpg": "./images-upload/snh/SIP/SIP_3.jpg",
-            "SIP_1.jpg": "./images-upload/snh/SIP/SIP_1.jpg"
+            "Science_Club_1.jpg": "./images-upload/snh/SIP/Science_Club_1.jpg",
+            "SIP_4.jpg": "./images-upload/snh/SIP/SIP_4.jpg"
         },
         "press-release": {
             "KALAM_paper_news.jpg": "./images-upload/snh/press-release/KALAM_paper_news.jpg"
         }
     },
-    "mba": {
-        "2024": {
-            "20240511_124358.jpg": "./images-upload/mba/2024/20240511_124358.jpg",
-            "20240511_124504.jpg": "./images-upload/mba/2024/20240511_124504.jpg"
-        },
-        "management-maze-2k24": {
-            "IMG-20240504-WA0004.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0004.jpg",
-            "IMG-20240504-WA0002.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0002.jpg",
-            "IMG-20240504-WA0012.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0012.jpg",
-            "IMG-20240504-WA0011.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0011.jpg",
-            "IMG-20240504-WA0008.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0008.jpg",
-            "IMG-20240504-WA0007.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0007.jpg"
-        }
-    },
-    "mech": {
-        "recruiters": {
-            "vi.png": "./images-upload/mech/recruiters/vi.png",
-            "timken.png": "./images-upload/mech/recruiters/timken.png",
-            "rane.png": "./images-upload/mech/recruiters/rane.png",
-            "jersey.png": "./images-upload/mech/recruiters/jersey.png",
-            "autotech.png": "./images-upload/mech/recruiters/autotech.png",
-            "ue.png": "./images-upload/mech/recruiters/ue.png"
-        },
-        "farewell": {
-            "2023-2024 BATCH FAREWELL.jpg": "./images-upload/mech/farewell/2023-2024 BATCH FAREWELL.jpg"
-        },
-        "workshop": {
-            "AURCTVL 11.03.15 2.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 2.jpg",
-            "IMG_7997.JPG": "./images-upload/mech/workshop/IMG_7997.JPG",
-            "AURCTVL 11.03.15 1.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 1.jpg",
-            "IMG_9983 - Copy.JPG": "./images-upload/mech/workshop/IMG_9983 - Copy.JPG"
-        },
-        "placement-training": {
-            "14.jpg": "./images-upload/mech/placement-training/14.jpg",
-            "19.jpg": "./images-upload/mech/placement-training/19.jpg",
-            "10.jpg": "./images-upload/mech/placement-training/10.jpg",
-            "1.jpg": "./images-upload/mech/placement-training/1.jpg",
-            "8.jpg": "./images-upload/mech/placement-training/8.jpg",
-            "4.jpg": "./images-upload/mech/placement-training/4.jpg",
-            "5.jpg": "./images-upload/mech/placement-training/5.jpg",
-            "3.jpg": "./images-upload/mech/placement-training/3.jpg",
-            "18.jpg": "./images-upload/mech/placement-training/18.jpg",
-            "12.jpg": "./images-upload/mech/placement-training/12.jpg",
-            "6.jpg": "./images-upload/mech/placement-training/6.jpg",
-            "2.jpg": "./images-upload/mech/placement-training/2.jpg",
-            "20.jpg": "./images-upload/mech/placement-training/20.jpg",
-            "16.jpg": "./images-upload/mech/placement-training/16.jpg",
-            "17.jpg": "./images-upload/mech/placement-training/17.jpg",
-            "13.jpg": "./images-upload/mech/placement-training/13.jpg",
-            "11.jpg": "./images-upload/mech/placement-training/11.jpg"
-        },
-        "placements": {
-            "PLACED STUDENTS 2023-2024.jpg": "./images-upload/mech/placements/PLACED STUDENTS 2023-2024.jpg"
-        }
-    },
     "cse": {
         "gall": {
             "CSE-scaled.jpg": "./images-upload/cse/gall/CSE-scaled.jpg"
+        }
+    },
+    "mba": {
+        "management-maze-2k24": {
+            "IMG-20240504-WA0004.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0004.jpg",
+            "IMG-20240504-WA0012.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0012.jpg",
+            "IMG-20240504-WA0002.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0002.jpg",
+            "IMG-20240504-WA0008.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0008.jpg",
+            "IMG-20240504-WA0007.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0007.jpg",
+            "IMG-20240504-WA0011.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0011.jpg"
+        },
+        "2024": {
+            "20240511_124504.jpg": "./images-upload/mba/2024/20240511_124504.jpg",
+            "20240511_124358.jpg": "./images-upload/mba/2024/20240511_124358.jpg"
+        }
+    },
+    "placements": {
+        "common": {
+            "nm3.jpg": "./images-upload/placements/common/nm3.jpg",
+            "companies.jpg": "./images-upload/placements/common/companies.jpg",
+            "nm1.jpg": "./images-upload/placements/common/nm1.jpg",
+            "nm2.jpg": "./images-upload/placements/common/nm2.jpg",
+            "companies1.jpg": "./images-upload/placements/common/companies1.jpg"
+        }
+    },
+    "mech": {
+        "farewell": {
+            "2023-2024 BATCH FAREWELL.jpg": "./images-upload/mech/farewell/2023-2024 BATCH FAREWELL.jpg"
+        },
+        "recruiters": {
+            "jersey.png": "./images-upload/mech/recruiters/jersey.png",
+            "vi.png": "./images-upload/mech/recruiters/vi.png",
+            "autotech.png": "./images-upload/mech/recruiters/autotech.png",
+            "timken.png": "./images-upload/mech/recruiters/timken.png",
+            "ue.png": "./images-upload/mech/recruiters/ue.png",
+            "rane.png": "./images-upload/mech/recruiters/rane.png"
+        },
+        "workshop": {
+            "IMG_7997.JPG": "./images-upload/mech/workshop/IMG_7997.JPG",
+            "AURCTVL 11.03.15 2.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 2.jpg",
+            "IMG_9983 - Copy.JPG": "./images-upload/mech/workshop/IMG_9983 - Copy.JPG",
+            "AURCTVL 11.03.15 1.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 1.jpg"
+        },
+        "placement-training": {
+            "6.jpg": "./images-upload/mech/placement-training/6.jpg",
+            "16.jpg": "./images-upload/mech/placement-training/16.jpg",
+            "4.jpg": "./images-upload/mech/placement-training/4.jpg",
+            "13.jpg": "./images-upload/mech/placement-training/13.jpg",
+            "1.jpg": "./images-upload/mech/placement-training/1.jpg",
+            "5.jpg": "./images-upload/mech/placement-training/5.jpg",
+            "10.jpg": "./images-upload/mech/placement-training/10.jpg",
+            "18.jpg": "./images-upload/mech/placement-training/18.jpg",
+            "8.jpg": "./images-upload/mech/placement-training/8.jpg",
+            "2.jpg": "./images-upload/mech/placement-training/2.jpg",
+            "14.jpg": "./images-upload/mech/placement-training/14.jpg",
+            "17.jpg": "./images-upload/mech/placement-training/17.jpg",
+            "12.jpg": "./images-upload/mech/placement-training/12.jpg",
+            "20.jpg": "./images-upload/mech/placement-training/20.jpg",
+            "11.jpg": "./images-upload/mech/placement-training/11.jpg",
+            "3.jpg": "./images-upload/mech/placement-training/3.jpg",
+            "19.jpg": "./images-upload/mech/placement-training/19.jpg"
+        },
+        "placements": {
+            "PLACED STUDENTS 2023-2024.jpg": "./images-upload/mech/placements/PLACED STUDENTS 2023-2024.jpg"
         }
     }
 }
