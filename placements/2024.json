@@ -1,0 +1,544 @@
+{
+  "cse": [
+    {
+      "name": "AHAMED AAMINA BANU Y S",
+      "company": "Finsurge Pvt Ltd",
+      "ctc": "3.5 Lakhs"
+    },
+    {
+      "name": "AISHA SIDHIKA WAFA",
+      "company": "DigiSailor",
+      "ctc": "3 Lakhs"
+    },
+    {
+      "name": "ARSHA FATHIMA J",
+      "company": "Digisailor",
+      "ctc": "3 Lakhs"
+    },
+    {
+      "name": "ASHOK RAJARAM S",
+      "company": "Finsurge Pvt Ltd",
+      "ctc": "3.5 Lakhs"
+    },
+    {
+      "name": "ATHILA DHILSHAD A",
+      "company": "Finsurge Pvt Ltd",
+      "ctc": "3.5 Lakhs"
+    },
+    {
+      "name": "CHANDRA R",
+      "company": "Datayaan",
+      "ctc": "3 Lakhs"
+    },
+    {
+      "name": "DEEPTI A",
+      "company": "Mitsogo",
+      "ctc": "6 Lakhs"
+    },
+    {
+      "name": "DOMINIC WALTER T",
+      "company": "ZOHO",
+      "ctc": "8.4 Lakhs"
+    },
+    {
+      "name": "GOLDA PRINCY P",
+      "company": "Silicon House , Coimbatore",
+      "ctc": "3.6 Lakhs"
+    },
+    {
+      "name": "KAVIYARASU K",
+      "company": "Finsurge Pvt Ltd",
+      "ctc": "3.5 Lakhs"
+    },
+    {
+      "name": "NETHEEN KRISHNA K",
+      "company": "Finsurge Pvt Ltd",
+      "ctc": "3.5 Lakhs"
+    },
+    {
+      "name": "PADMAVATHY V",
+      "company": "Kaar Technologies",
+      "ctc": "8 Lakhs"
+    },
+    {
+      "name": "PARITCHITHU MAHARAJAN M R",
+      "company": "Vi Microsystems Ltd",
+      "ctc": "2 Lakhs"
+    },
+    {
+      "name": "PATTU RAJA P",
+      "company": "Finsurge Pvt Ltd",
+      "ctc": "3.5 Lakhs"
+    },
+    {
+      "name": "POONGULALI S",
+      "company": "Finsurge Pvt Ltd",
+      "ctc": "3.5 Lakhs"
+    },
+    {
+      "name": "RAMAJEYAM R",
+      "company": "Finsurge Pvt Ltd",
+      "ctc": "3.5 Lakhs"
+    },
+    {
+      "name": "RIYA R",
+      "company": "Karyoun Innovations",
+      "ctc": "3 Lakhs"
+    },
+    {
+      "name": "SHOBANA S",
+      "company": "Silicon House , Coimbatore",
+      "ctc": "3.6 Lakhs"
+    },
+    {
+      "name": "SHUNMUGA PRIYA A",
+      "company": "Karyoun Innovations",
+      "ctc": "3 Lakhs"
+    },
+    {
+      "name": "SINDHIYA A",
+      "company": "Karyoun Innovations",
+      "ctc": "3 Lakhs"
+    },
+    {
+      "name": "SUPRIYA B",
+      "company": "Silicon House , Coimbatore",
+      "ctc": "3.6 Lakhs"
+    },
+    {
+      "name": "ANAND S",
+      "company": "Finsurge Pvt Ltd",
+      "ctc": "3.5 Lakhs"
+    }
+  ],
+  "ece": [
+    {
+      "name": "AARTHI N",
+      "company": "Silicon House"
+    },
+    {
+      "name": "ABINA J",
+      "company": "Silicon House"
+    },
+    {
+      "name": "ANGEL L",
+      "company": "Silicon House, PSS Agencies"
+    },
+    {
+      "name": "ARTHI P",
+      "company": "Silicon House"
+    },
+    {
+      "name": "BARATH SANKAR S R",
+      "company": "Autotech"
+    },
+    {
+      "name": "BIRUNTHA K",
+      "company": "(Foxconn)PSS groups"
+    },
+    {
+      "name": "BLESSY J",
+      "company": "(Foxconn)PSS groups"
+    },
+    {
+      "name": "DEEPASHREE K",
+      "company": "Finsurge Pvt Ltd, Autotech"
+    },
+    {
+      "name": "DHANASHREE A",
+      "company": "Silicon House"
+    },
+    {
+      "name": "DHEERAJ KUMAAR V A",
+      "company": "0Guru"
+    },
+    {
+      "name": "EASWARI R",
+      "company": "Silicon House"
+    },
+    {
+      "name": "HAREESH VISHNU G",
+      "company": "0Guru, Autotech"
+    },
+    {
+      "name": "JEEVASRI V",
+      "company": "(Foxconn)PSS groups"
+    },
+    {
+      "name": "KALI RAJ P",
+      "company": "Autotech"
+    },
+    {
+      "name": "KARTHIKEYAN S N",
+      "company": "Autotech"
+    },
+    {
+      "name": "KISHOR B",
+      "company": "Autotech"
+    },
+    {
+      "name": "LAKSHMI DEEPIKA V",
+      "company": "Silicon House"
+    },
+    {
+      "name": "MADHUMITHA ANU P",
+      "company": "Silicon House, plintron"
+    },
+    {
+      "name": "MARY PRINCY T",
+      "company": "Silicon House"
+    },
+    {
+      "name": "MUKESHKUMAR S",
+      "company": "Autotech"
+    },
+    {
+      "name": "MUTHUKKUMAR A",
+      "company": "Autotech"
+    },
+    {
+      "name": "PAULINE HANNAH K",
+      "company": "ZOHO"
+    },
+    {
+      "name": "PRABHA J",
+      "company": "Silicon House, Tp solar limited"
+    },
+    {
+      "name": "PRAVEEN M",
+      "company": "Autotech"
+    },
+    {
+      "name": "RIZIA R",
+      "company": "(Foxconn)PSS groups"
+    },
+    {
+      "name": "ROHIT E L",
+      "company": "0Guru, Autotech"
+    },
+    {
+      "name": "SUBHAA SHREE AARTHI S",
+      "company": "Silicon House"
+    },
+    {
+      "name": "VAJANTHA NATHAN R",
+      "company": "0Guru"
+    },
+    {
+      "name": "VEDA PRAKASH MOHANARANGAN",
+      "company": "Autotech, Iniciotek"
+    },
+    {
+      "name": "ASAN FARITHA.K",
+      "company": "(Foxconn)PSS groups"
+    },
+    {
+      "name": "SAMUTHARAKANI.U",
+      "company": "(Foxconn)PSS groups"
+    },
+    {
+      "name": "SHALINI.V",
+      "company": "(Foxconn)PSS groups"
+    },
+    {
+      "name": "VASANTHASUBRAMANIAN.S",
+      "company": "Autotech"
+    }
+  ],
+  "mech": [
+    {
+      "name": "AAEERATHAN BALAIAH P",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "AKASH R",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "AMUTHAVAN M",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "ANTONY ASWIN A",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "ARAVINDHAN ASHOKKUMAR",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "ARUN KUMAR A",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "AYIRAM K",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "CHOKKANATHAN S",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "DEEPALAKSHMI A",
+      "company": "RAHE NSK STEERING SYSTEMS, GUDUVANCHERY"
+    },
+    {
+      "name": "DEEPA SARAVAN S",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "DINESH RAJ R",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "DURAIRAJ T",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "FAISEL BAVA S",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "GANESH M",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "GOKUL KANNA K",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "HARI KRISHNAN I",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "IRUTHAYA SUBASH J",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "KIRTHIKA A",
+      "company": "VI Microsystems"
+    },
+    {
+      "name": "MARIMUTHU R",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "MASANA MUTHU M",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai, Auto Tech Company, Chennai"
+    },
+    {
+      "name": "MIDHUN M",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "MOHAMMED VAJAHAD M",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai, Auto Tech Company, Chennai"
+    },
+    {
+      "name": "MUTHU RAJAN M",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "PARAMESHWARI A",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "PARVATHINATHAN M",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "RAJ A",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "RAJESWARAN M",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "RESHIKN P S",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SAM ANITHREYA A",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SANJAI SHANKAR R",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SANJAY S",
+      "company": "Timken"
+    },
+    {
+      "name": "SANTHOSH MATHAVAN R",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai, Auto Tech Company, Chennai"
+    },
+    {
+      "name": "SARATHI R",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SARAVANA KUMAR P",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SENO J",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SHANKARA NARAYANAN B",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SHARATHKUMAR N C",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SUBASH S",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SUREN KUMAR G",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SYLVIA JOY C",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "VAIGUDARAJ M",
+      "company": "VI Microsystems"
+    },
+    {
+      "name": "VISHAL K R",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai, Timken Engineering"
+    },
+    {
+      "name": "VISHNU B R",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "ALLWIN RAJ N",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "ARUN S",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "BALASUBRAMANIAN S",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "GOKUL M",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "LAKSHMANA KABIL G",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "PON LAKSHMI N",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    },
+    {
+      "name": "SARAN RAJ M",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "SUBASH K",
+      "company": "Ambigai Consultancy Services"
+    },
+    {
+      "name": "SUDALAIKAN C",
+      "company": "Auto Tech Company, Chennai"
+    },
+    {
+      "name": "THIRUVAUKARASU T",
+      "company": "Jersey"
+    },
+    {
+      "name": "ARUN SELVAD",
+      "company": "UE PRESS TOOLS Pvt Ltd, Chennai"
+    }
+  ],
+  "geo": [
+    {
+      "name": "AATHITHRAYAN G",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "ABISHEK R",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "ANU PRIYA .N.M",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "ATHISARAN J",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "DHARANIPRIYA A",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "EVAGIN EARALD E",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "GAYATHRI S",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "GOKULAVARSHINI.E",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "HEMKUMAR E",
+      "company": "Deduce technologies, Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "HEWIT LEO J",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "MAHARASI S",
+      "company": "Silicon House, Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "NIVETHITHA B",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "PAVITHRA K",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "RAGUL K",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "SASI REKHA V",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "SELVALAKSHMI S",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "SURENDHER KUMAR M",
+      "company": "Deduce technologies, Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "VIKASHNI K",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd"
+    },
+    {
+      "name": "VIRGIN PEARLY .S",
+      "company": "Sai Sakthi Global Infra Survey Pvt Ltd, Silicon"
+    }
+  ]
+}

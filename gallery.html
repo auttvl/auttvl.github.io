@@ -85,7 +85,6 @@
             data = data[department];
             event_list = document.querySelector(".portfolio-menu ul");
             for (const item in data) {
-              console.log(item);
               var li = document.createElement("li");
               li.classList.add("btn", "btn-outline-dark", "mr-1", "mb-1");
               li.setAttribute("data-filter", "." + item);
@@ -112,11 +111,9 @@
                 a.appendChild(img);
                 div.appendChild(a);
                 portfolio_item.appendChild(div);
-                console.log(image);
               }
             }
             var popup_btn = $(".popup-btn");
-            console.log(popup_btn);
             popup_btn.magnificPopup({
               type: "image",
               gallery: {
