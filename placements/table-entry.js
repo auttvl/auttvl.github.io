@@ -14,7 +14,6 @@ async function renderPlacements(dep) {
   <td>${placement.name}</td>
   <td>2024</td>
   <td>${placement.company}</td>
-  ${placement.ctc ? `<td>${placement.ctc}</td>` : ''}
 </tr>
 `;
     });
