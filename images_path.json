@@ -1,43 +1,17 @@
 {
-    "mech": {
-        "farewell": {
-            "2023-2024 BATCH FAREWELL.jpg": "./images-upload/mech/farewell/2023-2024 BATCH FAREWELL.jpg"
-        },
-        "placement-training": {
-            "19.jpg": "./images-upload/mech/placement-training/19.jpg",
-            "1.jpg": "./images-upload/mech/placement-training/1.jpg",
-            "12.jpg": "./images-upload/mech/placement-training/12.jpg",
-            "16.jpg": "./images-upload/mech/placement-training/16.jpg",
-            "4.jpg": "./images-upload/mech/placement-training/4.jpg",
-            "20.jpg": "./images-upload/mech/placement-training/20.jpg",
-            "10.jpg": "./images-upload/mech/placement-training/10.jpg",
-            "5.jpg": "./images-upload/mech/placement-training/5.jpg",
-            "14.jpg": "./images-upload/mech/placement-training/14.jpg",
-            "6.jpg": "./images-upload/mech/placement-training/6.jpg",
-            "8.jpg": "./images-upload/mech/placement-training/8.jpg",
-            "17.jpg": "./images-upload/mech/placement-training/17.jpg",
-            "18.jpg": "./images-upload/mech/placement-training/18.jpg",
-            "3.jpg": "./images-upload/mech/placement-training/3.jpg",
-            "11.jpg": "./images-upload/mech/placement-training/11.jpg",
-            "13.jpg": "./images-upload/mech/placement-training/13.jpg",
-            "2.jpg": "./images-upload/mech/placement-training/2.jpg"
-        },
-        "placements": {
-            "PLACED STUDENTS 2023-2024.jpg": "./images-upload/mech/placements/PLACED STUDENTS 2023-2024.jpg"
-        },
-        "recruiters": {
-            "rane.png": "./images-upload/mech/recruiters/rane.png",
-            "autotech.png": "./images-upload/mech/recruiters/autotech.png",
-            "ue.png": "./images-upload/mech/recruiters/ue.png",
-            "timken.png": "./images-upload/mech/recruiters/timken.png",
-            "vi.png": "./images-upload/mech/recruiters/vi.png",
-            "jersey.png": "./images-upload/mech/recruiters/jersey.png"
-        },
-        "workshop": {
-            "AURCTVL 11.03.15 2.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 2.jpg",
-            "AURCTVL 11.03.15 1.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 1.jpg",
-            "IMG_9983 - Copy.JPG": "./images-upload/mech/workshop/IMG_9983 - Copy.JPG",
-            "IMG_7997.JPG": "./images-upload/mech/workshop/IMG_7997.JPG"
+    "placements": {
+        "2024": {
+            "pl6.jpg": "./images-upload/placements/2024/pl6.jpg",
+            "nm1.jpg": "./images-upload/placements/2024/nm1.jpg",
+            "nm2.jpg": "./images-upload/placements/2024/nm2.jpg",
+            "pl4.jpg": "./images-upload/placements/2024/pl4.jpg",
+            "companies.jpg": "./images-upload/placements/2024/companies.jpg",
+            "pl1.jpg": "./images-upload/placements/2024/pl1.jpg",
+            "pl3.jpg": "./images-upload/placements/2024/pl3.jpg",
+            "nm3.jpg": "./images-upload/placements/2024/nm3.jpg",
+            "pl5.jpg": "./images-upload/placements/2024/pl5.jpg",
+            "pl2.jpg": "./images-upload/placements/2024/pl2.jpg",
+            "companies1.jpg": "./images-upload/placements/2024/companies1.jpg"
         }
     },
     "cse": {
@@ -46,91 +20,117 @@
         }
     },
     "snh": {
+        "press-release": {
+            "KALAM_paper_news.jpg": "./images-upload/snh/press-release/KALAM_paper_news.jpg"
+        },
+        "environmental-day-2024": {
+            "ED2.jpg": "./images-upload/snh/environmental-day-2024/ED2.jpg",
+            "ED1.jpg": "./images-upload/snh/environmental-day-2024/ED1.jpg",
+            "ED0.jpg": "./images-upload/snh/environmental-day-2024/ED0.jpg",
+            "ED3.jpg": "./images-upload/snh/environmental-day-2024/ED3.jpg"
+        },
+        "kalam": {
+            "KALAM_3.JPG": "./images-upload/snh/kalam/KALAM_3.JPG",
+            "KALAM_8.JPG": "./images-upload/snh/kalam/KALAM_8.JPG",
+            "KALAM_10.JPG": "./images-upload/snh/kalam/KALAM_10.JPG",
+            "KALAM_5.JPG": "./images-upload/snh/kalam/KALAM_5.JPG",
+            "KALAM_9.JPG": "./images-upload/snh/kalam/KALAM_9.JPG",
+            "KALAM_4.JPG": "./images-upload/snh/kalam/KALAM_4.JPG",
+            "KALAM_7.JPG": "./images-upload/snh/kalam/KALAM_7.JPG",
+            "KALAM_6.JPG": "./images-upload/snh/kalam/KALAM_6.JPG",
+            "KALAM_2.JPG": "./images-upload/snh/kalam/KALAM_2.JPG",
+            "KALAM_1.JPG": "./images-upload/snh/kalam/KALAM_1.JPG"
+        },
+        "science-club": {
+            "Science_Club_1.jpg": "./images-upload/snh/science-club/Science_Club_1.jpg",
+            "Science_Club_2.jpg": "./images-upload/snh/science-club/Science_Club_2.jpg"
+        },
+        "SIP": {
+            "SIP_1.jpg": "./images-upload/snh/SIP/SIP_1.jpg",
+            "SIP_2.jpg": "./images-upload/snh/SIP/SIP_2.jpg",
+            "Science_Club_1.jpg": "./images-upload/snh/SIP/Science_Club_1.jpg",
+            "Science_Club_2.jpg": "./images-upload/snh/SIP/Science_Club_2.jpg",
+            "SIP_4.jpg": "./images-upload/snh/SIP/SIP_4.jpg",
+            "SIP_3.jpg": "./images-upload/snh/SIP/SIP_3.jpg"
+        },
         "maths-club-inauguration": {
             "MC0.jpg": "./images-upload/snh/maths-club-inauguration/MC0.jpg",
             "MC3.jpg": "./images-upload/snh/maths-club-inauguration/MC3.jpg",
             "MC1.jpg": "./images-upload/snh/maths-club-inauguration/MC1.jpg",
             "MC2.jpg": "./images-upload/snh/maths-club-inauguration/MC2.jpg"
         },
-        "environmental-day-2024": {
-            "ED3.jpg": "./images-upload/snh/environmental-day-2024/ED3.jpg",
-            "ED2.jpg": "./images-upload/snh/environmental-day-2024/ED2.jpg",
-            "ED1.jpg": "./images-upload/snh/environmental-day-2024/ED1.jpg",
-            "ED0.jpg": "./images-upload/snh/environmental-day-2024/ED0.jpg"
-        },
-        "SIP": {
-            "SIP_1.jpg": "./images-upload/snh/SIP/SIP_1.jpg",
-            "Science_Club_2.jpg": "./images-upload/snh/SIP/Science_Club_2.jpg",
-            "Science_Club_1.jpg": "./images-upload/snh/SIP/Science_Club_1.jpg",
-            "SIP_2.jpg": "./images-upload/snh/SIP/SIP_2.jpg",
-            "SIP_4.jpg": "./images-upload/snh/SIP/SIP_4.jpg",
-            "SIP_3.jpg": "./images-upload/snh/SIP/SIP_3.jpg"
-        },
-        "science-club": {
-            "Science_Club_2.jpg": "./images-upload/snh/science-club/Science_Club_2.jpg",
-            "Science_Club_1.jpg": "./images-upload/snh/science-club/Science_Club_1.jpg"
-        },
-        "kalam": {
-            "KALAM_9.JPG": "./images-upload/snh/kalam/KALAM_9.JPG",
-            "KALAM_8.JPG": "./images-upload/snh/kalam/KALAM_8.JPG",
-            "KALAM_7.JPG": "./images-upload/snh/kalam/KALAM_7.JPG",
-            "KALAM_2.JPG": "./images-upload/snh/kalam/KALAM_2.JPG",
-            "KALAM_6.JPG": "./images-upload/snh/kalam/KALAM_6.JPG",
-            "KALAM_10.JPG": "./images-upload/snh/kalam/KALAM_10.JPG",
-            "KALAM_3.JPG": "./images-upload/snh/kalam/KALAM_3.JPG",
-            "KALAM_5.JPG": "./images-upload/snh/kalam/KALAM_5.JPG",
-            "KALAM_4.JPG": "./images-upload/snh/kalam/KALAM_4.JPG",
-            "KALAM_1.JPG": "./images-upload/snh/kalam/KALAM_1.JPG"
-        },
-        "press-release": {
-            "KALAM_paper_news.jpg": "./images-upload/snh/press-release/KALAM_paper_news.jpg"
-        },
-        "nano-jatha-2k24": {
-            "NJ08.JPG": "./images-upload/snh/nano-jatha-2k24/NJ08.JPG",
-            "NJ0.png": "./images-upload/snh/nano-jatha-2k24/NJ0.png",
-            "NJ05.JPG": "./images-upload/snh/nano-jatha-2k24/NJ05.JPG",
-            "NJ06.JPG": "./images-upload/snh/nano-jatha-2k24/NJ06.JPG",
-            "NJ04.jpg": "./images-upload/snh/nano-jatha-2k24/NJ04.jpg",
-            "NJ09.JPG": "./images-upload/snh/nano-jatha-2k24/NJ09.JPG",
-            "NJ01.JPG": "./images-upload/snh/nano-jatha-2k24/NJ01.JPG",
-            "NJ02.jpg": "./images-upload/snh/nano-jatha-2k24/NJ02.jpg",
-            "NJ03.jpg": "./images-upload/snh/nano-jatha-2k24/NJ03.jpg",
-            "NJ07.jpg": "./images-upload/snh/nano-jatha-2k24/NJ07.jpg"
-        },
         "the-art-of-crafting-verse": {
-            "LCE1.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE1.jpg",
             "LCE3.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE3.jpg",
             "LCE2.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE2.jpg",
-            "LCE4.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE4.jpg"
+            "LCE4.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE4.jpg",
+            "LCE1.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE1.jpg"
+        },
+        "nano-jatha-2k24": {
+            "NJ05.JPG": "./images-upload/snh/nano-jatha-2k24/NJ05.JPG",
+            "NJ01.JPG": "./images-upload/snh/nano-jatha-2k24/NJ01.JPG",
+            "NJ0.png": "./images-upload/snh/nano-jatha-2k24/NJ0.png",
+            "NJ06.JPG": "./images-upload/snh/nano-jatha-2k24/NJ06.JPG",
+            "NJ03.jpg": "./images-upload/snh/nano-jatha-2k24/NJ03.jpg",
+            "NJ07.jpg": "./images-upload/snh/nano-jatha-2k24/NJ07.jpg",
+            "NJ08.JPG": "./images-upload/snh/nano-jatha-2k24/NJ08.JPG",
+            "NJ09.JPG": "./images-upload/snh/nano-jatha-2k24/NJ09.JPG",
+            "NJ02.jpg": "./images-upload/snh/nano-jatha-2k24/NJ02.jpg",
+            "NJ04.jpg": "./images-upload/snh/nano-jatha-2k24/NJ04.jpg"
         }
     },
     "mba": {
         "2024": {
-            "20240511_124358.jpg": "./images-upload/mba/2024/20240511_124358.jpg",
-            "20240511_124504.jpg": "./images-upload/mba/2024/20240511_124504.jpg"
+            "20240511_124504.jpg": "./images-upload/mba/2024/20240511_124504.jpg",
+            "20240511_124358.jpg": "./images-upload/mba/2024/20240511_124358.jpg"
         },
         "management-maze-2k24": {
+            "IMG-20240504-WA0007.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0007.jpg",
+            "IMG-20240504-WA0012.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0012.jpg",
             "IMG-20240504-WA0004.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0004.jpg",
             "IMG-20240504-WA0008.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0008.jpg",
             "IMG-20240504-WA0002.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0002.jpg",
-            "IMG-20240504-WA0011.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0011.jpg",
-            "IMG-20240504-WA0012.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0012.jpg",
-            "IMG-20240504-WA0007.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0007.jpg"
+            "IMG-20240504-WA0011.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0011.jpg"
         }
     },
-    "placements": {
-        "2024": {
-            "pl2.jpg": "./images-upload/placements/2024/pl2.jpg",
-            "companies1.jpg": "./images-upload/placements/2024/companies1.jpg",
-            "pl1.jpg": "./images-upload/placements/2024/pl1.jpg",
-            "pl5.jpg": "./images-upload/placements/2024/pl5.jpg",
-            "nm1.jpg": "./images-upload/placements/2024/nm1.jpg",
-            "nm2.jpg": "./images-upload/placements/2024/nm2.jpg",
-            "pl6.jpg": "./images-upload/placements/2024/pl6.jpg",
-            "pl4.jpg": "./images-upload/placements/2024/pl4.jpg",
-            "nm3.jpg": "./images-upload/placements/2024/nm3.jpg",
-            "pl3.jpg": "./images-upload/placements/2024/pl3.jpg",
-            "companies.jpg": "./images-upload/placements/2024/companies.jpg"
+    "mech": {
+        "placements": {
+            "PLACED STUDENTS 2023-2024.jpg": "./images-upload/mech/placements/PLACED STUDENTS 2023-2024.jpg"
+        },
+        "placement-training": {
+            "8.jpg": "./images-upload/mech/placement-training/8.jpg",
+            "1.jpg": "./images-upload/mech/placement-training/1.jpg",
+            "3.jpg": "./images-upload/mech/placement-training/3.jpg",
+            "16.jpg": "./images-upload/mech/placement-training/16.jpg",
+            "20.jpg": "./images-upload/mech/placement-training/20.jpg",
+            "18.jpg": "./images-upload/mech/placement-training/18.jpg",
+            "12.jpg": "./images-upload/mech/placement-training/12.jpg",
+            "17.jpg": "./images-upload/mech/placement-training/17.jpg",
+            "6.jpg": "./images-upload/mech/placement-training/6.jpg",
+            "4.jpg": "./images-upload/mech/placement-training/4.jpg",
+            "13.jpg": "./images-upload/mech/placement-training/13.jpg",
+            "2.jpg": "./images-upload/mech/placement-training/2.jpg",
+            "19.jpg": "./images-upload/mech/placement-training/19.jpg",
+            "5.jpg": "./images-upload/mech/placement-training/5.jpg",
+            "14.jpg": "./images-upload/mech/placement-training/14.jpg",
+            "11.jpg": "./images-upload/mech/placement-training/11.jpg",
+            "10.jpg": "./images-upload/mech/placement-training/10.jpg"
+        },
+        "farewell": {
+            "2023-2024 BATCH FAREWELL.jpg": "./images-upload/mech/farewell/2023-2024 BATCH FAREWELL.jpg"
+        },
+        "recruiters": {
+            "ue.png": "./images-upload/mech/recruiters/ue.png",
+            "autotech.png": "./images-upload/mech/recruiters/autotech.png",
+            "vi.png": "./images-upload/mech/recruiters/vi.png",
+            "jersey.png": "./images-upload/mech/recruiters/jersey.png",
+            "timken.png": "./images-upload/mech/recruiters/timken.png",
+            "rane.png": "./images-upload/mech/recruiters/rane.png"
+        },
+        "workshop": {
+            "AURCTVL 11.03.15 2.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 2.jpg",
+            "IMG_9983 - Copy.JPG": "./images-upload/mech/workshop/IMG_9983 - Copy.JPG",
+            "AURCTVL 11.03.15 1.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 1.jpg",
+            "IMG_7997.JPG": "./images-upload/mech/workshop/IMG_7997.JPG"
         }
     }
 }
