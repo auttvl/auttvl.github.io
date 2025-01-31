@@ -413,12 +413,12 @@ const footer = `
 						<div class="textwidget custom-html-widget">
 							<ul>
 								<li>
-									<a href="#"><span>-</span> Anna University Chennai</a>
-									<a href="#"><span>-</span> Courses Offered</a>
-									<a href="#"><span>-</span> Curriculum & Syllabus</a>
-									<a href="#"><span>-</span> College Fee structure</a>
-									<a href="#"><span>-</span> Hostel Fee Structure</a>
-									<a href="#"><span>-</span> Anti Ragging Committee</a>
+									<a href="https://www.annauniv.edu/"><span>-</span> Anna University Chennai</a>
+									<a href="/academic/course-offered/index.html"><span>-</span> Courses Offered</a>
+									<a href="/academic/course-offered/index.html"><span>-</span> Curriculum & Syllabus</a>
+									<a href="/wp-content/uploads/2021/09/feesstructure.pdf"><span>-</span> College Fee structure</a>
+									<a href="/wp-content/uploads/2021/09/Hostel_Fee_Structure.pdf"><span>-</span> Hostel Fee Structure</a>
+									<a href="/anti-ragging/index.html"><span>-</span> Anti Ragging Committee</a>
 									<a href="/posh"><span>-</span> Prevention of Sexual Harassement Cell (POSH)</a>
 								</li>
 							</ul>
