@@ -419,7 +419,7 @@ const footer = `
 									<a href="#"><span>-</span> College Fee structure</a>
 									<a href="#"><span>-</span> Hostel Fee Structure</a>
 									<a href="#"><span>-</span> Anti Ragging Committee</a>
-									<a href="#"><span>-</span> Sexual Harassment Committee</a>
+									<a href="/posh"><span>-</span> Prevention of Sexual Harassement Cell</a>
 								</li>
 							</ul>
 						</div>
