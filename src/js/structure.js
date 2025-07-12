@@ -237,7 +237,7 @@ const header = `
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-794">
 																<a target="_blank" rel="noopener noreferrer"
 																	itemprop="url"
-																	href="https://auttvl.ac.in/wp-content/uploads/2021/09/feesstructure.pdf">College</a>
+																	href="https://auttvl.ac.in/uploads/documents/fees.pdf">College</a>
 															</li>
 															<li id="menu-item-795"
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-795">
