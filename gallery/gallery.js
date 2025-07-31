@@ -22,9 +22,11 @@ async function updateImages() {
           var portfolio_item = document.querySelector(".portfolio-item");
           for (const image in data[item]) {
             var div = document.createElement("div");
+            console.log(item);
+            
             div.classList.add(
               "item",
-              item,
+              item.replace(/\s+/g, "-").toLowerCase(),
               "col-lg-3",
               "col-md-4",
               "col-6",

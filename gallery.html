@@ -87,7 +87,7 @@
             for (const item in data) {
               var li = document.createElement("li");
               li.classList.add("btn", "btn-outline-dark", "mr-1", "mb-1");
-              li.setAttribute("data-filter", "." + item);
+              li.setAttribute("data-filter", "." + item.replace(/\s+/g, "-").toLowerCase());
               li.innerHTML = item.toUpperCase();
               event_list.appendChild(li);
               var portfolio_item = document.querySelector(".portfolio-item");
@@ -95,7 +95,7 @@
                 var div = document.createElement("div");
                 div.classList.add(
                   "item",
-                  item,
+                  item.replace(/\s+/g, "-").toLowerCase(),
                   "col-lg-3",
                   "col-md-4",
                   "col-6",
