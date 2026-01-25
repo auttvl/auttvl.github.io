@@ -1,127 +1,121 @@
 {
     "mba": {
         "2024": {
-            "20240511_124504.jpg": "./images-upload/mba/2024/20240511_124504.jpg",
-            "20240511_124358.jpg": "./images-upload/mba/2024/20240511_124358.jpg"
+            "20240511_124358.jpg": "./images-upload/mba/2024/20240511_124358.jpg",
+            "20240511_124504.jpg": "./images-upload/mba/2024/20240511_124504.jpg"
         },
         "management-maze-2k24": {
+            "IMG-20240504-WA0004.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0004.jpg",
             "IMG-20240504-WA0008.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0008.jpg",
-            "IMG-20240504-WA0011.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0011.jpg",
             "IMG-20240504-WA0007.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0007.jpg",
             "IMG-20240504-WA0002.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0002.jpg",
             "IMG-20240504-WA0012.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0012.jpg",
-            "IMG-20240504-WA0004.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0004.jpg"
+            "IMG-20240504-WA0011.jpg": "./images-upload/mba/management-maze-2k24/IMG-20240504-WA0011.jpg"
         }
     },
     "cse": {
-        "IE_IEI": {
-            "Picture38.jpg": "./images-upload/cse/IE_IEI/Picture38.jpg",
-            "Picture42.jpg": "./images-upload/cse/IE_IEI/Picture42.jpg",
-            "Picture37.jpg": "./images-upload/cse/IE_IEI/Picture37.jpg",
-            "Picture45.jpg": "./images-upload/cse/IE_IEI/Picture45.jpg",
-            "Picture41.jpg": "./images-upload/cse/IE_IEI/Picture41.jpg",
-            "Picture43.jpg": "./images-upload/cse/IE_IEI/Picture43.jpg",
-            "Picture39.jpg": "./images-upload/cse/IE_IEI/Picture39.jpg",
-            "Picture46.jpg": "./images-upload/cse/IE_IEI/Picture46.jpg",
-            "Picture40.jpg": "./images-upload/cse/IE_IEI/Picture40.jpg",
-            "Picture44.jpg": "./images-upload/cse/IE_IEI/Picture44.jpg"
+        "IEI_GuestLecture": {
+            "Picture55.jpg": "./images-upload/cse/IEI_GuestLecture/Picture55.jpg",
+            "Picture57.jpg": "./images-upload/cse/IEI_GuestLecture/Picture57.jpg",
+            "Picture56.jpg": "./images-upload/cse/IEI_GuestLecture/Picture56.jpg",
+            "Picture54.jpg": "./images-upload/cse/IEI_GuestLecture/Picture54.jpg"
+        },
+        "Department": {
+            "Teaching_and_non_Teaching.jpg": "./images-upload/cse/Department/Teaching_and_non_Teaching.jpg",
+            "Lab2.jpg": "./images-upload/cse/Department/Lab2.jpg",
+            "Conference_Hall.png": "./images-upload/cse/Department/Conference_Hall.png",
+            "Lab1_1.png": "./images-upload/cse/Department/Lab1_1.png",
+            "Lab.png": "./images-upload/cse/Department/Lab.png",
+            "Lab1.png": "./images-upload/cse/Department/Lab1.png",
+            "Block.png": "./images-upload/cse/Department/Block.png"
+        },
+        "ICT Training": {
+            "Picture33.jpg": "./images-upload/cse/ICT Training/Picture33.jpg",
+            "Picture34.jpg": "./images-upload/cse/ICT Training/Picture34.jpg"
+        },
+        "NASA": {
+            "Picture11.jpg": "./images-upload/cse/NASA/Picture11.jpg",
+            "NASA_2022.jpg": "./images-upload/cse/NASA/NASA_2022.jpg",
+            "CM.jpg": "./images-upload/cse/NASA/CM.jpg",
+            "CM1.jpg": "./images-upload/cse/NASA/CM1.jpg"
+        },
+        "FDP-DS": {
+            "CGA.png": "./images-upload/cse/FDP-DS/CGA.png"
+        },
+        "Techverse 2022": {
+            "Picture18.png": "./images-upload/cse/Techverse 2022/Picture18.png",
+            "Picture17.png": "./images-upload/cse/Techverse 2022/Picture17.png",
+            "Picture19.png": "./images-upload/cse/Techverse 2022/Picture19.png"
+        },
+        "Placements": {
+            "Picture26.png": "./images-upload/cse/Placements/Picture26.png",
+            "2023.jpg": "./images-upload/cse/Placements/2023.jpg",
+            "Picture27.png": "./images-upload/cse/Placements/Picture27.png",
+            "Picture25.png": "./images-upload/cse/Placements/Picture25.png"
         },
         "MS_Office_Siddha_College": {
             "Picture35.jpg": "./images-upload/cse/MS_Office_Siddha_College/Picture35.jpg",
             "Picture36.jpg": "./images-upload/cse/MS_Office_Siddha_College/Picture36.jpg"
         },
-        "NASA": {
-            "CM1.jpg": "./images-upload/cse/NASA/CM1.jpg",
-            "CM.jpg": "./images-upload/cse/NASA/CM.jpg",
-            "NASA_2022.jpg": "./images-upload/cse/NASA/NASA_2022.jpg",
-            "Picture11.jpg": "./images-upload/cse/NASA/Picture11.jpg"
-        },
-        "Placements": {
-            "Picture26.png": "./images-upload/cse/Placements/Picture26.png",
-            "2023.jpg": "./images-upload/cse/Placements/2023.jpg",
-            "Picture25.png": "./images-upload/cse/Placements/Picture25.png",
-            "Picture27.png": "./images-upload/cse/Placements/Picture27.png"
-        },
-        "FDP-DS": {
-            "CGA.png": "./images-upload/cse/FDP-DS/CGA.png"
-        },
-        "ICT Training": {
-            "Picture34.jpg": "./images-upload/cse/ICT Training/Picture34.jpg",
-            "Picture33.jpg": "./images-upload/cse/ICT Training/Picture33.jpg"
-        },
-        "IEI_GuestLecture": {
-            "Picture55.jpg": "./images-upload/cse/IEI_GuestLecture/Picture55.jpg",
-            "Picture56.jpg": "./images-upload/cse/IEI_GuestLecture/Picture56.jpg",
-            "Picture57.jpg": "./images-upload/cse/IEI_GuestLecture/Picture57.jpg",
-            "Picture54.jpg": "./images-upload/cse/IEI_GuestLecture/Picture54.jpg"
-        },
         "TechSociety_24-25": {
+            "Picture31.jpg": "./images-upload/cse/TechSociety_24-25/Picture31.jpg",
             "Picture30.jpg": "./images-upload/cse/TechSociety_24-25/Picture30.jpg",
             "Picture32.jpg": "./images-upload/cse/TechSociety_24-25/Picture32.jpg",
-            "Picture29.jpg": "./images-upload/cse/TechSociety_24-25/Picture29.jpg",
-            "Picture31.jpg": "./images-upload/cse/TechSociety_24-25/Picture31.jpg"
-        },
-        "Techverse 2022": {
-            "Picture17.png": "./images-upload/cse/Techverse 2022/Picture17.png",
-            "Picture18.png": "./images-upload/cse/Techverse 2022/Picture18.png",
-            "Picture19.png": "./images-upload/cse/Techverse 2022/Picture19.png"
-        },
-        "Department": {
-            "Lab1.png": "./images-upload/cse/Department/Lab1.png",
-            "Lab2.jpg": "./images-upload/cse/Department/Lab2.jpg",
-            "Conference_Hall.png": "./images-upload/cse/Department/Conference_Hall.png",
-            "Teaching_and_non_Teaching.jpg": "./images-upload/cse/Department/Teaching_and_non_Teaching.jpg",
-            "Block.png": "./images-upload/cse/Department/Block.png",
-            "Lab.png": "./images-upload/cse/Department/Lab.png",
-            "Lab1_1.png": "./images-upload/cse/Department/Lab1_1.png"
-        },
-        "CognoConnect 2024": {
-            "Picture24.jpg": "./images-upload/cse/CognoConnect 2024/Picture24.jpg",
-            "Picture22.jpg": "./images-upload/cse/CognoConnect 2024/Picture22.jpg",
-            "Picture23.jpg": "./images-upload/cse/CognoConnect 2024/Picture23.jpg",
-            "Picture21.jpg": "./images-upload/cse/CognoConnect 2024/Picture21.jpg",
-            "Picture20.jpg": "./images-upload/cse/CognoConnect 2024/Picture20.jpg"
-        },
-        "TechBlitz_2025": {
-            "Picture52.jpg": "./images-upload/cse/TechBlitz_2025/Picture52.jpg",
-            "Picture50.jpg": "./images-upload/cse/TechBlitz_2025/Picture50.jpg",
-            "Picture51.jpg": "./images-upload/cse/TechBlitz_2025/Picture51.jpg",
-            "Picture53.jpg": "./images-upload/cse/TechBlitz_2025/Picture53.jpg",
-            "Picture48.jpg": "./images-upload/cse/TechBlitz_2025/Picture48.jpg",
-            "Picture49.jpg": "./images-upload/cse/TechBlitz_2025/Picture49.jpg",
-            "Picture47.jpg": "./images-upload/cse/TechBlitz_2025/Picture47.jpg"
+            "Picture29.jpg": "./images-upload/cse/TechSociety_24-25/Picture29.jpg"
         },
         "Virtual Lab": {
+            "Picture16.jpg": "./images-upload/cse/Virtual Lab/Picture16.jpg",
             "Picture14.jpg": "./images-upload/cse/Virtual Lab/Picture14.jpg",
             "Picture15.jpg": "./images-upload/cse/Virtual Lab/Picture15.jpg",
-            "Picture13.jpg": "./images-upload/cse/Virtual Lab/Picture13.jpg",
-            "Picture16.jpg": "./images-upload/cse/Virtual Lab/Picture16.jpg"
+            "Picture13.jpg": "./images-upload/cse/Virtual Lab/Picture13.jpg"
+        },
+        "IE_IEI": {
+            "Picture40.jpg": "./images-upload/cse/IE_IEI/Picture40.jpg",
+            "Picture38.jpg": "./images-upload/cse/IE_IEI/Picture38.jpg",
+            "Picture39.jpg": "./images-upload/cse/IE_IEI/Picture39.jpg",
+            "Picture42.jpg": "./images-upload/cse/IE_IEI/Picture42.jpg",
+            "Picture43.jpg": "./images-upload/cse/IE_IEI/Picture43.jpg",
+            "Picture41.jpg": "./images-upload/cse/IE_IEI/Picture41.jpg",
+            "Picture45.jpg": "./images-upload/cse/IE_IEI/Picture45.jpg",
+            "Picture44.jpg": "./images-upload/cse/IE_IEI/Picture44.jpg",
+            "Picture37.jpg": "./images-upload/cse/IE_IEI/Picture37.jpg",
+            "Picture46.jpg": "./images-upload/cse/IE_IEI/Picture46.jpg"
+        },
+        "TechBlitz_2025": {
+            "Picture51.jpg": "./images-upload/cse/TechBlitz_2025/Picture51.jpg",
+            "Picture53.jpg": "./images-upload/cse/TechBlitz_2025/Picture53.jpg",
+            "Picture50.jpg": "./images-upload/cse/TechBlitz_2025/Picture50.jpg",
+            "Picture49.jpg": "./images-upload/cse/TechBlitz_2025/Picture49.jpg",
+            "Picture48.jpg": "./images-upload/cse/TechBlitz_2025/Picture48.jpg",
+            "Picture52.jpg": "./images-upload/cse/TechBlitz_2025/Picture52.jpg",
+            "Picture47.jpg": "./images-upload/cse/TechBlitz_2025/Picture47.jpg"
+        },
+        "CognoConnect 2024": {
+            "Picture22.jpg": "./images-upload/cse/CognoConnect 2024/Picture22.jpg",
+            "Picture21.jpg": "./images-upload/cse/CognoConnect 2024/Picture21.jpg",
+            "Picture24.jpg": "./images-upload/cse/CognoConnect 2024/Picture24.jpg",
+            "Picture23.jpg": "./images-upload/cse/CognoConnect 2024/Picture23.jpg",
+            "Picture20.jpg": "./images-upload/cse/CognoConnect 2024/Picture20.jpg"
         }
     },
     "snh": {
-        "nano-jatha-2k24": {
-            "NJ06.JPG": "./images-upload/snh/nano-jatha-2k24/NJ06.JPG",
-            "NJ0.png": "./images-upload/snh/nano-jatha-2k24/NJ0.png",
-            "NJ01.JPG": "./images-upload/snh/nano-jatha-2k24/NJ01.JPG",
-            "NJ08.JPG": "./images-upload/snh/nano-jatha-2k24/NJ08.JPG",
-            "NJ07.jpg": "./images-upload/snh/nano-jatha-2k24/NJ07.jpg",
-            "NJ03.jpg": "./images-upload/snh/nano-jatha-2k24/NJ03.jpg",
-            "NJ02.jpg": "./images-upload/snh/nano-jatha-2k24/NJ02.jpg",
-            "NJ04.jpg": "./images-upload/snh/nano-jatha-2k24/NJ04.jpg",
-            "NJ05.JPG": "./images-upload/snh/nano-jatha-2k24/NJ05.JPG",
-            "NJ09.JPG": "./images-upload/snh/nano-jatha-2k24/NJ09.JPG"
+        "maths-club-inauguration": {
+            "MC2.jpg": "./images-upload/snh/maths-club-inauguration/MC2.jpg",
+            "MC3.jpg": "./images-upload/snh/maths-club-inauguration/MC3.jpg",
+            "MC0.jpg": "./images-upload/snh/maths-club-inauguration/MC0.jpg",
+            "MC1.jpg": "./images-upload/snh/maths-club-inauguration/MC1.jpg"
         },
-        "kalam": {
-            "KALAM_4.JPG": "./images-upload/snh/kalam/KALAM_4.JPG",
-            "KALAM_8.JPG": "./images-upload/snh/kalam/KALAM_8.JPG",
-            "KALAM_1.JPG": "./images-upload/snh/kalam/KALAM_1.JPG",
-            "KALAM_6.JPG": "./images-upload/snh/kalam/KALAM_6.JPG",
-            "KALAM_3.JPG": "./images-upload/snh/kalam/KALAM_3.JPG",
-            "KALAM_10.JPG": "./images-upload/snh/kalam/KALAM_10.JPG",
-            "KALAM_7.JPG": "./images-upload/snh/kalam/KALAM_7.JPG",
-            "KALAM_5.JPG": "./images-upload/snh/kalam/KALAM_5.JPG",
-            "KALAM_9.JPG": "./images-upload/snh/kalam/KALAM_9.JPG",
-            "KALAM_2.JPG": "./images-upload/snh/kalam/KALAM_2.JPG"
+        "nano-jatha-2k24": {
+            "NJ03.jpg": "./images-upload/snh/nano-jatha-2k24/NJ03.jpg",
+            "NJ01.JPG": "./images-upload/snh/nano-jatha-2k24/NJ01.JPG",
+            "NJ05.JPG": "./images-upload/snh/nano-jatha-2k24/NJ05.JPG",
+            "NJ06.JPG": "./images-upload/snh/nano-jatha-2k24/NJ06.JPG",
+            "NJ08.JPG": "./images-upload/snh/nano-jatha-2k24/NJ08.JPG",
+            "NJ02.jpg": "./images-upload/snh/nano-jatha-2k24/NJ02.jpg",
+            "NJ0.png": "./images-upload/snh/nano-jatha-2k24/NJ0.png",
+            "NJ07.jpg": "./images-upload/snh/nano-jatha-2k24/NJ07.jpg",
+            "NJ09.JPG": "./images-upload/snh/nano-jatha-2k24/NJ09.JPG",
+            "NJ04.jpg": "./images-upload/snh/nano-jatha-2k24/NJ04.jpg"
         },
         "science-club": {
             "Science_Club_2.jpg": "./images-upload/snh/science-club/Science_Club_2.jpg",
@@ -133,84 +127,90 @@
             "ED1.jpg": "./images-upload/snh/environmental-day-2024/ED1.jpg",
             "ED3.jpg": "./images-upload/snh/environmental-day-2024/ED3.jpg"
         },
-        "maths-club-inauguration": {
-            "MC3.jpg": "./images-upload/snh/maths-club-inauguration/MC3.jpg",
-            "MC0.jpg": "./images-upload/snh/maths-club-inauguration/MC0.jpg",
-            "MC1.jpg": "./images-upload/snh/maths-club-inauguration/MC1.jpg",
-            "MC2.jpg": "./images-upload/snh/maths-club-inauguration/MC2.jpg"
+        "kalam": {
+            "KALAM_7.JPG": "./images-upload/snh/kalam/KALAM_7.JPG",
+            "KALAM_6.JPG": "./images-upload/snh/kalam/KALAM_6.JPG",
+            "KALAM_1.JPG": "./images-upload/snh/kalam/KALAM_1.JPG",
+            "KALAM_2.JPG": "./images-upload/snh/kalam/KALAM_2.JPG",
+            "KALAM_8.JPG": "./images-upload/snh/kalam/KALAM_8.JPG",
+            "KALAM_3.JPG": "./images-upload/snh/kalam/KALAM_3.JPG",
+            "KALAM_9.JPG": "./images-upload/snh/kalam/KALAM_9.JPG",
+            "KALAM_4.JPG": "./images-upload/snh/kalam/KALAM_4.JPG",
+            "KALAM_5.JPG": "./images-upload/snh/kalam/KALAM_5.JPG",
+            "KALAM_10.JPG": "./images-upload/snh/kalam/KALAM_10.JPG"
+        },
+        "the-art-of-crafting-verse": {
+            "LCE3.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE3.jpg",
+            "LCE1.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE1.jpg",
+            "LCE2.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE2.jpg",
+            "LCE4.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE4.jpg"
+        },
+        "press-release": {
+            "KALAM_paper_news.jpg": "./images-upload/snh/press-release/KALAM_paper_news.jpg"
         },
         "SIP": {
             "SIP_4.jpg": "./images-upload/snh/SIP/SIP_4.jpg",
             "SIP_3.jpg": "./images-upload/snh/SIP/SIP_3.jpg",
-            "SIP_1.jpg": "./images-upload/snh/SIP/SIP_1.jpg",
             "Science_Club_2.jpg": "./images-upload/snh/SIP/Science_Club_2.jpg",
             "SIP_2.jpg": "./images-upload/snh/SIP/SIP_2.jpg",
+            "SIP_1.jpg": "./images-upload/snh/SIP/SIP_1.jpg",
             "Science_Club_1.jpg": "./images-upload/snh/SIP/Science_Club_1.jpg"
-        },
-        "the-art-of-crafting-verse": {
-            "LCE1.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE1.jpg",
-            "LCE3.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE3.jpg",
-            "LCE4.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE4.jpg",
-            "LCE2.jpg": "./images-upload/snh/the-art-of-crafting-verse/LCE2.jpg"
-        },
-        "press-release": {
-            "KALAM_paper_news.jpg": "./images-upload/snh/press-release/KALAM_paper_news.jpg"
         }
     },
     "placements": {
         "2024": {
+            "nm3.jpg": "./images-upload/placements/2024/nm3.jpg",
             "pl6.jpg": "./images-upload/placements/2024/pl6.jpg",
             "pl5.jpg": "./images-upload/placements/2024/pl5.jpg",
-            "pl1.jpg": "./images-upload/placements/2024/pl1.jpg",
-            "pl4.jpg": "./images-upload/placements/2024/pl4.jpg",
+            "companies1.jpg": "./images-upload/placements/2024/companies1.jpg",
             "companies.jpg": "./images-upload/placements/2024/companies.jpg",
             "nm1.jpg": "./images-upload/placements/2024/nm1.jpg",
-            "companies1.jpg": "./images-upload/placements/2024/companies1.jpg",
             "pl3.jpg": "./images-upload/placements/2024/pl3.jpg",
-            "nm3.jpg": "./images-upload/placements/2024/nm3.jpg",
             "nm2.jpg": "./images-upload/placements/2024/nm2.jpg",
+            "pl1.jpg": "./images-upload/placements/2024/pl1.jpg",
+            "pl4.jpg": "./images-upload/placements/2024/pl4.jpg",
             "pl2.jpg": "./images-upload/placements/2024/pl2.jpg"
         }
     },
     "mech": {
-        "farewell": {
-            "2023-2024 BATCH FAREWELL.jpg": "./images-upload/mech/farewell/2023-2024 BATCH FAREWELL.jpg"
+        "workshop": {
+            "IMG_9983 - Copy.JPG": "./images-upload/mech/workshop/IMG_9983 - Copy.JPG",
+            "AURCTVL 11.03.15 2.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 2.jpg",
+            "IMG_7997.JPG": "./images-upload/mech/workshop/IMG_7997.JPG",
+            "AURCTVL 11.03.15 1.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 1.jpg"
+        },
+        "recruiters": {
+            "timken.png": "./images-upload/mech/recruiters/timken.png",
+            "ue.png": "./images-upload/mech/recruiters/ue.png",
+            "autotech.png": "./images-upload/mech/recruiters/autotech.png",
+            "vi.png": "./images-upload/mech/recruiters/vi.png",
+            "jersey.png": "./images-upload/mech/recruiters/jersey.png",
+            "rane.png": "./images-upload/mech/recruiters/rane.png"
         },
         "placement-training": {
-            "17.jpg": "./images-upload/mech/placement-training/17.jpg",
-            "14.jpg": "./images-upload/mech/placement-training/14.jpg",
-            "11.jpg": "./images-upload/mech/placement-training/11.jpg",
-            "13.jpg": "./images-upload/mech/placement-training/13.jpg",
-            "18.jpg": "./images-upload/mech/placement-training/18.jpg",
-            "1.jpg": "./images-upload/mech/placement-training/1.jpg",
-            "4.jpg": "./images-upload/mech/placement-training/4.jpg",
-            "20.jpg": "./images-upload/mech/placement-training/20.jpg",
             "12.jpg": "./images-upload/mech/placement-training/12.jpg",
             "19.jpg": "./images-upload/mech/placement-training/19.jpg",
+            "20.jpg": "./images-upload/mech/placement-training/20.jpg",
+            "11.jpg": "./images-upload/mech/placement-training/11.jpg",
+            "2.jpg": "./images-upload/mech/placement-training/2.jpg",
+            "17.jpg": "./images-upload/mech/placement-training/17.jpg",
+            "1.jpg": "./images-upload/mech/placement-training/1.jpg",
             "10.jpg": "./images-upload/mech/placement-training/10.jpg",
             "6.jpg": "./images-upload/mech/placement-training/6.jpg",
             "3.jpg": "./images-upload/mech/placement-training/3.jpg",
             "5.jpg": "./images-upload/mech/placement-training/5.jpg",
+            "18.jpg": "./images-upload/mech/placement-training/18.jpg",
+            "14.jpg": "./images-upload/mech/placement-training/14.jpg",
             "16.jpg": "./images-upload/mech/placement-training/16.jpg",
             "8.jpg": "./images-upload/mech/placement-training/8.jpg",
-            "2.jpg": "./images-upload/mech/placement-training/2.jpg"
+            "13.jpg": "./images-upload/mech/placement-training/13.jpg",
+            "4.jpg": "./images-upload/mech/placement-training/4.jpg"
         },
         "placements": {
             "PLACED STUDENTS 2023-2024.jpg": "./images-upload/mech/placements/PLACED STUDENTS 2023-2024.jpg"
         },
-        "workshop": {
-            "AURCTVL 11.03.15 1.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 1.jpg",
-            "IMG_7997.JPG": "./images-upload/mech/workshop/IMG_7997.JPG",
-            "IMG_9983 - Copy.JPG": "./images-upload/mech/workshop/IMG_9983 - Copy.JPG",
-            "AURCTVL 11.03.15 2.jpg": "./images-upload/mech/workshop/AURCTVL 11.03.15 2.jpg"
-        },
-        "recruiters": {
-            "timken.png": "./images-upload/mech/recruiters/timken.png",
-            "rane.png": "./images-upload/mech/recruiters/rane.png",
-            "vi.png": "./images-upload/mech/recruiters/vi.png",
-            "autotech.png": "./images-upload/mech/recruiters/autotech.png",
-            "jersey.png": "./images-upload/mech/recruiters/jersey.png",
-            "ue.png": "./images-upload/mech/recruiters/ue.png"
+        "farewell": {
+            "2023-2024 BATCH FAREWELL.jpg": "./images-upload/mech/farewell/2023-2024 BATCH FAREWELL.jpg"
         }
     }
 }
