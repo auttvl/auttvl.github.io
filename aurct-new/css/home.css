@@ -1,0 +1,257 @@
+/* ==============================================
+   Home Page Specific Styles
+   Anna University Regional Campus - Tirunelveli
+   ============================================== */
+
+/* ==================== About Section ==================== */
+.about-section {
+    background-color: var(--bg-tertiary);
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-12);
+    align-items: center;
+}
+
+.about-image {
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+}
+
+.about-image::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid var(--secondary-color);
+    border-radius: var(--radius-lg);
+    z-index: -1;
+}
+
+.about-content {
+    padding: var(--spacing-4);
+}
+
+.about-content h3 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-4);
+}
+
+.about-content p {
+    color: var(--text-secondary);
+    text-align: justify;
+    margin-bottom: var(--spacing-6);
+}
+
+.tnea-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: var(--spacing-3) var(--spacing-5);
+    border-radius: var(--radius-md);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--spacing-6);
+}
+
+/* ==================== Announcements Section ==================== */
+.announcements-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-8);
+    margin-bottom: var(--spacing-8);
+}
+
+.announcements-panel {
+    background-color: var(--white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+}
+
+.announcements-panel-header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: var(--spacing-4);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+}
+
+.announcements-panel-body {
+    padding: var(--spacing-4);
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* ==================== Departments Section ==================== */
+.departments-section {
+    background-color: var(--white);
+}
+
+.departments-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-6);
+}
+
+.department-card {
+    text-align: center;
+}
+
+.department-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.department-card .card-body {
+    padding: var(--spacing-4);
+}
+
+.department-card .card-title {
+    font-size: var(--font-size-base);
+    margin-bottom: 0;
+}
+
+.department-card .card-title a {
+    color: var(--text-primary);
+}
+
+.department-card:hover .card-title a {
+    color: var(--primary-color);
+}
+
+/* ==================== Events Section ==================== */
+.events-section {
+    background-color: var(--bg-tertiary);
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-6);
+}
+
+.event-card {
+    overflow: hidden;
+}
+
+.event-card .card-img {
+    height: 220px;
+}
+
+.event-card .card-body {
+    padding: var(--spacing-5);
+}
+
+.event-meta {
+    display: flex;
+    gap: var(--spacing-4);
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-3);
+}
+
+.event-meta i {
+    margin-right: var(--spacing-1);
+}
+
+.event-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--spacing-3);
+}
+
+.event-title a {
+    color: var(--text-primary);
+    transition: color var(--transition-fast);
+}
+
+.event-title a:hover {
+    color: var(--primary-color);
+}
+
+/* ==================== Quick Stats Section ==================== */
+.stats-section {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: var(--white);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-8);
+}
+
+.stat-item {
+    text-align: center;
+    padding: var(--spacing-6);
+}
+
+.stat-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-4);
+    opacity: 0.9;
+}
+
+.stat-number {
+    font-size: var(--font-size-4xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spacing-2);
+}
+
+.stat-label {
+    font-size: var(--font-size-base);
+    opacity: 0.9;
+}
+
+/* ==================== Responsive ==================== */
+@media (max-width: 1024px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-image::before {
+        display: none;
+    }
+
+    .departments-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .events-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .announcements-section {
+        grid-template-columns: 1fr;
+    }
+
+    .departments-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}

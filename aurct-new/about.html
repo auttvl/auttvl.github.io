@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Anna University Regional Campus - Tirunelveli">
+    
+    <title>About Us | AURCT</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .about-intro {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-12);
+            align-items: center;
+        }
+
+        .about-intro-image img {
+            width: 100%;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .about-intro-content h2 {
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-4);
+        }
+
+        .about-intro-content p {
+            color: var(--text-secondary);
+            text-align: justify;
+            margin-bottom: var(--spacing-4);
+        }
+
+        .vision-mission-section {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--spacing-8);
+        }
+
+        .vision-card, .mission-card {
+            padding: var(--spacing-8);
+            border-radius: 12px;
+            background: #fff;
+            border-left: 5px solid var(--primary-color);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .vision-card:hover, .mission-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .vision-card h3, .mission-card h3 {
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-3);
+            margin-bottom: var(--spacing-4);
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .vision-card p, .mission-card p {
+            color: var(--text-secondary);
+        }
+
+        .vision-card ul, .mission-card ul {
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .vision-card ul li, .mission-card ul li,
+        .mission-card ol li {
+            margin-bottom: var(--spacing-2);
+        }
+
+        .mission-card ol {
+            padding-left: var(--spacing-5);
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        @media (max-width: 1024px) {
+            .about-intro {
+                grid-template-columns: 1fr;
+            }
+
+            .vision-mission-section {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('assets/images/slide-1.jpg');">
+        <div class="page-header-content">
+            <h1 class="page-header-title">About Us</h1>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="current">About Us</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- About Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="about-intro">
+                <div class="about-intro-image">
+                    <img src="assets/images/slide-2.jpg" alt="AURCT Campus">
+                </div>
+                <div class="about-intro-content">
+                    <span class="section-subtitle">About AURCT</span>
+                    <h2>Anna University Regional Campus – Tirunelveli</h2>
+                    <div class="tnea-badge">
+                        <i class="fas fa-graduation-cap"></i>
+                        TNEA Counselling Code: 4020
+                    </div>
+                    <p>
+                        Anna University, one of the premier institutions of the southern part of India, 
+                        has its acquisitions to many institutions in Tamil Nadu. The Anna University 
+                        Regional Campus - Tirunelveli extends high quality teaching ensuring continuous 
+                        progress of young minds.
+                    </p>
+                    <p>
+                        Our campus has grown into an institution that provides excellent technical 
+                        education in the field of Engineering and Management, within a short period. 
+                        It offers an excellent platform for students to showcase their talents and 
+                        equip themselves with confidence to compete in the global arena.
+                    </p>
+                    <p>
+                        The campus is committed to producing technically competent and ethically 
+                        strong graduates who will contribute to the development of society and 
+                        the nation at large.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="section bg-gray">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Purpose</span>
+                <h2 class="section-title">Vision & Mission</h2>
+            </div>
+            <div class="vision-mission-section">
+                <div class="vision-card">
+                    <h3><i class="fas fa-eye"></i> Our Vision</h3>
+                    <p>
+                        To contribute to the state and nation by providing globally acclaimed 
+                        technical education and research with strong ethical values that transforms 
+                        students into leaders, innovators, entrepreneurs and responsible citizens.
+                    </p>
+                </div>
+                <div class="mission-card">
+                    <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                    <ol>
+                        <li>To achieve academic excellence in Engineering and Technology through latest Teaching/Learning practices.</li>
+                        <li>To educate students professionally to face social challenges by providing a healthy learning environment grounded well in the principles of engineering, promoting creativity and nurturing teamwork.</li>
+                        <li>To promote research culture among students and faculty through projects and consultancy with state of the art technology resources for developing sustainable resources.</li>
+                        <li>To enhance collaborative partnership between industries and research institutes for transferring current technology towards societal development.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JavaScript -->
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

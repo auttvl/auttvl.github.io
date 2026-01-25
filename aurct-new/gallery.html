@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo Gallery of Anna University Regional Campus - Tirunelveli">
+    
+    <title>Gallery | AURCT</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .gallery-filters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: var(--spacing-3);
+            margin-bottom: var(--spacing-8);
+        }
+
+        .filter-btn {
+            padding: var(--spacing-2) var(--spacing-4);
+            background-color: var(--gray-100);
+            color: var(--text-secondary);
+            border: none;
+            border-radius: var(--radius-full);
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-medium);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background-color: var(--primary-color);
+            color: var(--white);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: var(--spacing-6);
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--radius-lg);
+            aspect-ratio: 4/3;
+            cursor: pointer;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform var(--transition-normal);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                180deg,
+                transparent 0%,
+                rgba(0, 0, 0, 0.7) 100%
+            );
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: var(--spacing-4);
+            opacity: 0;
+            transition: opacity var(--transition-fast);
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .gallery-title {
+            color: var(--white);
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--spacing-1);
+        }
+
+        .gallery-category {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: var(--font-size-sm);
+        }
+
+        .gallery-icon {
+            display: none;
+        }
+
+        /* Lightbox Styles */
+        .lightbox {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.95);
+        }
+
+        .lightbox-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            z-index: 1;
+        }
+
+        .lightbox-content {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+            z-index: 2;
+        }
+
+        .lightbox-content img {
+            max-width: 100%;
+            max-height: 90vh;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: -50px;
+            right: 0;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 2.5rem;
+            cursor: pointer;
+            transition: color var(--transition-fast);
+        }
+
+        .lightbox-close:hover {
+            color: var(--secondary-color);
+        }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            padding: var(--spacing-4);
+            transition: color var(--transition-fast);
+        }
+
+        .lightbox-nav:hover {
+            color: var(--secondary-color);
+        }
+
+        .lightbox-nav.prev {
+            left: -80px;
+        }
+
+        .lightbox-nav.next {
+            right: -80px;
+        }
+
+        .lightbox-caption {
+            position: absolute;
+            bottom: -50px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: white;
+            font-size: var(--font-size-lg);
+        }
+
+        @media (max-width: 768px) {
+            .lightbox-nav.prev {
+                left: 10px;
+            }
+
+            .lightbox-nav.next {
+                right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('assets/images/slide-1.jpg');">
+        <div class="page-header-content">
+            <h1 class="page-header-title">Photo Gallery</h1>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="current">Gallery</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Memories</span>
+                <h2 class="section-title">Campus Life & Events</h2>
+                <p class="section-description">
+                    Explore our campus, events, and memorable moments through our photo gallery.
+                </p>
+            </div>
+
+            <!-- Filters -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="campus">Campus</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="academic">Academic</button>
+                <button class="filter-btn" data-filter="cultural">Cultural</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Campus Images -->
+                <div class="gallery-item" data-category="campus">
+                    <img src="../images-upload/cse/Department/Block.png" alt="CSE Block">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">CSE Department Block</span>
+                        <span class="gallery-category">Campus</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="campus">
+                    <img src="../images-upload/cse/Department/Conference_Hall.png" alt="Conference Hall">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Conference Hall</span>
+                        <span class="gallery-category">Campus</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="campus">
+                    <img src="../images-upload/cse/Department/Lab.png" alt="Computer Lab">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Computer Lab</span>
+                        <span class="gallery-category">Campus</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- Event Images -->
+                <div class="gallery-item" data-category="events">
+                    <img src="../images-upload/snh/kalam/KALAM_1.JPG" alt="KALAM Science Expo">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">KALAM '24 Science Expo</span>
+                        <span class="gallery-category">Events</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="../images-upload/snh/kalam/KALAM_2.JPG" alt="KALAM Science Expo">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">KALAM '24 Science Expo</span>
+                        <span class="gallery-category">Events</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="../images-upload/snh/kalam/KALAM_3.JPG" alt="KALAM Science Expo">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">KALAM '24 Science Expo</span>
+                        <span class="gallery-category">Events</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- Placement Drive Images -->
+                <div class="gallery-item" data-category="events">
+                    <img src="../images-upload/placements/2024/pl1.jpg" alt="Placement Drive">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Placement Drive 2024</span>
+                        <span class="gallery-category">Events</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="../images-upload/placements/2024/pl2.jpg" alt="Placement Drive">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Placement Drive 2024</span>
+                        <span class="gallery-category">Events</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="../images-upload/placements/2024/nm1.jpg" alt="NM Placement">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">NM Placement Drive</span>
+                        <span class="gallery-category">Events</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- Academic/Cultural Images -->
+                <div class="gallery-item" data-category="cultural">
+                    <img src="../images-upload/mba/management-maze-2k24/IMG-20240504-WA0002.jpg" alt="Management Maze">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Management Maze 2K24</span>
+                        <span class="gallery-category">Cultural</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="../images-upload/mba/management-maze-2k24/IMG-20240504-WA0008.jpg" alt="Management Maze">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Management Maze 2K24</span>
+                        <span class="gallery-category">Cultural</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="academic">
+                    <img src="../images-upload/snh/environmental-day-2024/ED0.jpg" alt="Environmental Day">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Environmental Day 2024</span>
+                        <span class="gallery-category">Academic</span>
+                    </div>
+                    <div class="gallery-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JavaScript -->
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Gallery Filters
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                this.classList.add('active');
+
+                const filter = this.dataset.filter;
+
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.dataset.category === filter) {
+                        item.style.display = 'block';
+                        item.style.animation = 'fadeIn 0.5s ease';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Gallery Lightbox
+        let currentIndex = 0;
+        const images = Array.from(galleryItems).map(item => ({
+            src: item.querySelector('img').src,
+            title: item.querySelector('.gallery-title')?.textContent || ''
+        }));
+
+        galleryItems.forEach((item, index) => {
+            item.addEventListener('click', function() {
+                currentIndex = index;
+                openLightbox();
+            });
+        });
+
+        function openLightbox() {
+            const lightbox = document.createElement('div');
+            lightbox.className = 'lightbox';
+            lightbox.innerHTML = `
+                <div class="lightbox-overlay"></div>
+                <div class="lightbox-content">
+                    <button class="lightbox-close">&times;</button>
+                    <button class="lightbox-nav prev"><i class="fas fa-chevron-left"></i></button>
+                    <img src="${images[currentIndex].src}" alt="${images[currentIndex].title}">
+                    <button class="lightbox-nav next"><i class="fas fa-chevron-right"></i></button>
+                    <div class="lightbox-caption">${images[currentIndex].title}</div>
+                </div>
+            `;
+
+            document.body.appendChild(lightbox);
+            document.body.style.overflow = 'hidden';
+
+            // Event listeners
+            lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+            lightbox.querySelector('.lightbox-overlay').addEventListener('click', closeLightbox);
+            lightbox.querySelector('.lightbox-nav.prev').addEventListener('click', prevImage);
+            lightbox.querySelector('.lightbox-nav.next').addEventListener('click', nextImage);
+
+            // Keyboard navigation
+            document.addEventListener('keydown', handleKeydown);
+        }
+
+        function closeLightbox() {
+            const lightbox = document.querySelector('.lightbox');
+            if (lightbox) {
+                lightbox.remove();
+                document.body.style.overflow = '';
+                document.removeEventListener('keydown', handleKeydown);
+            }
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateLightboxImage();
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateLightboxImage();
+        }
+
+        function updateLightboxImage() {
+            const lightbox = document.querySelector('.lightbox');
+            if (lightbox) {
+                lightbox.querySelector('img').src = images[currentIndex].src;
+                lightbox.querySelector('.lightbox-caption').textContent = images[currentIndex].title;
+            }
+        }
+
+        function handleKeydown(e) {
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowLeft') prevImage();
+            if (e.key === 'ArrowRight') nextImage();
+        }
+    </script>
+</body>
+</html>

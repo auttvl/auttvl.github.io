@@ -1,0 +1,338 @@
+/* ==============================================
+   Header Styles
+   Anna University Regional Campus - Tirunelveli
+   ============================================== */
+
+/* ==================== Top Bar ==================== */
+.top-bar {
+    background-color: var(--primary-dark);
+    color: var(--white);
+    font-size: var(--font-size-sm);
+    padding: var(--spacing-2) 0;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-links {
+    display: flex;
+    gap: var(--spacing-4);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar-links a {
+    color: var(--white);
+    opacity: 0.9;
+    transition: opacity var(--transition-fast);
+}
+
+.top-bar-links a:hover {
+    opacity: 1;
+    color: var(--white);
+}
+
+.top-bar-social {
+    display: flex;
+    gap: var(--spacing-3);
+}
+
+.top-bar-social a {
+    color: var(--white);
+    font-size: var(--font-size-lg);
+    opacity: 0.9;
+    transition: opacity var(--transition-fast);
+}
+
+.top-bar-social a:hover {
+    opacity: 1;
+    color: var(--white);
+}
+
+/* ==================== Main Header ==================== */
+.main-header {
+    background-color: var(--white);
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    z-index: var(--z-sticky);
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--spacing-4);
+    padding-bottom: var(--spacing-4);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    width: auto;
+}
+
+.logo-text {
+    margin-left: var(--spacing-4);
+    border-left: 3px solid var(--primary-color);
+    padding-left: var(--spacing-4);
+}
+
+.logo-text .university-name {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.logo-text .campus-name {
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    margin: 0;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.header-actions {
+    display: flex;
+    gap: var(--spacing-3);
+}
+
+/* ==================== Navigation ==================== */
+.nav-wrapper {
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: var(--z-sticky);
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+    margin: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--spacing-4) var(--spacing-5);
+    color: var(--white);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color var(--transition-fast);
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+}
+
+.nav-item.active .nav-link {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Dropdown */
+.nav-item.has-dropdown > .nav-link::after {
+    content: '▾';
+    margin-left: var(--spacing-2);
+    font-size: var(--font-size-xs);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    background-color: var(--white);
+    box-shadow: var(--shadow-lg);
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    list-style: none;
+    padding: var(--spacing-2) 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all var(--transition-fast);
+    z-index: var(--z-dropdown);
+}
+
+.nav-item:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-item {
+    margin: 0;
+}
+
+.dropdown-item a {
+    display: block;
+    padding: var(--spacing-3) var(--spacing-4);
+    color: var(--text-primary);
+    font-size: var(--font-size-sm);
+    transition: all var(--transition-fast);
+}
+
+.dropdown-item a:hover {
+    background-color: var(--gray-100);
+    color: var(--primary-color);
+}
+
+/* Nested Dropdown */
+.dropdown-item.has-dropdown {
+    position: relative;
+}
+
+.dropdown-item.has-dropdown > a::after {
+    content: '›';
+    float: right;
+    font-size: var(--font-size-base);
+}
+
+.dropdown-item.has-dropdown > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    border-radius: var(--radius-md);
+}
+
+/* Mobile Navigation Toggle */
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding: var(--spacing-3);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--white);
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+}
+
+/* ==================== Mobile Styles ==================== */
+@media (max-width: 1024px) {
+    .nav-toggle {
+        display: flex;
+    }
+
+    .main-nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 280px;
+        height: 100vh;
+        background-color: var(--primary-dark);
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: var(--spacing-16);
+        overflow-y: auto;
+        transition: left var(--transition-normal);
+        z-index: var(--z-fixed);
+    }
+
+    .main-nav.open {
+        left: 0;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        padding: var(--spacing-4);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .dropdown-menu {
+        position: static;
+        background-color: rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        display: none;
+    }
+
+    .nav-item.open > .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-item a {
+        color: var(--white);
+        padding-left: var(--spacing-8);
+    }
+
+    .dropdown-item a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: var(--white);
+    }
+
+    .dropdown-item.has-dropdown > .dropdown-menu {
+        left: 0;
+    }
+
+    .nav-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transition: all var(--transition-normal);
+        z-index: calc(var(--z-fixed) - 1);
+    }
+
+    .nav-overlay.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .top-bar-links {
+        display: none;
+    }
+
+    .header-actions {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        height: 50px;
+    }
+}

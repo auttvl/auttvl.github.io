@@ -1,0 +1,327 @@
+/* ==============================================
+   Department Page Styles
+   Anna University Regional Campus - Tirunelveli
+   ============================================== */
+
+/* ==================== Department Layout ==================== */
+.department-page {
+    padding: var(--spacing-16) 0;
+}
+
+.department-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: var(--spacing-8);
+}
+
+/* ==================== Department Sidebar ==================== */
+.department-sidebar {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+.department-nav {
+    background-color: var(--white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+}
+
+.department-nav-title {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: var(--spacing-4);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    margin: 0;
+}
+
+.department-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.department-nav-item {
+    margin: 0;
+}
+
+.department-nav-link {
+    display: block;
+    padding: var(--spacing-3) var(--spacing-4);
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+    border-bottom: 1px solid var(--gray-100);
+    transition: all var(--transition-fast);
+}
+
+.department-nav-link:hover {
+    background-color: var(--gray-50);
+    color: var(--primary-color);
+    padding-left: var(--spacing-5);
+}
+
+.department-nav-link.active {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* ==================== Department Content ==================== */
+.department-content {
+    background-color: var(--white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: var(--spacing-8);
+}
+
+.department-section {
+    display: none;
+}
+
+.department-section.active {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+.department-section-title {
+    color: var(--primary-color);
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-6);
+    padding-bottom: var(--spacing-3);
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.department-section-subtitle {
+    color: var(--text-primary);
+    font-size: var(--font-size-xl);
+    margin-top: var(--spacing-8);
+    margin-bottom: var(--spacing-4);
+}
+
+/* ==================== Faculty Section ==================== */
+.faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: var(--spacing-6);
+}
+
+.faculty-card {
+    text-align: center;
+    padding: var(--spacing-6);
+}
+
+.faculty-card:hover {
+    transform: translateY(-5px);
+}
+
+.faculty-image {
+    width: 120px;
+    height: 120px;
+    border-radius: var(--radius-full);
+    object-fit: cover;
+    margin: 0 auto var(--spacing-4);
+    border: 4px solid var(--primary-color);
+}
+
+.faculty-name {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-2);
+}
+
+.faculty-designation {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-2);
+}
+
+.faculty-email {
+    font-size: var(--font-size-sm);
+    color: var(--primary-color);
+}
+
+/* ==================== Gallery Section ==================== */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--spacing-4);
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-md);
+    aspect-ratio: 4/3;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-normal);
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery-overlay i {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+/* ==================== Course Section ==================== */
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--spacing-4);
+}
+
+.course-table th,
+.course-table td {
+    padding: var(--spacing-3) var(--spacing-4);
+    text-align: left;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.course-table th {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: var(--font-weight-semibold);
+}
+
+.course-table tr:hover {
+    background-color: var(--gray-50);
+}
+
+/* ==================== Research Section ==================== */
+.research-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.research-item {
+    padding: var(--spacing-4);
+    border-left: 4px solid var(--secondary-color);
+    background-color: var(--gray-50);
+    margin-bottom: var(--spacing-4);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.research-title {
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-2);
+}
+
+.research-meta {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+}
+
+/* ==================== Vision Mission ==================== */
+.vision-mission-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-6);
+    margin-top: var(--spacing-6);
+}
+
+.vision-box,
+.mission-box {
+    background-color: var(--gray-50);
+    padding: var(--spacing-6);
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--primary-color);
+}
+
+.vision-box h4,
+.mission-box h4 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-4);
+}
+
+.vision-box ul,
+.mission-box ul {
+    margin: 0;
+}
+
+/* ==================== Responsive ==================== */
+@media (max-width: 1024px) {
+    .department-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .department-sidebar {
+        position: static;
+    }
+
+    .department-nav-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .department-nav-item {
+        flex: 1;
+        min-width: 150px;
+    }
+
+    .department-nav-link {
+        text-align: center;
+        border-bottom: none;
+        border-right: 1px solid var(--gray-100);
+    }
+
+    .department-nav-link:hover {
+        padding-left: var(--spacing-4);
+    }
+}
+
+@media (max-width: 768px) {
+    .department-content {
+        padding: var(--spacing-4);
+    }
+
+    .vision-mission-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .faculty-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .department-nav-list {
+        flex-direction: column;
+    }
+
+    .department-nav-item {
+        min-width: 100%;
+    }
+
+    .department-nav-link {
+        border-right: none;
+        border-bottom: 1px solid var(--gray-100);
+    }
+}

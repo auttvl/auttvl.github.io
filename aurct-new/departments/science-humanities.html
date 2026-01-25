@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Department of Science and Humanities at Anna University Regional Campus - Tirunelveli">
+    <meta name="keywords" content="Science, Humanities, Mathematics, Physics, Chemistry, English, Anna University, Tirunelveli">
+    
+    <title>Science & Humanities | AURCT</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('../assets/images/dept-science.jpg');">
+        <div class="page-header-content">
+            <h1 class="page-header-title">Science & Humanities</h1>
+            <ul class="breadcrumb">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../departments.html">Departments</a></li>
+                <li class="current">Science & Humanities</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Department Content -->
+    <section class="department-page">
+        <div class="container">
+            <div class="department-layout">
+                <!-- Sidebar Navigation -->
+                <aside class="department-sidebar">
+                    <nav class="department-nav">
+                        <h3 class="department-nav-title" onclick="this.parentElement.classList.toggle('open')">Navigate Sections</h3>
+                        <ul class="department-nav-list">
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link active" data-section="home">
+                                    <i class="fas fa-home"></i> Home
+                                </a>
+                            </li>
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link" data-section="faculty">
+                                    <i class="fas fa-users"></i> Faculty Profile
+                                </a>
+                            </li>
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link" data-section="scienceclub">
+                                    <i class="fas fa-atom"></i> Science Club
+                                </a>
+                            </li>
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link" data-section="mathsclub">
+                                    <i class="fas fa-calculator"></i> Maths Club
+                                </a>
+                            </li>
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link" data-section="youtube">
+                                    <i class="fab fa-youtube"></i> Youtube
+                                </a>
+                            </li>
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link" data-section="gallery">
+                                    <i class="fas fa-images"></i> Gallery
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <!-- Main Content -->
+                <main class="department-content">
+                    <!-- Home Section -->
+                    <div id="home" class="department-section active">
+                        <h2 class="department-section-title">About the Department</h2>
+                        
+                        <h3 class="department-section-subtitle"><i class="fas fa-calculator text-primary"></i> Mathematics</h3>
+                        <p>
+                            The Department of Mathematics conducted a Bridge course - A Special Orientation Programme 
+                            for Mathematics faculty members of all affiliated colleges in this region at the Anna 
+                            University Regional Campus - Tirunelveli.
+                        </p>
+
+                        <h3 class="department-section-subtitle mt-6"><i class="fas fa-atom text-primary"></i> Physics</h3>
+                        <p>
+                            The Department of Physics was established in 2008. The faculty members of this department 
+                            are engaged with the undergraduate teaching of Engineering physics for the B.E/B.Tech. students. 
+                            The department is offering Ph.D. in the field of crystal growth, semiconductor thin films 
+                            deposition, Photovoltaic's and Energy generation etc. The physics laboratory for the first 
+                            year undergraduate students is well equipped to do the experiments for physics practical classes.
+                        </p>
+
+                        <h3 class="department-section-subtitle mt-6"><i class="fas fa-flask text-primary"></i> Chemistry</h3>
+                        <p>
+                            The goal of the department is to strengthen the knowledge in Applied Chemistry of the students 
+                            which will make them to solve the problems related to Engineering Chemistry effortlessly. 
+                            The enriched experience of faculty members in teaching and research will cater the students 
+                            to expose themselves in their research field. The well developed laboratories provide the 
+                            facilities for the students to trial the practical possibilities of the problems given to them. 
+                            The faculty members make the publications of their research work in high index journals continually. 
+                            The campus supports the department to conduct many workshops, seminars and conferences to 
+                            enlighten the knowledge of our students.
+                        </p>
+
+                        <h3 class="department-section-subtitle mt-6"><i class="fas fa-book-open text-primary"></i> English</h3>
+                        <p>
+                            The department of English strives to produce versatile and creative students with strong 
+                            interpretive and communicative skills needed for the today's changing world. It equips students 
+                            with the English language skills required for the successful undertaking of academic studies 
+                            with primary emphasis on academic listening skills, speaking skills, reading skills and writing skills.
+                        </p>
+                        <p>
+                            It improves general and academic listening skills. It provides guidance and practice in basic 
+                            general and class room conversation so as to participate confidently and appropriately in 
+                            conversations both formal and informal. It strengthens the reading skills of students. It 
+                            enhances their writing skills with specific reference to technical writing. Thus it enhances 
+                            the employability and career skills of students and makes them Employable Graduates.
+                        </p>
+                    </div>
+
+                    <!-- Faculty Section -->
+                    <div id="faculty" class="department-section">
+                        <h2 class="department-section-title">Faculty Profile</h2>
+                        
+                        <!-- HOD Section -->
+                        <h3 class="department-section-subtitle text-center">Head of Department</h3>
+                        <div class="faculty-grid justify-center">
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Physics_Athimoolam.jpg" alt="Dr. S. Athimoolam" class="faculty-image">
+                                <h5 class="faculty-name">Dr. S. Athimoolam</h5>
+                                <p class="faculty-designation">Assistant Professor & Head</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/07/Dr. athimoolam.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                    <a href="https://auttvl.irins.org/profile/235881" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chemistry -->
+                        <h3 class="department-section-subtitle text-center mt-8"><i class="fas fa-flask"></i> Chemistry</h3>
+                        <div class="faculty-grid">
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Chemistry_Ramasubramanian.jpg" alt="Dr. R. Ramasubramanian" class="faculty-image">
+                                <h5 class="faculty-name">Dr. R. Ramasubramanian</h5>
+                                <p class="faculty-designation">Assistant Professor</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/10/Chemistry_Ramasubramanian.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                    <a href="https://auttvl.irins.org/profile/414688" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- English -->
+                        <h3 class="department-section-subtitle text-center mt-8"><i class="fas fa-book-open"></i> English</h3>
+                        <div class="faculty-grid">
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Mathumathi_eng.jpg" alt="Dr. P. Mathumathi" class="faculty-image">
+                                <h5 class="faculty-name">Dr. P. Mathumathi</h5>
+                                <p class="faculty-designation">Assistant Professor</p>
+                                <div class="faculty-links">
+                                    <a href="https://auttvl.irins.org/profile/419063" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mathematics -->
+                        <h3 class="department-section-subtitle text-center mt-8"><i class="fas fa-calculator"></i> Mathematics</h3>
+                        <div class="faculty-grid">
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Maths_Subramanian.jpg" alt="Dr. M. Subramanian" class="faculty-image">
+                                <h5 class="faculty-name">Dr. M. Subramanian</h5>
+                                <p class="faculty-designation">Assistant Professor</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/10/Maths_Subramanian.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                    <a href="https://auttvl.irins.org/profile/414320" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Maths_mohanraj.jpg" alt="Dr. R. Mohanraj" class="faculty-image">
+                                <h5 class="faculty-name">Dr. R. Mohanraj</h5>
+                                <p class="faculty-designation">Assistant Professor</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/10/maths_mohanraj.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                    <a href="https://auttvl.irins.org/profile/429035" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Maths_Rani.jpg" alt="Dr. I. Rani" class="faculty-image">
+                                <h5 class="faculty-name">Dr. I. Rani</h5>
+                                <p class="faculty-designation">Assistant Professor</p>
+                                <div class="faculty-links">
+                                    <a href="https://auttvl.irins.org/profile/418846" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Physics -->
+                        <h3 class="department-section-subtitle text-center mt-8"><i class="fas fa-atom"></i> Physics</h3>
+                        <div class="faculty-grid">
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Physics_Dr.Judes.pdf.jpg" alt="Dr. J. Judes" class="faculty-image">
+                                <h5 class="faculty-name">Dr. J. Judes</h5>
+                                <p class="faculty-designation">Assistant Professor</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/10/Physics_Judes.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                    <a href="https://auttvl.irins.org/profile/419114" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Karthikeyan TF Physics.jpg" alt="Mr. R. Karthikeyan" class="faculty-image">
+                                <h5 class="faculty-name">Mr. R. Karthikeyan</h5>
+                                <p class="faculty-designation">Teaching Fellow</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/10/Mr Karthikeyan TF Physics Profile.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Non-Teaching Staff -->
+                        <h3 class="department-section-subtitle text-center mt-8">Non-Teaching Staff</h3>
+                        <div class="faculty-grid">
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Priya NT PAII.jpeg" alt="Mrs. M. Shunmuga Vadivoo Priya" class="faculty-image">
+                                <h5 class="faculty-name">Mrs. M. Shunmuga Vadivoo Priya</h5>
+                                <p class="faculty-designation">Professional Assistant</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/10/SHUNMUGA_VADIVOO_PRIYA_SNH.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                </div>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Rengasamy.jpg" alt="Mr. P. Rengasamy" class="faculty-image">
+                                <h5 class="faculty-name">Mr. P. Rengasamy</h5>
+                                <p class="faculty-designation">Lab Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Science Club Section -->
+                    <div id="scienceclub" class="department-section">
+                        <h2 class="department-section-title">Science Club</h2>
+                        
+                        <h3 class="department-section-subtitle">Prelude</h3>
+                        <p>Science Club is the platform for the students to promote their scientific interest, realize their scientific skills and fulfill their quest in doing science activities. To inculcate the scientific temper among the students and society is an essential activity of this club with science popularization talks, visit to scientific places, etc. Further, the club aims to organize Seminars, Workshops, Exhibition and Quiz competition to instill students knowledge and skill in the field of science.</p>
+
+                        <h3 class="department-section-subtitle mt-4">Objectives</h3>
+                        <ul class="research-list">
+                            <li class="research-item">To inculcate scientific attitude among the students</li>
+                            <li class="research-item">To provide opportunity for the development of the constructive, explorative & inventive ideas among the students</li>
+                            <li class="research-item">To develop the training in scientific method of problem solving</li>
+                            <li class="research-item">To develop students' interest and participation in the practical applications of the knowledge related to different branches of sciences</li>
+                        </ul>
+
+                        <h3 class="department-section-subtitle mt-4">Modalities from University</h3>
+                        <p>As per the Regulation 2021, clause 4.2 (and earlier regulations), all the students shall enroll in any one of the personality and character development programmes, namely, NSS / NSO / YRC / Literary Club / Science Club and undergo training / conduct of activities for about 80 hours and attend a camp / event.</p>
+                        <p class="mt-2"><em>"Science Club shall organize activities of popularization of science and scientific temper through activities related to astronomy, works of great scientists from India and abroad, observing National Science Day, etc."</em></p>
+
+                        <div class="mt-4 p-4 bg-light rounded">
+                            <p><strong>Faculty In-Charge for Science Club</strong></p>
+                            <p>Dr. J. Judes<br>Assistant Professor (Physics), Dept. of S & H</p>
+                        </div>
+                    </div>
+
+                    <!-- Maths Club Section -->
+                    <div id="mathsclub" class="department-section">
+                        <h2 class="department-section-title">Ramanujan Club for Innovations in Mathematics (RCIM)</h2>
+                        
+                        <div class="text-center mb-4">
+                            <img src="../../wp-content/uploads/2024/maths-club/logo-mathsclub.png" alt="Maths Club Logo" style="max-width: 200px;">
+                        </div>
+
+                        <blockquote class="text-center mb-4">
+                            <p class="text-primary"><em>"In Mathematics the art of proposing a question must be held of higher value than solving it."</em></p>
+                            <footer class="text-muted">- Georg Cantor, German Mathematician</footer>
+                        </blockquote>
+
+                        <p>Math is a linear learning process. It gives us a way to understand patterns, to quantify relationships and to predict the future. Math helps us understand the world and we use the world to understand Math. Mathematics is the science that deals with the logic of shape, quantity and arrangement. It is useful way to think about nature and our world. Mathematics exists everywhere and it is applied in the most useful phenomenon.</p>
+                        
+                        <p class="mt-3">It is an integral part of daily life formal and informal. It is used in technology, business, medicine, natural and data sciences, Machine learning and construction. It is not just about numbers, most of it problem solving and reasoning, inductive and deductive. It also discusses also intuition, Proof and certainty.</p>
+
+                        <p class="mt-3">Shri. Srinivasa Ramanujan was one of India's greatest Mathematical geniuses. He made substantial contributions to the analytical theory of numbers and worked on elliptic functions, continued fractions, and infinite series. Every year, on December 22, India observes its National Mathematics day in honour of Shri. Srinivasa Ramanujan, regarded as one of the greatest Mathematicians to ever grace the planet.</p>
+
+                        <blockquote class="text-center my-4">
+                            <p class="text-primary"><em>"An Equation Means Nothing to me Unless It Expresses a thought of God"</em></p>
+                            <footer class="text-muted">- Srinivasa Ramanujan</footer>
+                        </blockquote>
+
+                        <p>In this regard, to honour Shri Srinivasa Ramanujan and inculcate his Mathematical temper into the young minds, the Department of Science & Humanities started a Mathematics club in the name of <strong>"RAMANUJAN CLUB FOR INNOVATIONS IN MATHEMATICS (RCIM)"</strong>.</p>
+                        
+                        <p class="mt-3">There should be a scope of learning beyond class room confinement to widen the knowledge of students and to provide exposure for real life problems relating to society. It helps the students in having an idea of the practical utility of Mathematics in addition to creating their interest in Mathematics and to encourage their creativity. It helps our students get to grips with a wide range of Mathematical Principles. Its mainly to encourage passionate engagement with mathematics by promoting diverse activities that go beyond regular classroom learning.</p>
+                    </div>
+
+                    <!-- Youtube Section -->
+                    <div id="youtube" class="department-section">
+                        <h2 class="department-section-title">Video Resources</h2>
+                        <div class="video-grid">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/Lt89AKdXA9s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/L64ZtXRVUGE?si=e6p3kJz8Aia9ePhe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Section -->
+                    <div id="gallery" class="department-section">
+                        <h2 class="department-section-title">Gallery</h2>
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <img src="../../images-upload/snh/science-club/Science_Club_1.jpg" alt="Science Club">
+                                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../../images-upload/snh/science-club/Science_Club_2.jpg" alt="Science Club">
+                                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../../images-upload/snh/maths-club-inauguration/MC0.jpg" alt="Maths Club Inauguration">
+                                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../../images-upload/snh/maths-club-inauguration/MC1.jpg" alt="Maths Club Inauguration">
+                                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../../images-upload/snh/environmental-day-2024/ED0.jpg" alt="Environmental Day 2024">
+                                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../../images-upload/snh/nano-jatha-2k24/NJ0.png" alt="Nano Jatha 2K24">
+                                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JavaScript -->
+    <script>
+        // Set base path for components (department pages need to go up one level)
+        window.basePath = '../';
+    </script>
+    <script src="../js/components.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/department.js"></script>
+    <script>
+        var navTitle = document.querySelector('.department-nav-title');
+        var nav = document.querySelector('.department-nav');
+        if (navTitle && nav) {
+            navTitle.addEventListener('click', function() {
+                nav.classList.toggle('open');
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Department of Electronics & Communication Engineering at Anna University Regional Campus - Tirunelveli">
+    <meta name="keywords" content="ECE, Electronics, Communication, Engineering, Anna University, Tirunelveli">
+    
+    <title>Electronics & Communication Engineering | AURCT</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('../assets/images/dept-ece.jpg');">
+        <div class="page-header-content">
+            <h1 class="page-header-title">Electronics & Communication Engineering</h1>
+            <ul class="breadcrumb">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../departments.html">Departments</a></li>
+                <li class="current">Electronics & Communication Engineering</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Department Content -->
+    <section class="department-page">
+        <div class="container">
+            <div class="department-layout">
+                <!-- Sidebar Navigation -->
+                <aside class="department-sidebar">
+                    <nav class="department-nav">
+                        <h3 class="department-nav-title" onclick="this.parentElement.classList.toggle('open')">Navigate Sections</h3>
+                        <ul class="department-nav-list">
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link active" data-section="home">
+                                    <i class="fas fa-home"></i> Home
+                                </a>
+                            </li>
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link" data-section="courses">
+                                    <i class="fas fa-book"></i> Courses
+                                </a>
+                            </li>
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link" data-section="faculty">
+                                    <i class="fas fa-users"></i> Faculty Profile
+                                </a>
+                            </li>
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link" data-section="consultancy">
+                                    <i class="fas fa-handshake"></i> Consultancy Projects
+                                </a>
+                            </li>
+                            <li class="department-nav-item">
+                                <a href="#" class="department-nav-link" data-section="gallery">
+                                    <i class="fas fa-images"></i> Gallery
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <!-- Main Content -->
+                <main class="department-content">
+                    <!-- Home Section -->
+                    <div id="home" class="department-section active">
+                        <h2 class="department-section-title">About the Department</h2>
+                        <p>
+                            The Department of Electronics and Communication Engineering at Anna University Regional Campus, 
+                            Tirunelveli, has been established in the year 2008 with the intention to provide high quality education. 
+                            The programme has been designed to provide knowledge to prepare students for careers in research and 
+                            also an advanced preparation for professional training that will make them outstanding engineers.
+                        </p>
+                        <p>
+                            The department has well equipped laboratories with complete hardware and software requirements. 
+                            It has highly qualified and passionate faculties who are actively engaged in applied research and 
+                            technology transfer, in the fields of Signal and Image Processing, Optical Communication, Electronics 
+                            and Optics, Embedded vision. The strength and success of this Department lies in its integrated 
+                            approach to teaching and research and mainly due to the expertise and dedication of its faculty members.
+                        </p>
+                        <p>
+                            The Department aims to address the major challenges and develop complete solutions to benefit the 
+                            society through collaboration with industries and other institutions. Apart from systematic academic work, 
+                            the department is actively involved in consultancy, research and other professional activities. 
+                            The department conducts need-based workshops and seminars in the emerging areas like Signal Processing, 
+                            Artificial Neural Networks & Fuzzy Logic, Optical Fibre Communication and Image Processing etc. to 
+                            impart the knowledge and skill of faculty and students of Engineering Colleges.
+                        </p>
+                    </div>
+
+                    <!-- Courses Section -->
+                    <div id="courses" class="department-section">
+                        <h2 class="department-section-title">Courses Offered</h2>
+                        <ul class="research-list">
+                            <li class="research-item">B.E Electronics and Communication Engineering (FT)</li>
+                            <li class="research-item">M.E Applied Electronics (FT and PT)</li>
+                            <li class="research-item">Ph.D.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Faculty Section -->
+                    <div id="faculty" class="department-section">
+                        <h2 class="department-section-title">Faculty Profile</h2>
+                        
+                        <!-- HOD Section -->
+                        <h3 class="department-section-subtitle text-center">Head of Department</h3>
+                        <div class="faculty-grid justify-center">
+                            <div class="card faculty-card">
+                                <img src="../../uploads/profilepics/suja.jpeg" alt="Dr. S. Suja Priyadharsini" class="faculty-image">
+                                <h5 class="faculty-name">Dr. S. Suja Priyadharsini</h5>
+                                <p class="faculty-designation">Assistant Professor & Head</p>
+                                <div class="faculty-links">
+                                    <a href="../../uploads/profiles/ece_hod.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                    <a href="https://auttvl.irins.org/profile/414701" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Teaching Staff -->
+                        <h3 class="department-section-subtitle text-center mt-8">Teaching Staff</h3>
+                        <div class="faculty-grid">
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/mookambiga.jpeg" alt="Dr. A. Mookambiga" class="faculty-image">
+                                <h5 class="faculty-name">Dr. A. Mookambiga</h5>
+                                <p class="faculty-designation">Assistant Professor</p>
+                                <div class="faculty-links">
+                                    <a href="https://auttvl.irins.org/profile/419072" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/ECE_Usha.jpg" alt="Mrs. K. Usha Kingsly Devi" class="faculty-image">
+                                <h5 class="faculty-name">Mrs. K. Usha Kingsly Devi</h5>
+                                <p class="faculty-designation">Assistant Professor</p>
+                                <div class="faculty-links">
+                                    <a href="https://auttvl.irins.org/profile/418853" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/kumarasabhapathy.png" alt="Dr. N. Kumarasabapathy" class="faculty-image">
+                                <h5 class="faculty-name">Dr. N. Kumarasabapathy</h5>
+                                <p class="faculty-designation">Assistant Professor</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/07/kumarasabhapathy.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                    <a href="https://auttvl.irins.org/profile/419069" class="btn btn-sm btn-outline" target="_blank">IRINS Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Non-Teaching Staff -->
+                        <h3 class="department-section-subtitle text-center mt-8">Non-Teaching Staff</h3>
+                        <div class="faculty-grid">
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/ECE_Murugesan.jpeg" alt="Mr. A. Murugesan" class="faculty-image">
+                                <h5 class="faculty-name">Mr. A. Murugesan</h5>
+                                <p class="faculty-designation">Professional Assistant</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/10/ECE_Murugesan_Resume.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                </div>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/ECE_Wilfred.jpg" alt="Mr. V. Wilfred Muthuraju" class="faculty-image">
+                                <h5 class="faculty-name">Mr. V. Wilfred Muthuraju</h5>
+                                <p class="faculty-designation">Professional Assistant</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/10/ECE_Wilfred.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                </div>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/ECE_Deeba.jpg" alt="Mrs. R. Deeba" class="faculty-image">
+                                <h5 class="faculty-name">Mrs. R. Deeba</h5>
+                                <p class="faculty-designation">Professional Assistant</p>
+                                <div class="faculty-links">
+                                    <a href="../../wp-content/uploads/2021/10/ECE_Deeba.pdf" class="btn btn-sm btn-primary" target="_blank">View Profile</a>
+                                </div>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/07/MCA_Alagumeena.jpg" alt="Mrs. A. Alagu Meena" class="faculty-image">
+                                <h5 class="faculty-name">Mrs. A. Alagu Meena</h5>
+                                <p class="faculty-designation">Junior Assistant</p>
+                            </div>
+                            <div class="card faculty-card">
+                                <img src="../../wp-content/uploads/2021/10/Civil_Muthuraman.jpg" alt="Mr. P. Muthu Raman" class="faculty-image">
+                                <h5 class="faculty-name">Mr. P. Muthu Raman</h5>
+                                <p class="faculty-designation">Office Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Consultancy Section -->
+                    <div id="consultancy" class="department-section">
+                        <h2 class="department-section-title">Consultancy Projects</h2>
+                        <p>The department has undertaken various consultancy projects. For detailed information, please download the consultancy document.</p>
+                        <div class="mt-4">
+                            <a href="../../wp-content/uploads/2021/10/ECE_Consultancy.pdf" class="btn btn-primary" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Download Consultancy Details
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Section -->
+                    <div id="gallery" class="department-section">
+                        <h2 class="department-section-title">Gallery</h2>
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <img src="../../wp-content/uploads/2021/07/ECE-scaled.jpg" alt="ECE Department">
+                                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../../wp-content/uploads/2021/07/ECE-1.jpg" alt="ECE Lab">
+                                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                            </div>
+                        </div>
+                        <p class="text-muted" style="text-align: center; margin-top: 1rem;">More gallery images coming soon.</p>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JavaScript -->
+    <script>
+        // Set base path for components (department pages need to go up one level)
+        window.basePath = '../';
+    </script>
+    <script src="../js/components.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/department.js"></script>
+    <script>
+        var navTitle = document.querySelector('.department-nav-title');
+        var nav = document.querySelector('.department-nav');
+        if (navTitle && nav) {
+            navTitle.addEventListener('click', function() {
+                nav.classList.toggle('open');
+            });
+        }
+    </script>
+</body>
+</html>

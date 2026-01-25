@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anna University Regional Campus - Tirunelveli offers excellent technical education in Engineering and Management.">
+    <meta name="keywords" content="Anna University, Tirunelveli, Engineering, B.E., B.Tech, M.E., M.Tech, MBA, MCA">
+    <meta name="author" content="Anna University Regional Campus - Tirunelveli">
+    
+    <title>Anna University Regional Campus – Tirunelveli</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Mobile Responsive Overrides -->
+    <style>
+        /* Updates Grid - Announcements & News */
+        .updates-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+        .updates-card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .updates-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin: 0 0 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .updates-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .updates-list li {
+            border-bottom: 1px solid #eee;
+        }
+        .updates-list li:last-child {
+            border-bottom: none;
+        }
+        .updates-list a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            padding: 0.875rem 0;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            transition: color 0.2s;
+        }
+        .updates-list a:hover {
+            color: var(--primary-color);
+        }
+        .updates-list strong {
+            font-weight: 500;
+        }
+        .tag-new {
+            background: #22c55e;
+            color: #fff;
+            font-size: 0.65rem;
+            font-weight: 600;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            text-transform: uppercase;
+            flex-shrink: 0;
+        }
+        .tag-date {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            flex-shrink: 0;
+        }
+        
+        /* News Scroll Animation */
+        .news-scroll-card {
+            overflow: hidden;
+        }
+        .news-scroll-container {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+        .news-scroll-container::before,
+        .news-scroll-container::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 20px;
+            z-index: 1;
+            pointer-events: none;
+        }
+        .news-scroll-container::before {
+            top: 0;
+            background: linear-gradient(to bottom, #fff, transparent);
+        }
+        .news-scroll-container::after {
+            bottom: 0;
+            background: linear-gradient(to top, #fff, transparent);
+        }
+        .news-scroll {
+            display: flex;
+            flex-direction: column;
+            animation: scrollUp 10s linear infinite;
+        }
+        .news-scroll:hover {
+            animation-play-state: paused;
+        }
+        .news-scroll li {
+            border-bottom: 1px solid #eee;
+            flex-shrink: 0;
+        }
+        @keyframes scrollUp {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-50%);
+            }
+        }
+        
+        /* Gallery Preview Grid */
+        .gallery-preview-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 180px);
+            gap: 1rem;
+        }
+        .gallery-preview-grid a:first-child,
+        .gallery-preview-grid a:last-child {
+            grid-row: span 2;
+        }
+        .gallery-preview-grid a {
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .gallery-preview-grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .gallery-preview-grid a:hover img {
+            transform: scale(1.05);
+        }
+        
+        /* Events Grid */
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+        .event-card-simple {
+            display: block;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .event-card-simple:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+        .event-card-img {
+            height: 200px;
+            overflow: hidden;
+        }
+        .event-card-img img,
+        .event-card-img iframe {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .event-card-info {
+            padding: 1.25rem;
+        }
+        .event-date {
+            font-size: 0.75rem;
+            color: var(--primary-color);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .event-card-info h3 {
+            font-size: 1rem;
+            color: var(--text-primary);
+            margin: 0.5rem 0 0;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+        
+        /* Tablet Responsive */
+        @media (max-width: 1024px) {
+            .updates-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .gallery-preview-grid {
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 150px);
+            }
+            .gallery-preview-grid a:first-child {
+                grid-row: span 2;
+            }
+            .gallery-preview-grid a:last-child {
+                grid-row: span 1;
+            }
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .gallery-preview-grid {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 140px);
+            }
+            .gallery-preview-grid a:first-child,
+            .gallery-preview-grid a:last-child {
+                grid-row: span 1;
+            }
+            
+            .events-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .event-card-img {
+                height: 180px;
+            }
+            
+            .announcements-section {
+                flex-direction: column !important;
+            }
+            .announcements-panel {
+                width: 100% !important;
+            }
+            
+            .about-grid {
+                grid-template-columns: 1fr !important;
+            }
+            .about-image {
+                height: 250px !important;
+            }
+            
+            .departments-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
+            
+            .hero-arrow {
+                width: 36px !important;
+                height: 36px !important;
+            }
+            .hero-arrow.prev { left: 10px !important; }
+            .hero-arrow.next { right: 10px !important; }
+            
+            .section {
+                padding: 3rem 0 !important;
+            }
+            
+            .container {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+            
+            .marquee-label {
+                padding: 0.6rem 0.75rem;
+                font-size: 0.7rem;
+            }
+            .marquee-label span {
+                display: none;
+            }
+            .marquee-item {
+                font-size: 0.8rem;
+                padding: 0 1.5rem;
+            }
+            .marquee {
+                animation-duration: 8s;
+            }
+        }
+        
+        /* Small Mobile */
+        @media (max-width: 480px) {
+            .marquee {
+                animation-duration: 6s;
+            }
+            .gallery-preview-grid {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: repeat(3, 120px);
+                gap: 0.5rem;
+            }
+            
+            .departments-grid {
+                grid-template-columns: 1fr !important;
+            }
+            
+            .event-card-img {
+                height: 160px;
+            }
+            .event-card-info {
+                padding: 1rem;
+            }
+            .event-card-info h3 {
+                font-size: 0.9rem;
+            }
+            
+            .updates-card {
+                padding: 1rem;
+            }
+            .updates-list a {
+                font-size: 0.85rem;
+                padding: 0.75rem 0;
+            }
+            
+            .hero-content h1 {
+                letter-spacing: 1px !important;
+            }
+            .hero-content p {
+                letter-spacing: 2px !important;
+                font-size: 0.7rem !important;
+            }
+            
+            .section-title {
+                font-size: 1.5rem !important;
+            }
+            
+            .announcement-actions {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            .announcement-actions .btn {
+                font-size: 0.75rem;
+                padding: 0.4rem 0.6rem;
+            }
+            
+            .tnea-badge {
+                font-size: 0.85rem;
+            }
+        }
+        
+        /* Extra Small Mobile */
+        @media (max-width: 360px) {
+            .gallery-preview-grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(4, 100px);
+            }
+            .gallery-preview-grid a:nth-child(n+5) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Marquee Announcements -->
+    <div class="marquee-container">
+        <div class="marquee-label">
+            <i class="fas fa-bullhorn"></i>
+            <span>Updates</span>
+        </div>
+        <div class="marquee-wrapper">
+            <div class="marquee">
+                <div class="marquee-item">
+                    <a href="posh.html">Prevention of Sexual Harassment Cell (POSH)</a>
+                </div>
+                <div class="marquee-item">
+                    <a href="assets/documents/courses.pdf">New Programme: B.Tech AI & Data Science</a>
+                </div>
+                <div class="marquee-item">
+                    <a href="admission-procedure.html">Admissions Open for 2025-26</a>
+                </div>
+                <div class="marquee-item">
+                    <a href="placements.html">Placement Records - 100% for Top Performers</a>
+                </div>
+                <div class="marquee-item">
+                    <a href="posh.html">Prevention of Sexual Harassment Cell (POSH)</a>
+                </div>
+                <div class="marquee-item">
+                    <a href="assets/documents/courses.pdf">New Programme: B.Tech AI & Data Science</a>
+                </div>
+                <div class="marquee-item">
+                    <a href="admission-procedure.html">Admissions Open for 2025-26</a>
+                </div>
+                <div class="marquee-item">
+                    <a href="placements.html">Placement Records - 100% for Top Performers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="hero-slide active">
+            <div class="hero-slide-bg" style="background-image: url('assets/images/slide-1.jpg');"></div>
+            <div class="hero-overlay" style="background: rgba(26,54,93,0.45);"></div>
+            <div class="hero-content" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                <h1 style="font-size: clamp(2.5rem, 8vw, 5rem); font-weight: 600; margin: 0; line-height: 1; color: #fff; letter-spacing: 2px;">AURCT</h1>
+                <div style="width: 60px; height: 3px; background: #fff; margin: 1rem auto;"></div>
+                <p style="font-size: clamp(0.8rem, 2vw, 1rem); text-transform: uppercase; letter-spacing: 4px; color: rgba(255,255,255,0.9); margin: 0; font-weight: 400;">Anna University Regional Campus • Tirunelveli</p>
+            </div>
+        </div>
+        <div class="hero-slide">
+            <div class="hero-slide-bg" style="background-image: url('assets/images/slide-2.jpg');"></div>
+            <div class="hero-overlay" style="background: rgba(26,54,93,0.45);"></div>
+            <div class="hero-content" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                <h1 style="font-size: clamp(2.5rem, 8vw, 5rem); font-weight: 600; margin: 0; line-height: 1; color: #fff; letter-spacing: 2px;">AURCT</h1>
+                <div style="width: 60px; height: 3px; background: #fff; margin: 1rem auto;"></div>
+                <p style="font-size: clamp(0.8rem, 2vw, 1rem); text-transform: uppercase; letter-spacing: 4px; color: rgba(255,255,255,0.9); margin: 0; font-weight: 400;">Anna University Regional Campus • Tirunelveli</p>
+            </div>
+        </div>
+
+        <!-- Navigation Dots -->
+        <div class="hero-nav">
+            <button class="hero-nav-dot active" aria-label="Slide 1"></button>
+            <button class="hero-nav-dot" aria-label="Slide 2"></button>
+        </div>
+
+        <!-- Arrow Navigation -->
+        <button class="hero-arrow prev" aria-label="Previous slide">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="hero-arrow next" aria-label="Next slide">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </section>
+
+    <!-- Announcements & News Section -->
+    <section class="section" style="background: #f8fafc; padding: 3rem 0;">
+        <div class="container">
+            <div class="updates-grid">
+                <!-- Announcements -->
+                <div class="updates-card">
+                    <h3 class="updates-title">
+                        <i class="fas fa-bullhorn"></i> Announcements
+                    </h3>
+                    <ul class="updates-list">
+                        <li>
+                            <a href="assets/documents/sip-2025-invitation.pdf">
+                                <strong>Student Induction Program 2025</strong>
+                                <span class="tag-new">New</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://formbuilder.ccavenue.com/live/anna-university-regional-campus-tirunelveli" target="_blank">
+                                Fees Payment Link - Indian Bank
+                            </a>
+                        </li>
+                        <li>
+                            <a href="posh.html">
+                                Prevention of Sexual Harassment Cell (POSH)
+                                <span class="tag-new">New</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="assets/documents/courses.pdf">
+                                B.Tech AI & Data Science - New Programme
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Latest News -->
+                <div class="updates-card news-scroll-card">
+                    <h3 class="updates-title">
+                        <i class="fas fa-newspaper"></i> Latest News
+                    </h3>
+                    <div class="news-scroll-container">
+                        <ul class="updates-list news-scroll">
+                            <li>
+                                <a href="assets/documents/south-zone-cricket.pdf">
+                                    South Zone Inter University Cricket
+                                    <span class="tag-date">Jan 2025</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/documents/cse-sympo-2024.pdf">
+                                    CSE Symposium COGNOCONNECT-2K24
+                                    <span class="tag-date">Apr 2024</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/documents/ece-sympo-2024.pdf">
+                                    ECE Symposium ELECTROSPITZER
+                                    <span class="tag-date">Apr 2024</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/documents/kalam-24.pdf">
+                                    KALAM '24 - Science Expo
+                                    <span class="tag-date">Mar 2024</span>
+                                </a>
+                            </li>
+                            <!-- Duplicate for seamless loop -->
+                            <li>
+                                <a href="assets/documents/south-zone-cricket.pdf">
+                                    South Zone Inter University Cricket
+                                    <span class="tag-date">Jan 2025</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/documents/cse-sympo-2024.pdf">
+                                    CSE Symposium COGNOCONNECT-2K24
+                                    <span class="tag-date">Apr 2024</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/documents/ece-sympo-2024.pdf">
+                                    ECE Symposium ELECTROSPITZER
+                                    <span class="tag-date">Apr 2024</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/documents/kalam-24.pdf">
+                                    KALAM '24 - Science Expo
+                                    <span class="tag-date">Mar 2024</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="assets/images/slide-2.jpg" alt="Anna University Regional Campus">
+                </div>
+                <div class="about-content">
+                    <div class="section-subtitle">About Us</div>
+                    <h2>Anna University Regional Campus – Tirunelveli</h2>
+                    <div class="tnea-badge">
+                        <i class="fas fa-graduation-cap"></i>
+                        TNEA Counselling Code: 4020
+                    </div>
+                    <p>
+                        Anna University, one of the excellent institutions of the southern part of India 
+                        has its acquisitions to many institutions in Tamil Nadu. The Anna University 
+                        Regional Campus - Tirunelveli extends high quality teaching ensuring continuous 
+                        progress of young minds.
+                    </p>
+                    <p>
+                        Our campus has grown into an institution that provides excellent technical education 
+                        in the field of Engineering and Management, within a short period. It offers an 
+                        excellent platform for students to showcase their talents and equip themselves with 
+                        confidence and high image profile to compete with the fast-paced ambitious world.
+                    </p>
+                    <a href="about.html" class="btn btn-primary">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="section departments-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Courses</span>
+                <h2 class="section-title">Our Departments</h2>
+                <p class="section-description">
+                    Explore our diverse range of engineering and management departments offering cutting-edge education.
+                </p>
+            </div>
+            <div class="departments-grid">
+                <div class="card department-card">
+                    <a href="departments/civil-engineering.html">
+                        <img src="assets/images/dept-civil.jpg" alt="Civil Engineering" class="card-img">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="departments/civil-engineering.html">Civil Engineering</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card department-card">
+                    <a href="departments/computer-science-engineering.html">
+                        <img src="assets/images/dept-cse.jpg" alt="Computer Science & Engineering" class="card-img">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="departments/computer-science-engineering.html">Computer Science & Engineering</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card department-card">
+                    <a href="departments/electronics-communication-engineering.html">
+                        <img src="assets/images/dept-ece.jpg" alt="Electronics & Communication Engineering" class="card-img">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="departments/electronics-communication-engineering.html">Electronics & Communication</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card department-card">
+                    <a href="departments/mechanical-engineering.html">
+                        <img src="assets/images/dept-mech.jpg" alt="Mechanical Engineering" class="card-img">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="departments/mechanical-engineering.html">Mechanical Engineering</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="departments.html" class="btn btn-outline">
+                    View All Departments <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview Section -->
+    <section class="section" style="background: var(--gray-50);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Campus</span>
+                <h2 class="section-title">Gallery</h2>
+            </div>
+            <div class="gallery-preview-grid">
+                <a href="gallery.html">
+                    <img src="../images-upload/placements/2024/pl1.jpg" alt="Gallery">
+                </a>
+                <a href="gallery.html">
+                    <img src="../images-upload/placements/2024/pl2.jpg" alt="Gallery">
+                </a>
+                <a href="gallery.html">
+                    <img src="../images-upload/placements/2024/nm1.jpg" alt="Gallery">
+                </a>
+                <a href="gallery.html">
+                    <img src="../images-upload/placements/2024/pl3.jpg" alt="Gallery">
+                </a>
+                <a href="gallery.html">
+                    <img src="../images-upload/placements/2024/nm2.jpg" alt="Gallery">
+                </a>
+                <a href="gallery.html">
+                    <img src="../images-upload/placements/2024/nm3.jpg" alt="Gallery">
+                </a>
+            </div>
+            <div class="text-center mt-8">
+                <a href="gallery.html" class="btn btn-outline">
+                    View Full Gallery <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="section events-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">College</span>
+                <h2 class="section-title">Latest Events</h2>
+            </div>
+            <div class="events-grid">
+                <!-- Event 1 -->
+                <a href="about.html" class="event-card-simple">
+                    <div class="event-card-img">
+                        <img src="assets/images/slide-2.jpg" alt="Campus">
+                    </div>
+                    <div class="event-card-info">
+                        <span class="event-date">Jul 17, 2021</span>
+                        <h3>Anna University Regional Campus – Tirunelveli, an excellent zone for everyone</h3>
+                    </div>
+                </a>
+                
+                <!-- Event 2 -->
+                <div class="event-card-simple event-video">
+                    <div class="event-card-img">
+                        <iframe src="https://www.youtube.com/embed/NAcBq1ykF3g" 
+                            title="Graduation Day 2021" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="event-card-info">
+                        <span class="event-date">Jul 18, 2021</span>
+                        <h3>Graduation Day 2021 - Constituent Colleges of Anna University</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JavaScript -->
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
