@@ -445,3 +445,115 @@
 .bg hr{
     border:rgb(189, 189, 189) 0.5px solid;
 }
+
+/* ===== Modern About Section ===== */
+.about-modern-wrapper {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 35px 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  z-index: 1;
+  border-bottom: 4px solid var(--accent, #0099f7);
+}
+
+.about-modern-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(0,153,247,0.08) 0%, rgba(255,255,255,0) 70%);
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(30%, -30%);
+}
+
+.about-modern-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.about-modern-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary_dark, #1a2a4a);
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.about-modern-title .highlight {
+  color: var(--accent, #0099f7);
+  position: relative;
+}
+
+.tnea-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(0, 153, 247, 0.1);
+  color: var(--accent, #007acc);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.tnea-badge i {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.about-modern-text {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.about-modern-text strong {
+  color: var(--primary_dark, #1a2a4a);
+}
+
+.btn-read-more {
+  display: inline-flex;
+  align-items: center;
+  background: var(--primary_dark, #1a2a4a);
+  color: #ffffff;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(26, 42, 74, 0.2);
+}
+
+.btn-read-more i {
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.btn-read-more:hover {
+  background: var(--accent, #0099f7);
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(0, 153, 247, 0.3);
+}
+
+.btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .about-modern-wrapper {
+    padding: 25px 20px;
+  }
+  .about-modern-title {
+    font-size: 1.5rem;
+  }
+}
