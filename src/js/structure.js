@@ -447,3 +447,85 @@ const footer = `
 `;
 
 initUI();
+
+/**
+ * Halonex Labs Responsive Console Payload
+ * Wrap-proof, ultra-compact design for narrow DevTools panels.
+ */
+function initHalonexConsoleBadge() {
+  if (window.__halonex_badge_initialized) return;
+  window.__halonex_badge_initialized = true;
+
+  // 16-column wide monogram. Will not wrap unless the console is practically closed.
+  const asciiArt = `
+██╗  ██╗██╗  ██╗
+██║  ██║╚██╗██╔╝
+███████║ ╚███╔╝ 
+██╔══██║ ██╔██╗ 
+██║  ██║██╔╝ ██╗
+╚═╝  ╚═╝╚═╝  ╚═╝`;
+
+  // Metallic gradient applied only to the monogram
+  const asciiStyle = `
+    background: linear-gradient(135deg, #FFFFFF 0%, #A1A1AA 40%, #52525B 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1.15;
+  `;
+
+  // A sleek, light-mode badge for high contrast (looks very premium in a dark console)
+  const badgeStyle = `
+    background: #FAFAFA;
+    color: #0A0A0A;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  `;
+
+  // Clean, sans-serif text that wraps natively without breaking the layout
+  const textStyle = `
+    color: #A1A1AA;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+  `;
+
+  // Monospaced, bright link to draw the eye
+  const linkStyle = `
+    color: #38BDF8;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 12px;
+    font-weight: 600;
+  `;
+
+  const subtextStyle = `
+    color: #A1A1AA;
+    font-size: 13px;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    padding-top: 12px;
+    padding-bottom: 4px;
+  `;
+
+  // 1. Print the Monogram
+  console.log('%c' + asciiArt, asciiStyle);
+  
+  // 2. Print the UI Badge
+  console.log('%c HALONEX LABS ', badgeStyle);
+  console.log('%cThis infrastructure is actively maintained and secured by Halonex Labs.', subtextStyle);
+  // 3. Print the Mission Statement (natively wraps)
+  console.log('%cProtected by proactive, kernel-level enforcement.\nWe are engineering the future of zero-trust cybersecurity.', textStyle);
+  
+  // 4. Print the CTA
+  console.log('%c> Join the mission: https://careers.halonex.net', linkStyle);
+}
+
+console.clear();
+// Execute
+initHalonexConsoleBadge();
