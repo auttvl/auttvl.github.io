@@ -433,7 +433,7 @@ const footer = `
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-6 col-md-6 col-sm-12">
-					<p class="copyright-line">© 2023 Anna University Regional Campus &#8211; Tirunelveli. All rights
+					<p class="copyright-line">© 2025 Anna University Regional Campus &#8211; Tirunelveli. All rights
 						reserved.</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
